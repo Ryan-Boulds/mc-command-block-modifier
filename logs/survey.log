@@ -1,0 +1,1801 @@
+2025-06-09 12:32:44,449 - INFO - Application started (F12 clipboard mode with GUI)
+2025-06-09 12:32:44,533 - INFO - F12 keyboard hook initialized
+2025-06-09 12:32:44,621 - INFO - Always on top set to False
+2025-06-09 12:32:44,621 - INFO - Application started. Copy a command, press F12 to process.
+2025-06-09 12:32:44,638 - DEBUG - Importing BlpImagePlugin
+2025-06-09 12:32:44,639 - DEBUG - Importing BmpImagePlugin
+2025-06-09 12:32:44,640 - DEBUG - Importing BufrStubImagePlugin
+2025-06-09 12:32:44,641 - DEBUG - Importing CurImagePlugin
+2025-06-09 12:32:44,641 - DEBUG - Importing DcxImagePlugin
+2025-06-09 12:32:44,643 - DEBUG - Importing DdsImagePlugin
+2025-06-09 12:32:44,644 - DEBUG - Importing EpsImagePlugin
+2025-06-09 12:32:44,664 - DEBUG - Importing FitsImagePlugin
+2025-06-09 12:32:44,665 - DEBUG - Importing FitsStubImagePlugin
+2025-06-09 12:32:44,666 - DEBUG - Importing FliImagePlugin
+2025-06-09 12:32:44,667 - DEBUG - Importing FpxImagePlugin
+2025-06-09 12:32:44,672 - DEBUG - Importing FtexImagePlugin
+2025-06-09 12:32:44,673 - DEBUG - Importing GbrImagePlugin
+2025-06-09 12:32:44,673 - DEBUG - Importing GifImagePlugin
+2025-06-09 12:32:44,673 - DEBUG - Importing GribStubImagePlugin
+2025-06-09 12:32:44,674 - DEBUG - Importing Hdf5StubImagePlugin
+2025-06-09 12:32:44,675 - DEBUG - Importing IcnsImagePlugin
+2025-06-09 12:32:44,677 - DEBUG - Importing IcoImagePlugin
+2025-06-09 12:32:44,678 - DEBUG - Importing ImImagePlugin
+2025-06-09 12:32:44,679 - DEBUG - Importing ImtImagePlugin
+2025-06-09 12:32:44,680 - DEBUG - Importing IptcImagePlugin
+2025-06-09 12:32:44,681 - DEBUG - Importing JpegImagePlugin
+2025-06-09 12:32:44,681 - DEBUG - Importing Jpeg2KImagePlugin
+2025-06-09 12:32:44,681 - DEBUG - Importing McIdasImagePlugin
+2025-06-09 12:32:44,682 - DEBUG - Importing MicImagePlugin
+2025-06-09 12:32:44,683 - DEBUG - Importing MpegImagePlugin
+2025-06-09 12:32:44,683 - DEBUG - Importing MpoImagePlugin
+2025-06-09 12:32:44,684 - DEBUG - Importing MspImagePlugin
+2025-06-09 12:32:44,685 - DEBUG - Importing PalmImagePlugin
+2025-06-09 12:32:44,687 - DEBUG - Importing PcdImagePlugin
+2025-06-09 12:32:44,687 - DEBUG - Importing PcxImagePlugin
+2025-06-09 12:32:44,687 - DEBUG - Importing PdfImagePlugin
+2025-06-09 12:32:44,695 - DEBUG - Importing PixarImagePlugin
+2025-06-09 12:32:44,696 - DEBUG - Importing PngImagePlugin
+2025-06-09 12:32:44,696 - DEBUG - Importing PpmImagePlugin
+2025-06-09 12:32:44,696 - DEBUG - Importing PsdImagePlugin
+2025-06-09 12:32:44,697 - DEBUG - Importing SgiImagePlugin
+2025-06-09 12:32:44,698 - DEBUG - Importing SpiderImagePlugin
+2025-06-09 12:32:44,699 - DEBUG - Importing SunImagePlugin
+2025-06-09 12:32:44,699 - DEBUG - Importing TgaImagePlugin
+2025-06-09 12:32:44,700 - DEBUG - Importing TiffImagePlugin
+2025-06-09 12:32:44,700 - DEBUG - Importing WebPImagePlugin
+2025-06-09 12:32:44,702 - DEBUG - Importing WmfImagePlugin
+2025-06-09 12:32:44,702 - DEBUG - Importing XbmImagePlugin
+2025-06-09 12:32:44,704 - DEBUG - Importing XpmImagePlugin
+2025-06-09 12:32:44,705 - DEBUG - Importing XVThumbImagePlugin
+2025-06-09 12:32:44,707 - INFO - Tray icon initialized successfully
+2025-06-09 12:33:05,854 - INFO - Always on top set to True
+2025-06-09 12:33:59,482 - INFO - F12 pressed - capturing clipboard command
+2025-06-09 12:33:59,483 - ERROR - GUI not set for command processing
+2025-06-09 12:34:00,306 - INFO - F12 pressed - capturing clipboard command
+2025-06-09 12:34:00,308 - ERROR - GUI not set for command processing
+2025-06-09 12:34:01,054 - INFO - F12 pressed - capturing clipboard command
+2025-06-09 12:34:01,055 - ERROR - GUI not set for command processing
+2025-06-09 12:34:02,049 - INFO - F12 pressed - capturing clipboard command
+2025-06-09 12:34:02,050 - ERROR - GUI not set for command processing
+2025-06-09 12:34:02,875 - INFO - F12 pressed - capturing clipboard command
+2025-06-09 12:34:02,876 - ERROR - GUI not set for command processing
+2025-06-09 12:34:03,624 - INFO - F12 pressed - capturing clipboard command
+2025-06-09 12:34:03,625 - ERROR - GUI not set for command processing
+2025-06-09 12:34:04,356 - INFO - F12 pressed - capturing clipboard command
+2025-06-09 12:34:04,358 - ERROR - GUI not set for command processing
+2025-06-09 12:34:05,223 - INFO - F12 pressed - capturing clipboard command
+2025-06-09 12:34:05,224 - ERROR - GUI not set for command processing
+2025-06-09 12:34:14,351 - INFO - Application interrupted by user
+2025-06-09 12:34:14,353 - INFO - Cleaning up logging handlers
+2025-06-09 12:34:15,483 - INFO - Application started (F12 clipboard mode with GUI)
+2025-06-09 12:34:15,565 - INFO - F12 keyboard hook initialized
+2025-06-09 12:34:15,654 - INFO - Always on top set to False
+2025-06-09 12:34:15,654 - INFO - Application started. Copy a command, press F12 to process.
+2025-06-09 12:34:15,670 - DEBUG - Importing BlpImagePlugin
+2025-06-09 12:34:15,671 - DEBUG - Importing BmpImagePlugin
+2025-06-09 12:34:15,671 - DEBUG - Importing BufrStubImagePlugin
+2025-06-09 12:34:15,672 - DEBUG - Importing CurImagePlugin
+2025-06-09 12:34:15,673 - DEBUG - Importing DcxImagePlugin
+2025-06-09 12:34:15,674 - DEBUG - Importing DdsImagePlugin
+2025-06-09 12:34:15,675 - DEBUG - Importing EpsImagePlugin
+2025-06-09 12:34:15,694 - DEBUG - Importing FitsImagePlugin
+2025-06-09 12:34:15,695 - DEBUG - Importing FitsStubImagePlugin
+2025-06-09 12:34:15,695 - DEBUG - Importing FliImagePlugin
+2025-06-09 12:34:15,696 - DEBUG - Importing FpxImagePlugin
+2025-06-09 12:34:15,700 - DEBUG - Importing FtexImagePlugin
+2025-06-09 12:34:15,701 - DEBUG - Importing GbrImagePlugin
+2025-06-09 12:34:15,702 - DEBUG - Importing GifImagePlugin
+2025-06-09 12:34:15,702 - DEBUG - Importing GribStubImagePlugin
+2025-06-09 12:34:15,703 - DEBUG - Importing Hdf5StubImagePlugin
+2025-06-09 12:34:15,704 - DEBUG - Importing IcnsImagePlugin
+2025-06-09 12:34:15,705 - DEBUG - Importing IcoImagePlugin
+2025-06-09 12:34:15,706 - DEBUG - Importing ImImagePlugin
+2025-06-09 12:34:15,708 - DEBUG - Importing ImtImagePlugin
+2025-06-09 12:34:15,708 - DEBUG - Importing IptcImagePlugin
+2025-06-09 12:34:15,709 - DEBUG - Importing JpegImagePlugin
+2025-06-09 12:34:15,709 - DEBUG - Importing Jpeg2KImagePlugin
+2025-06-09 12:34:15,710 - DEBUG - Importing McIdasImagePlugin
+2025-06-09 12:34:15,710 - DEBUG - Importing MicImagePlugin
+2025-06-09 12:34:15,711 - DEBUG - Importing MpegImagePlugin
+2025-06-09 12:34:15,712 - DEBUG - Importing MpoImagePlugin
+2025-06-09 12:34:15,712 - DEBUG - Importing MspImagePlugin
+2025-06-09 12:34:15,713 - DEBUG - Importing PalmImagePlugin
+2025-06-09 12:34:15,714 - DEBUG - Importing PcdImagePlugin
+2025-06-09 12:34:15,715 - DEBUG - Importing PcxImagePlugin
+2025-06-09 12:34:15,715 - DEBUG - Importing PdfImagePlugin
+2025-06-09 12:34:15,722 - DEBUG - Importing PixarImagePlugin
+2025-06-09 12:34:15,723 - DEBUG - Importing PngImagePlugin
+2025-06-09 12:34:15,724 - DEBUG - Importing PpmImagePlugin
+2025-06-09 12:34:15,724 - DEBUG - Importing PsdImagePlugin
+2025-06-09 12:34:15,724 - DEBUG - Importing SgiImagePlugin
+2025-06-09 12:34:15,725 - DEBUG - Importing SpiderImagePlugin
+2025-06-09 12:34:15,726 - DEBUG - Importing SunImagePlugin
+2025-06-09 12:34:15,727 - DEBUG - Importing TgaImagePlugin
+2025-06-09 12:34:15,728 - DEBUG - Importing TiffImagePlugin
+2025-06-09 12:34:15,728 - DEBUG - Importing WebPImagePlugin
+2025-06-09 12:34:15,729 - DEBUG - Importing WmfImagePlugin
+2025-06-09 12:34:15,730 - DEBUG - Importing XbmImagePlugin
+2025-06-09 12:34:15,731 - DEBUG - Importing XpmImagePlugin
+2025-06-09 12:34:15,732 - DEBUG - Importing XVThumbImagePlugin
+2025-06-09 12:34:15,734 - INFO - Tray icon initialized successfully
+2025-06-09 12:34:17,584 - INFO - Always on top set to True
+2025-06-09 12:34:21,272 - INFO - F12 pressed - capturing clipboard command
+2025-06-09 12:34:21,273 - ERROR - GUI not set for command processing
+2025-06-09 12:34:39,020 - INFO - F12 pressed - capturing clipboard command
+2025-06-09 12:34:39,021 - ERROR - GUI not set for command processing
+2025-06-09 12:34:49,104 - INFO - Application interrupted by user
+2025-06-09 12:34:49,107 - INFO - Cleaning up logging handlers
+2025-06-09 12:34:50,452 - INFO - Application started (F12 clipboard mode with GUI)
+2025-06-09 12:34:50,794 - INFO - F12 keyboard hook initialized
+2025-06-09 12:34:50,896 - INFO - Always on top set to False
+2025-06-09 12:34:50,896 - INFO - Application started. Copy a command, press F12 to process.
+2025-06-09 12:34:50,913 - DEBUG - Importing BlpImagePlugin
+2025-06-09 12:34:50,914 - DEBUG - Importing BmpImagePlugin
+2025-06-09 12:34:50,914 - DEBUG - Importing BufrStubImagePlugin
+2025-06-09 12:34:50,915 - DEBUG - Importing CurImagePlugin
+2025-06-09 12:34:50,916 - DEBUG - Importing DcxImagePlugin
+2025-06-09 12:34:50,916 - DEBUG - Importing DdsImagePlugin
+2025-06-09 12:34:50,917 - DEBUG - Importing EpsImagePlugin
+2025-06-09 12:34:50,937 - DEBUG - Importing FitsImagePlugin
+2025-06-09 12:34:50,937 - DEBUG - Importing FitsStubImagePlugin
+2025-06-09 12:34:50,938 - DEBUG - Importing FliImagePlugin
+2025-06-09 12:34:50,939 - DEBUG - Importing FpxImagePlugin
+2025-06-09 12:34:50,944 - DEBUG - Importing FtexImagePlugin
+2025-06-09 12:34:50,945 - DEBUG - Importing GbrImagePlugin
+2025-06-09 12:34:50,945 - DEBUG - Importing GifImagePlugin
+2025-06-09 12:34:50,946 - DEBUG - Importing GribStubImagePlugin
+2025-06-09 12:34:50,946 - DEBUG - Importing Hdf5StubImagePlugin
+2025-06-09 12:34:50,947 - DEBUG - Importing IcnsImagePlugin
+2025-06-09 12:34:50,950 - DEBUG - Importing IcoImagePlugin
+2025-06-09 12:34:50,951 - DEBUG - Importing ImImagePlugin
+2025-06-09 12:34:50,952 - DEBUG - Importing ImtImagePlugin
+2025-06-09 12:34:50,953 - DEBUG - Importing IptcImagePlugin
+2025-06-09 12:34:50,953 - DEBUG - Importing JpegImagePlugin
+2025-06-09 12:34:50,954 - DEBUG - Importing Jpeg2KImagePlugin
+2025-06-09 12:34:50,954 - DEBUG - Importing McIdasImagePlugin
+2025-06-09 12:34:50,955 - DEBUG - Importing MicImagePlugin
+2025-06-09 12:34:50,955 - DEBUG - Importing MpegImagePlugin
+2025-06-09 12:34:50,956 - DEBUG - Importing MpoImagePlugin
+2025-06-09 12:34:50,957 - DEBUG - Importing MspImagePlugin
+2025-06-09 12:34:50,959 - DEBUG - Importing PalmImagePlugin
+2025-06-09 12:34:50,960 - DEBUG - Importing PcdImagePlugin
+2025-06-09 12:34:50,960 - DEBUG - Importing PcxImagePlugin
+2025-06-09 12:34:50,961 - DEBUG - Importing PdfImagePlugin
+2025-06-09 12:34:50,968 - DEBUG - Importing PixarImagePlugin
+2025-06-09 12:34:50,969 - DEBUG - Importing PngImagePlugin
+2025-06-09 12:34:50,969 - DEBUG - Importing PpmImagePlugin
+2025-06-09 12:34:50,969 - DEBUG - Importing PsdImagePlugin
+2025-06-09 12:34:50,970 - DEBUG - Importing SgiImagePlugin
+2025-06-09 12:34:50,971 - DEBUG - Importing SpiderImagePlugin
+2025-06-09 12:34:50,972 - DEBUG - Importing SunImagePlugin
+2025-06-09 12:34:50,972 - DEBUG - Importing TgaImagePlugin
+2025-06-09 12:34:50,973 - DEBUG - Importing TiffImagePlugin
+2025-06-09 12:34:50,973 - DEBUG - Importing WebPImagePlugin
+2025-06-09 12:34:50,975 - DEBUG - Importing WmfImagePlugin
+2025-06-09 12:34:50,975 - DEBUG - Importing XbmImagePlugin
+2025-06-09 12:34:50,976 - DEBUG - Importing XpmImagePlugin
+2025-06-09 12:34:50,977 - DEBUG - Importing XVThumbImagePlugin
+2025-06-09 12:34:50,979 - INFO - Tray icon initialized successfully
+2025-06-09 12:35:00,378 - INFO - Always on top set to True
+2025-06-09 12:35:03,869 - INFO - F12 pressed - capturing clipboard command
+2025-06-09 12:35:03,871 - ERROR - GUI not set for command processing
+2025-06-09 12:35:05,829 - INFO - F12 pressed - capturing clipboard command
+2025-06-09 12:35:05,830 - ERROR - GUI not set for command processing
+2025-06-09 12:35:07,803 - INFO - F12 pressed - capturing clipboard command
+2025-06-09 12:35:07,804 - ERROR - GUI not set for command processing
+2025-06-09 12:35:16,726 - INFO - F12 pressed - capturing clipboard command
+2025-06-09 12:35:16,727 - ERROR - GUI not set for command processing
+2025-06-09 12:36:32,264 - INFO - Application interrupted by user
+2025-06-09 12:36:32,265 - INFO - Cleaning up logging handlers
+2025-06-09 12:36:33,492 - INFO - Application started (F12 clipboard mode with GUI)
+2025-06-09 12:36:33,575 - INFO - F12 keyboard hook initialized
+2025-06-09 12:36:33,671 - INFO - Always on top set to False
+2025-06-09 12:36:33,671 - INFO - Application started. Copy a command, press F12 to process.
+2025-06-09 12:36:33,690 - DEBUG - Importing BlpImagePlugin
+2025-06-09 12:36:33,692 - DEBUG - Importing BmpImagePlugin
+2025-06-09 12:36:33,692 - DEBUG - Importing BufrStubImagePlugin
+2025-06-09 12:36:33,693 - DEBUG - Importing CurImagePlugin
+2025-06-09 12:36:33,694 - DEBUG - Importing DcxImagePlugin
+2025-06-09 12:36:33,695 - DEBUG - Importing DdsImagePlugin
+2025-06-09 12:36:33,696 - DEBUG - Importing EpsImagePlugin
+2025-06-09 12:36:33,718 - DEBUG - Importing FitsImagePlugin
+2025-06-09 12:36:33,719 - DEBUG - Importing FitsStubImagePlugin
+2025-06-09 12:36:33,720 - DEBUG - Importing FliImagePlugin
+2025-06-09 12:36:33,721 - DEBUG - Importing FpxImagePlugin
+2025-06-09 12:36:33,726 - DEBUG - Importing FtexImagePlugin
+2025-06-09 12:36:33,727 - DEBUG - Importing GbrImagePlugin
+2025-06-09 12:36:33,728 - DEBUG - Importing GifImagePlugin
+2025-06-09 12:36:33,728 - DEBUG - Importing GribStubImagePlugin
+2025-06-09 12:36:33,729 - DEBUG - Importing Hdf5StubImagePlugin
+2025-06-09 12:36:33,730 - DEBUG - Importing IcnsImagePlugin
+2025-06-09 12:36:33,732 - DEBUG - Importing IcoImagePlugin
+2025-06-09 12:36:33,733 - DEBUG - Importing ImImagePlugin
+2025-06-09 12:36:33,734 - DEBUG - Importing ImtImagePlugin
+2025-06-09 12:36:33,735 - DEBUG - Importing IptcImagePlugin
+2025-06-09 12:36:33,736 - DEBUG - Importing JpegImagePlugin
+2025-06-09 12:36:33,736 - DEBUG - Importing Jpeg2KImagePlugin
+2025-06-09 12:36:33,736 - DEBUG - Importing McIdasImagePlugin
+2025-06-09 12:36:33,737 - DEBUG - Importing MicImagePlugin
+2025-06-09 12:36:33,738 - DEBUG - Importing MpegImagePlugin
+2025-06-09 12:36:33,739 - DEBUG - Importing MpoImagePlugin
+2025-06-09 12:36:33,739 - DEBUG - Importing MspImagePlugin
+2025-06-09 12:36:33,741 - DEBUG - Importing PalmImagePlugin
+2025-06-09 12:36:33,742 - DEBUG - Importing PcdImagePlugin
+2025-06-09 12:36:33,743 - DEBUG - Importing PcxImagePlugin
+2025-06-09 12:36:33,743 - DEBUG - Importing PdfImagePlugin
+2025-06-09 12:36:33,751 - DEBUG - Importing PixarImagePlugin
+2025-06-09 12:36:33,752 - DEBUG - Importing PngImagePlugin
+2025-06-09 12:36:33,752 - DEBUG - Importing PpmImagePlugin
+2025-06-09 12:36:33,752 - DEBUG - Importing PsdImagePlugin
+2025-06-09 12:36:33,753 - DEBUG - Importing SgiImagePlugin
+2025-06-09 12:36:33,754 - DEBUG - Importing SpiderImagePlugin
+2025-06-09 12:36:33,755 - DEBUG - Importing SunImagePlugin
+2025-06-09 12:36:33,756 - DEBUG - Importing TgaImagePlugin
+2025-06-09 12:36:33,757 - DEBUG - Importing TiffImagePlugin
+2025-06-09 12:36:33,757 - DEBUG - Importing WebPImagePlugin
+2025-06-09 12:36:33,759 - DEBUG - Importing WmfImagePlugin
+2025-06-09 12:36:33,760 - DEBUG - Importing XbmImagePlugin
+2025-06-09 12:36:33,762 - DEBUG - Importing XpmImagePlugin
+2025-06-09 12:36:33,763 - DEBUG - Importing XVThumbImagePlugin
+2025-06-09 12:36:33,765 - INFO - Tray icon initialized successfully
+2025-06-09 12:36:43,501 - INFO - Always on top set to True
+2025-06-09 12:37:30,043 - INFO - F12 pressed - capturing clipboard command
+2025-06-09 12:37:30,044 - ERROR - GUI not set for command processing
+2025-06-09 12:40:11,283 - INFO - Application interrupted by user
+2025-06-09 12:40:11,284 - INFO - Cleaning up logging handlers
+2025-06-09 12:41:49,811 - INFO - Application started (F12 clipboard mode with GUI)
+2025-06-09 12:41:49,911 - INFO - F12 keyboard hook initialized
+2025-06-09 12:41:50,001 - INFO - Always on top set to False
+2025-06-09 12:41:50,002 - INFO - Application started. Copy a command, press F12 to process.
+2025-06-09 12:41:50,017 - DEBUG - Importing BlpImagePlugin
+2025-06-09 12:41:50,018 - DEBUG - Importing BmpImagePlugin
+2025-06-09 12:41:50,020 - DEBUG - Importing BufrStubImagePlugin
+2025-06-09 12:41:50,020 - DEBUG - Importing CurImagePlugin
+2025-06-09 12:41:50,021 - DEBUG - Importing DcxImagePlugin
+2025-06-09 12:41:50,023 - DEBUG - Importing DdsImagePlugin
+2025-06-09 12:41:50,023 - DEBUG - Importing EpsImagePlugin
+2025-06-09 12:41:50,043 - DEBUG - Importing FitsImagePlugin
+2025-06-09 12:41:50,044 - DEBUG - Importing FitsStubImagePlugin
+2025-06-09 12:41:50,045 - DEBUG - Importing FliImagePlugin
+2025-06-09 12:41:50,046 - DEBUG - Importing FpxImagePlugin
+2025-06-09 12:41:50,050 - DEBUG - Importing FtexImagePlugin
+2025-06-09 12:41:50,051 - DEBUG - Importing GbrImagePlugin
+2025-06-09 12:41:50,051 - DEBUG - Importing GifImagePlugin
+2025-06-09 12:41:50,052 - DEBUG - Importing GribStubImagePlugin
+2025-06-09 12:41:50,052 - DEBUG - Importing Hdf5StubImagePlugin
+2025-06-09 12:41:50,053 - DEBUG - Importing IcnsImagePlugin
+2025-06-09 12:41:50,055 - DEBUG - Importing IcoImagePlugin
+2025-06-09 12:41:50,056 - DEBUG - Importing ImImagePlugin
+2025-06-09 12:41:50,057 - DEBUG - Importing ImtImagePlugin
+2025-06-09 12:41:50,058 - DEBUG - Importing IptcImagePlugin
+2025-06-09 12:41:50,058 - DEBUG - Importing JpegImagePlugin
+2025-06-09 12:41:50,059 - DEBUG - Importing Jpeg2KImagePlugin
+2025-06-09 12:41:50,059 - DEBUG - Importing McIdasImagePlugin
+2025-06-09 12:41:50,060 - DEBUG - Importing MicImagePlugin
+2025-06-09 12:41:50,060 - DEBUG - Importing MpegImagePlugin
+2025-06-09 12:41:50,061 - DEBUG - Importing MpoImagePlugin
+2025-06-09 12:41:50,062 - DEBUG - Importing MspImagePlugin
+2025-06-09 12:41:50,062 - DEBUG - Importing PalmImagePlugin
+2025-06-09 12:41:50,063 - DEBUG - Importing PcdImagePlugin
+2025-06-09 12:41:50,064 - DEBUG - Importing PcxImagePlugin
+2025-06-09 12:41:50,064 - DEBUG - Importing PdfImagePlugin
+2025-06-09 12:41:50,071 - DEBUG - Importing PixarImagePlugin
+2025-06-09 12:41:50,072 - DEBUG - Importing PngImagePlugin
+2025-06-09 12:41:50,072 - DEBUG - Importing PpmImagePlugin
+2025-06-09 12:41:50,072 - DEBUG - Importing PsdImagePlugin
+2025-06-09 12:41:50,073 - DEBUG - Importing SgiImagePlugin
+2025-06-09 12:41:50,074 - DEBUG - Importing SpiderImagePlugin
+2025-06-09 12:41:50,075 - DEBUG - Importing SunImagePlugin
+2025-06-09 12:41:50,075 - DEBUG - Importing TgaImagePlugin
+2025-06-09 12:41:50,076 - DEBUG - Importing TiffImagePlugin
+2025-06-09 12:41:50,076 - DEBUG - Importing WebPImagePlugin
+2025-06-09 12:41:50,078 - DEBUG - Importing WmfImagePlugin
+2025-06-09 12:41:50,078 - DEBUG - Importing XbmImagePlugin
+2025-06-09 12:41:50,080 - DEBUG - Importing XpmImagePlugin
+2025-06-09 12:41:50,081 - DEBUG - Importing XVThumbImagePlugin
+2025-06-09 12:41:50,083 - INFO - Tray icon initialized successfully
+2025-06-09 12:42:22,466 - INFO - Application started (F12 clipboard mode with GUI)
+2025-06-09 12:42:22,571 - INFO - F12 keyboard hook initialized
+2025-06-09 12:42:22,663 - INFO - Always on top set to False
+2025-06-09 12:42:22,663 - INFO - Application started. Copy a command, press F12 to process.
+2025-06-09 12:42:22,680 - DEBUG - Importing BlpImagePlugin
+2025-06-09 12:42:22,682 - DEBUG - Importing BmpImagePlugin
+2025-06-09 12:42:22,682 - DEBUG - Importing BufrStubImagePlugin
+2025-06-09 12:42:22,683 - DEBUG - Importing CurImagePlugin
+2025-06-09 12:42:22,683 - DEBUG - Importing DcxImagePlugin
+2025-06-09 12:42:22,685 - DEBUG - Importing DdsImagePlugin
+2025-06-09 12:42:22,686 - DEBUG - Importing EpsImagePlugin
+2025-06-09 12:42:22,705 - DEBUG - Importing FitsImagePlugin
+2025-06-09 12:42:22,706 - DEBUG - Importing FitsStubImagePlugin
+2025-06-09 12:42:22,707 - DEBUG - Importing FliImagePlugin
+2025-06-09 12:42:22,708 - DEBUG - Importing FpxImagePlugin
+2025-06-09 12:42:22,713 - DEBUG - Importing FtexImagePlugin
+2025-06-09 12:42:22,714 - DEBUG - Importing GbrImagePlugin
+2025-06-09 12:42:22,715 - DEBUG - Importing GifImagePlugin
+2025-06-09 12:42:22,715 - DEBUG - Importing GribStubImagePlugin
+2025-06-09 12:42:22,716 - DEBUG - Importing Hdf5StubImagePlugin
+2025-06-09 12:42:22,716 - DEBUG - Importing IcnsImagePlugin
+2025-06-09 12:42:22,719 - DEBUG - Importing IcoImagePlugin
+2025-06-09 12:42:22,720 - DEBUG - Importing ImImagePlugin
+2025-06-09 12:42:22,721 - DEBUG - Importing ImtImagePlugin
+2025-06-09 12:42:22,722 - DEBUG - Importing IptcImagePlugin
+2025-06-09 12:42:22,723 - DEBUG - Importing JpegImagePlugin
+2025-06-09 12:42:22,723 - DEBUG - Importing Jpeg2KImagePlugin
+2025-06-09 12:42:22,723 - DEBUG - Importing McIdasImagePlugin
+2025-06-09 12:42:22,724 - DEBUG - Importing MicImagePlugin
+2025-06-09 12:42:22,725 - DEBUG - Importing MpegImagePlugin
+2025-06-09 12:42:22,726 - DEBUG - Importing MpoImagePlugin
+2025-06-09 12:42:22,726 - DEBUG - Importing MspImagePlugin
+2025-06-09 12:42:22,727 - DEBUG - Importing PalmImagePlugin
+2025-06-09 12:42:22,728 - DEBUG - Importing PcdImagePlugin
+2025-06-09 12:42:22,729 - DEBUG - Importing PcxImagePlugin
+2025-06-09 12:42:22,729 - DEBUG - Importing PdfImagePlugin
+2025-06-09 12:42:22,736 - DEBUG - Importing PixarImagePlugin
+2025-06-09 12:42:22,737 - DEBUG - Importing PngImagePlugin
+2025-06-09 12:42:22,737 - DEBUG - Importing PpmImagePlugin
+2025-06-09 12:42:22,737 - DEBUG - Importing PsdImagePlugin
+2025-06-09 12:42:22,739 - DEBUG - Importing SgiImagePlugin
+2025-06-09 12:42:22,740 - DEBUG - Importing SpiderImagePlugin
+2025-06-09 12:42:22,741 - DEBUG - Importing SunImagePlugin
+2025-06-09 12:42:22,741 - DEBUG - Importing TgaImagePlugin
+2025-06-09 12:42:22,742 - DEBUG - Importing TiffImagePlugin
+2025-06-09 12:42:22,743 - DEBUG - Importing WebPImagePlugin
+2025-06-09 12:42:22,744 - DEBUG - Importing WmfImagePlugin
+2025-06-09 12:42:22,745 - DEBUG - Importing XbmImagePlugin
+2025-06-09 12:42:22,747 - DEBUG - Importing XpmImagePlugin
+2025-06-09 12:42:22,748 - DEBUG - Importing XVThumbImagePlugin
+2025-06-09 12:42:22,750 - INFO - Tray icon initialized successfully
+2025-06-09 12:42:37,273 - INFO - Always on top set to True
+2025-06-09 12:42:38,948 - INFO - Show in tray set to False
+2025-06-09 12:42:46,858 - INFO - F12 pressed - capturing clipboard command
+2025-06-09 12:43:31,271 - INFO - Application started (F12 clipboard mode with GUI)
+2025-06-09 12:43:31,357 - INFO - F12 keyboard hook initialized
+2025-06-09 12:43:31,446 - INFO - Always on top set to False
+2025-06-09 12:43:31,446 - INFO - Application started. Copy a command, press F12 to process.
+2025-06-09 12:43:31,463 - DEBUG - Importing BlpImagePlugin
+2025-06-09 12:43:31,464 - DEBUG - Importing BmpImagePlugin
+2025-06-09 12:43:31,464 - DEBUG - Importing BufrStubImagePlugin
+2025-06-09 12:43:31,465 - DEBUG - Importing CurImagePlugin
+2025-06-09 12:43:31,466 - DEBUG - Importing DcxImagePlugin
+2025-06-09 12:43:31,467 - DEBUG - Importing DdsImagePlugin
+2025-06-09 12:43:31,468 - DEBUG - Importing EpsImagePlugin
+2025-06-09 12:43:31,488 - DEBUG - Importing FitsImagePlugin
+2025-06-09 12:43:31,489 - DEBUG - Importing FitsStubImagePlugin
+2025-06-09 12:43:31,489 - DEBUG - Importing FliImagePlugin
+2025-06-09 12:43:31,490 - DEBUG - Importing FpxImagePlugin
+2025-06-09 12:43:31,495 - DEBUG - Importing FtexImagePlugin
+2025-06-09 12:43:31,496 - DEBUG - Importing GbrImagePlugin
+2025-06-09 12:43:31,497 - DEBUG - Importing GifImagePlugin
+2025-06-09 12:43:31,497 - DEBUG - Importing GribStubImagePlugin
+2025-06-09 12:43:31,498 - DEBUG - Importing Hdf5StubImagePlugin
+2025-06-09 12:43:31,498 - DEBUG - Importing IcnsImagePlugin
+2025-06-09 12:43:31,500 - DEBUG - Importing IcoImagePlugin
+2025-06-09 12:43:31,501 - DEBUG - Importing ImImagePlugin
+2025-06-09 12:43:31,502 - DEBUG - Importing ImtImagePlugin
+2025-06-09 12:43:31,503 - DEBUG - Importing IptcImagePlugin
+2025-06-09 12:43:31,503 - DEBUG - Importing JpegImagePlugin
+2025-06-09 12:43:31,504 - DEBUG - Importing Jpeg2KImagePlugin
+2025-06-09 12:43:31,504 - DEBUG - Importing McIdasImagePlugin
+2025-06-09 12:43:31,505 - DEBUG - Importing MicImagePlugin
+2025-06-09 12:43:31,506 - DEBUG - Importing MpegImagePlugin
+2025-06-09 12:43:31,506 - DEBUG - Importing MpoImagePlugin
+2025-06-09 12:43:31,507 - DEBUG - Importing MspImagePlugin
+2025-06-09 12:43:31,508 - DEBUG - Importing PalmImagePlugin
+2025-06-09 12:43:31,509 - DEBUG - Importing PcdImagePlugin
+2025-06-09 12:43:31,510 - DEBUG - Importing PcxImagePlugin
+2025-06-09 12:43:31,510 - DEBUG - Importing PdfImagePlugin
+2025-06-09 12:43:31,516 - DEBUG - Importing PixarImagePlugin
+2025-06-09 12:43:31,517 - DEBUG - Importing PngImagePlugin
+2025-06-09 12:43:31,517 - DEBUG - Importing PpmImagePlugin
+2025-06-09 12:43:31,517 - DEBUG - Importing PsdImagePlugin
+2025-06-09 12:43:31,518 - DEBUG - Importing SgiImagePlugin
+2025-06-09 12:43:31,519 - DEBUG - Importing SpiderImagePlugin
+2025-06-09 12:43:31,520 - DEBUG - Importing SunImagePlugin
+2025-06-09 12:43:31,520 - DEBUG - Importing TgaImagePlugin
+2025-06-09 12:43:31,521 - DEBUG - Importing TiffImagePlugin
+2025-06-09 12:43:31,521 - DEBUG - Importing WebPImagePlugin
+2025-06-09 12:43:31,522 - DEBUG - Importing WmfImagePlugin
+2025-06-09 12:43:31,523 - DEBUG - Importing XbmImagePlugin
+2025-06-09 12:43:31,525 - DEBUG - Importing XpmImagePlugin
+2025-06-09 12:43:31,525 - DEBUG - Importing XVThumbImagePlugin
+2025-06-09 12:43:31,527 - INFO - Tray icon initialized successfully
+2025-06-09 12:43:39,885 - INFO - Always on top set to True
+2025-06-09 12:43:40,511 - INFO - Show in tray set to False
+2025-06-09 12:43:44,855 - INFO - F12 pressed - capturing clipboard command
+2025-06-09 12:46:12,519 - INFO - Application started (F12 clipboard mode with GUI)
+2025-06-09 12:46:12,597 - INFO - F12 keyboard hook initialized
+2025-06-09 12:46:12,687 - INFO - Always on top set to False
+2025-06-09 12:46:12,688 - INFO - Application started. Copy a command, press F12 to process.
+2025-06-09 12:46:12,702 - DEBUG - Importing BlpImagePlugin
+2025-06-09 12:46:12,703 - DEBUG - Importing BmpImagePlugin
+2025-06-09 12:46:12,703 - DEBUG - Importing BufrStubImagePlugin
+2025-06-09 12:46:12,705 - DEBUG - Importing CurImagePlugin
+2025-06-09 12:46:12,705 - DEBUG - Importing DcxImagePlugin
+2025-06-09 12:46:12,707 - DEBUG - Importing DdsImagePlugin
+2025-06-09 12:46:12,707 - DEBUG - Importing EpsImagePlugin
+2025-06-09 12:46:12,727 - DEBUG - Importing FitsImagePlugin
+2025-06-09 12:46:12,729 - DEBUG - Importing FitsStubImagePlugin
+2025-06-09 12:46:12,730 - DEBUG - Importing FliImagePlugin
+2025-06-09 12:46:12,731 - DEBUG - Importing FpxImagePlugin
+2025-06-09 12:46:12,736 - DEBUG - Importing FtexImagePlugin
+2025-06-09 12:46:12,737 - DEBUG - Importing GbrImagePlugin
+2025-06-09 12:46:12,738 - DEBUG - Importing GifImagePlugin
+2025-06-09 12:46:12,738 - DEBUG - Importing GribStubImagePlugin
+2025-06-09 12:46:12,739 - DEBUG - Importing Hdf5StubImagePlugin
+2025-06-09 12:46:12,740 - DEBUG - Importing IcnsImagePlugin
+2025-06-09 12:46:12,742 - DEBUG - Importing IcoImagePlugin
+2025-06-09 12:46:12,743 - DEBUG - Importing ImImagePlugin
+2025-06-09 12:46:12,745 - DEBUG - Importing ImtImagePlugin
+2025-06-09 12:46:12,746 - DEBUG - Importing IptcImagePlugin
+2025-06-09 12:46:12,747 - DEBUG - Importing JpegImagePlugin
+2025-06-09 12:46:12,747 - DEBUG - Importing Jpeg2KImagePlugin
+2025-06-09 12:46:12,747 - DEBUG - Importing McIdasImagePlugin
+2025-06-09 12:46:12,748 - DEBUG - Importing MicImagePlugin
+2025-06-09 12:46:12,749 - DEBUG - Importing MpegImagePlugin
+2025-06-09 12:46:12,750 - DEBUG - Importing MpoImagePlugin
+2025-06-09 12:46:12,751 - DEBUG - Importing MspImagePlugin
+2025-06-09 12:46:12,751 - DEBUG - Importing PalmImagePlugin
+2025-06-09 12:46:12,753 - DEBUG - Importing PcdImagePlugin
+2025-06-09 12:46:12,753 - DEBUG - Importing PcxImagePlugin
+2025-06-09 12:46:12,753 - DEBUG - Importing PdfImagePlugin
+2025-06-09 12:46:12,762 - DEBUG - Importing PixarImagePlugin
+2025-06-09 12:46:12,763 - DEBUG - Importing PngImagePlugin
+2025-06-09 12:46:12,763 - DEBUG - Importing PpmImagePlugin
+2025-06-09 12:46:12,763 - DEBUG - Importing PsdImagePlugin
+2025-06-09 12:46:12,764 - DEBUG - Importing SgiImagePlugin
+2025-06-09 12:46:12,765 - DEBUG - Importing SpiderImagePlugin
+2025-06-09 12:46:12,766 - DEBUG - Importing SunImagePlugin
+2025-06-09 12:46:12,766 - DEBUG - Importing TgaImagePlugin
+2025-06-09 12:46:12,767 - DEBUG - Importing TiffImagePlugin
+2025-06-09 12:46:12,767 - DEBUG - Importing WebPImagePlugin
+2025-06-09 12:46:12,769 - DEBUG - Importing WmfImagePlugin
+2025-06-09 12:46:12,770 - DEBUG - Importing XbmImagePlugin
+2025-06-09 12:46:12,771 - DEBUG - Importing XpmImagePlugin
+2025-06-09 12:46:12,772 - DEBUG - Importing XVThumbImagePlugin
+2025-06-09 12:46:12,774 - INFO - Tray icon initialized successfully
+2025-06-09 12:46:26,715 - INFO - Always on top set to True
+2025-06-09 12:46:27,385 - INFO - Show in tray set to False
+2025-06-09 12:46:30,592 - INFO - F12 pressed - capturing clipboard command
+2025-06-09 12:46:30,593 - DEBUG - Modifying coordinates for command: summon end_crystal 5 -5 10 {ShowBottom:0b,Invulnerable:1b,Tags:["laser"],BeamTarget:{X:15,Y:-15,Z:-20}}
+2025-06-09 12:46:30,595 - DEBUG - Summon match groups: ('summon end_crystal ', '5', ' ', '-5', ' ', '10', ' {ShowBottom:0b,Invulnerable:1b,Tags:["laser"],BeamTarget:{X:', '15', ',Y:', '-15', ',Z:', '-20', '}}')
+2025-06-09 12:46:30,595 - DEBUG - Summon command modified: summon end_crystal 0 0 0 {ShowBottom:0b,Invulnerable:1b,Tags:["laser"],BeamTarget:{X:0,Y:0,Z:0}}
+2025-06-09 12:46:41,184 - INFO - Application interrupted by user
+2025-06-09 12:46:41,211 - INFO - Cleaning up logging handlers
+2025-06-09 12:49:56,996 - INFO - Application started (F12 clipboard mode with GUI)
+2025-06-09 12:49:57,085 - INFO - F12 keyboard hook initialized
+2025-06-09 12:49:57,177 - INFO - Always on top set to False
+2025-06-09 12:49:57,177 - INFO - Application started. Copy a command, press F12 to process.
+2025-06-09 12:49:57,195 - DEBUG - Importing BlpImagePlugin
+2025-06-09 12:49:57,196 - DEBUG - Importing BmpImagePlugin
+2025-06-09 12:49:57,196 - DEBUG - Importing BufrStubImagePlugin
+2025-06-09 12:49:57,197 - DEBUG - Importing CurImagePlugin
+2025-06-09 12:49:57,198 - DEBUG - Importing DcxImagePlugin
+2025-06-09 12:49:57,199 - DEBUG - Importing DdsImagePlugin
+2025-06-09 12:49:57,201 - DEBUG - Importing EpsImagePlugin
+2025-06-09 12:49:57,221 - DEBUG - Importing FitsImagePlugin
+2025-06-09 12:49:57,222 - DEBUG - Importing FitsStubImagePlugin
+2025-06-09 12:49:57,224 - DEBUG - Importing FliImagePlugin
+2025-06-09 12:49:57,225 - DEBUG - Importing FpxImagePlugin
+2025-06-09 12:49:57,229 - DEBUG - Importing FtexImagePlugin
+2025-06-09 12:49:57,230 - DEBUG - Importing GbrImagePlugin
+2025-06-09 12:49:57,230 - DEBUG - Importing GifImagePlugin
+2025-06-09 12:49:57,231 - DEBUG - Importing GribStubImagePlugin
+2025-06-09 12:49:57,232 - DEBUG - Importing Hdf5StubImagePlugin
+2025-06-09 12:49:57,232 - DEBUG - Importing IcnsImagePlugin
+2025-06-09 12:49:57,234 - DEBUG - Importing IcoImagePlugin
+2025-06-09 12:49:57,236 - DEBUG - Importing ImImagePlugin
+2025-06-09 12:49:57,239 - DEBUG - Importing ImtImagePlugin
+2025-06-09 12:49:57,240 - DEBUG - Importing IptcImagePlugin
+2025-06-09 12:49:57,243 - DEBUG - Importing JpegImagePlugin
+2025-06-09 12:49:57,243 - DEBUG - Importing Jpeg2KImagePlugin
+2025-06-09 12:49:57,243 - DEBUG - Importing McIdasImagePlugin
+2025-06-09 12:49:57,244 - DEBUG - Importing MicImagePlugin
+2025-06-09 12:49:57,245 - DEBUG - Importing MpegImagePlugin
+2025-06-09 12:49:57,246 - DEBUG - Importing MpoImagePlugin
+2025-06-09 12:49:57,247 - DEBUG - Importing MspImagePlugin
+2025-06-09 12:49:57,248 - DEBUG - Importing PalmImagePlugin
+2025-06-09 12:49:57,249 - DEBUG - Importing PcdImagePlugin
+2025-06-09 12:49:57,251 - DEBUG - Importing PcxImagePlugin
+2025-06-09 12:49:57,251 - DEBUG - Importing PdfImagePlugin
+2025-06-09 12:49:57,259 - DEBUG - Importing PixarImagePlugin
+2025-06-09 12:49:57,260 - DEBUG - Importing PngImagePlugin
+2025-06-09 12:49:57,260 - DEBUG - Importing PpmImagePlugin
+2025-06-09 12:49:57,260 - DEBUG - Importing PsdImagePlugin
+2025-06-09 12:49:57,261 - DEBUG - Importing SgiImagePlugin
+2025-06-09 12:49:57,262 - DEBUG - Importing SpiderImagePlugin
+2025-06-09 12:49:57,263 - DEBUG - Importing SunImagePlugin
+2025-06-09 12:49:57,264 - DEBUG - Importing TgaImagePlugin
+2025-06-09 12:49:57,265 - DEBUG - Importing TiffImagePlugin
+2025-06-09 12:49:57,265 - DEBUG - Importing WebPImagePlugin
+2025-06-09 12:49:57,267 - DEBUG - Importing WmfImagePlugin
+2025-06-09 12:49:57,269 - DEBUG - Importing XbmImagePlugin
+2025-06-09 12:49:57,270 - DEBUG - Importing XpmImagePlugin
+2025-06-09 12:49:57,271 - DEBUG - Importing XVThumbImagePlugin
+2025-06-09 12:49:57,273 - INFO - Tray icon initialized successfully
+2025-06-09 12:50:05,039 - INFO - F12 pressed - capturing clipboard command
+2025-06-09 12:50:05,041 - DEBUG - Modifying coordinates for command: summon end_crystal 5 -5 10 {ShowBottom:0b,Invulnerable:1b,Tags:["laser"],BeamTarget:{X:15,Y:-15,Z:-20}}
+2025-06-09 12:50:05,042 - DEBUG - Summon match groups: ('summon end_crystal ', '5', ' ', '-5', ' ', '10', ' {ShowBottom:0b,Invulnerable:1b,Tags:["laser"],BeamTarget:{X:', '15', ',Y:', '-15', ',Z:', '-20', '}}')
+2025-06-09 12:50:05,043 - DEBUG - Summon command modified: summon end_crystal 0 0 0 {ShowBottom:0b,Invulnerable:1b,Tags:["laser"],BeamTarget:{X:0,Y:0,Z:0}}
+2025-06-09 12:50:11,507 - INFO - F12 pressed - capturing clipboard command
+2025-06-09 12:50:11,508 - DEBUG - Modifying coordinates for command: setblock 4 -4 8 minecraft:white_concrete
+2025-06-09 12:50:11,509 - DEBUG - Setblock match groups: ('setblock ', '4', ' ', '-4', ' ', '8', ' minecraft:white_concrete', 'minecraft:white_concrete')
+2025-06-09 12:50:11,509 - DEBUG - Setblock command modified: setblock 0 0 0 minecraft:white_concrete
+2025-06-09 12:50:12,609 - INFO - F12 pressed - capturing clipboard command
+2025-06-09 12:50:12,610 - DEBUG - Modifying coordinates for command: kill @e[type=end_crystal,tag=laser,distance=..2,x=0,y=0,z=0]
+2025-06-09 12:50:12,610 - DEBUG - Kill match groups: ('kill @e[type=end_crystal,tag=laser,distance=..2,x=', '0', ',y=', '0', ',z=', '0', ']')
+2025-06-09 12:50:12,610 - DEBUG - Kill command modified: kill @e[type=end_crystal,tag=laser,distance=..2,x=0,y=0,z=0]
+2025-06-09 12:50:23,415 - INFO - Always on top set to True
+2025-06-09 12:50:23,746 - INFO - Show in tray set to False
+2025-06-09 12:50:39,423 - INFO - F12 pressed - capturing clipboard command
+2025-06-09 12:50:39,424 - DEBUG - Modifying coordinates for command: summon end_crystal 0 0 0 {ShowBottom:0b,Invulnerable:1b,Tags:["laser"],BeamTarget:{X:0,Y:0,Z:0}}
+2025-06-09 12:50:39,425 - DEBUG - Summon match groups: ('summon end_crystal ', '0', ' ', '0', ' ', '0', ' {ShowBottom:0b,Invulnerable:1b,Tags:["laser"],BeamTarget:{X:', '0', ',Y:', '0', ',Z:', '0', '}}')
+2025-06-09 12:50:39,425 - DEBUG - Summon command modified: summon end_crystal 1 1 1 {ShowBottom:0b,Invulnerable:1b,Tags:["laser"],BeamTarget:{X:-1,Y:-1,Z:-1}}
+2025-06-09 12:50:45,953 - INFO - F12 pressed - capturing clipboard command
+2025-06-09 12:50:45,955 - DEBUG - Modifying coordinates for command: setblock 0 0 0 minecraft:white_concrete
+2025-06-09 12:50:45,956 - DEBUG - Setblock match groups: ('setblock ', '0', ' ', '0', ' ', '0', ' minecraft:white_concrete', 'minecraft:white_concrete')
+2025-06-09 12:50:45,956 - DEBUG - Setblock command modified: setblock 1 1 1 minecraft:white_concrete
+2025-06-09 12:50:49,052 - INFO - F12 pressed - capturing clipboard command
+2025-06-09 12:50:49,053 - DEBUG - Modifying coordinates for command: setblock 1 1 1 minecraft:white_concrete
+2025-06-09 12:50:49,054 - DEBUG - Setblock match groups: ('setblock ', '1', ' ', '1', ' ', '1', ' minecraft:white_concrete', 'minecraft:white_concrete')
+2025-06-09 12:50:49,054 - DEBUG - Setblock command modified: setblock 2 2 2 minecraft:white_concrete
+2025-06-09 12:50:49,920 - INFO - F12 pressed - capturing clipboard command
+2025-06-09 12:50:49,921 - DEBUG - Modifying coordinates for command: setblock 2 2 2 minecraft:white_concrete
+2025-06-09 12:50:49,922 - DEBUG - Setblock match groups: ('setblock ', '2', ' ', '2', ' ', '2', ' minecraft:white_concrete', 'minecraft:white_concrete')
+2025-06-09 12:50:49,922 - DEBUG - Setblock command modified: setblock 3 3 3 minecraft:white_concrete
+2025-06-09 12:50:50,805 - INFO - F12 pressed - capturing clipboard command
+2025-06-09 12:50:50,806 - DEBUG - Modifying coordinates for command: kill @e[type=end_crystal,tag=laser,distance=..2,x=0,y=0,z=0]
+2025-06-09 12:50:50,807 - DEBUG - Kill match groups: ('kill @e[type=end_crystal,tag=laser,distance=..2,x=', '0', ',y=', '0', ',z=', '0', ']')
+2025-06-09 12:50:50,807 - DEBUG - Kill command modified: kill @e[type=end_crystal,tag=laser,distance=..2,x=1,y=1,z=1]
+2025-06-09 12:50:54,206 - INFO - F12 pressed - capturing clipboard command
+2025-06-09 12:50:54,207 - DEBUG - Modifying coordinates for command: kill @e[type=end_crystal,tag=laser,distance=..2,x=1,y=1,z=1]
+2025-06-09 12:50:54,207 - DEBUG - Kill match groups: ('kill @e[type=end_crystal,tag=laser,distance=..2,x=', '1', ',y=', '1', ',z=', '1', ']')
+2025-06-09 12:50:54,208 - DEBUG - Kill command modified: kill @e[type=end_crystal,tag=laser,distance=..2,x=2,y=2,z=2]
+2025-06-09 12:50:59,796 - INFO - F12 pressed - capturing clipboard command
+2025-06-09 12:50:59,797 - DEBUG - Modifying coordinates for command: kill @e[type=end_crystal,tag=laser,distance=..2,x=2,y=2,z=2]
+2025-06-09 12:50:59,798 - DEBUG - Kill match groups: ('kill @e[type=end_crystal,tag=laser,distance=..2,x=', '2', ',y=', '2', ',z=', '2', ']')
+2025-06-09 12:50:59,798 - DEBUG - Kill command modified: kill @e[type=end_crystal,tag=laser,distance=..2,x=3,y=3,z=3]
+2025-06-09 12:51:00,833 - INFO - F12 pressed - capturing clipboard command
+2025-06-09 12:51:00,835 - DEBUG - Modifying coordinates for command: kill @e[type=end_crystal,tag=laser,distance=..2,x=3,y=3,z=3]
+2025-06-09 12:51:00,836 - DEBUG - Kill match groups: ('kill @e[type=end_crystal,tag=laser,distance=..2,x=', '3', ',y=', '3', ',z=', '3', ']')
+2025-06-09 12:51:00,836 - DEBUG - Kill command modified: kill @e[type=end_crystal,tag=laser,distance=..2,x=4,y=4,z=4]
+2025-06-09 12:51:01,627 - INFO - F12 pressed - capturing clipboard command
+2025-06-09 12:51:01,628 - DEBUG - Modifying coordinates for command: kill @e[type=end_crystal,tag=laser,distance=..2,x=4,y=4,z=4]
+2025-06-09 12:51:01,629 - DEBUG - Kill match groups: ('kill @e[type=end_crystal,tag=laser,distance=..2,x=', '4', ',y=', '4', ',z=', '4', ']')
+2025-06-09 12:51:01,629 - DEBUG - Kill command modified: kill @e[type=end_crystal,tag=laser,distance=..2,x=5,y=5,z=5]
+2025-06-09 12:51:12,988 - INFO - F12 pressed - capturing clipboard command
+2025-06-09 12:51:12,990 - DEBUG - Modifying coordinates for command: setblock 3 3 3 minecraft:white_concrete
+2025-06-09 12:51:12,990 - DEBUG - Setblock match groups: ('setblock ', '3', ' ', '3', ' ', '3', ' minecraft:white_concrete', 'minecraft:white_concrete')
+2025-06-09 12:51:12,991 - DEBUG - Setblock command modified: setblock 4 4 4minecraft:lime_concrete
+2025-06-09 12:51:38,587 - INFO - Application interrupted by user
+2025-06-09 12:51:38,603 - INFO - Cleaning up logging handlers
+2025-06-09 12:51:45,011 - INFO - Application started (F12 clipboard mode with GUI)
+2025-06-09 12:51:45,102 - INFO - F12 keyboard hook initialized
+2025-06-09 12:51:45,195 - INFO - Always on top set to False
+2025-06-09 12:51:45,196 - INFO - Application started. Copy a command, press F12 to process.
+2025-06-09 12:51:45,212 - DEBUG - Importing BlpImagePlugin
+2025-06-09 12:51:45,213 - DEBUG - Importing BmpImagePlugin
+2025-06-09 12:51:45,213 - DEBUG - Importing BufrStubImagePlugin
+2025-06-09 12:51:45,215 - DEBUG - Importing CurImagePlugin
+2025-06-09 12:51:45,216 - DEBUG - Importing DcxImagePlugin
+2025-06-09 12:51:45,217 - DEBUG - Importing DdsImagePlugin
+2025-06-09 12:51:45,218 - DEBUG - Importing EpsImagePlugin
+2025-06-09 12:51:45,238 - DEBUG - Importing FitsImagePlugin
+2025-06-09 12:51:45,239 - DEBUG - Importing FitsStubImagePlugin
+2025-06-09 12:51:45,240 - DEBUG - Importing FliImagePlugin
+2025-06-09 12:51:45,241 - DEBUG - Importing FpxImagePlugin
+2025-06-09 12:51:45,247 - DEBUG - Importing FtexImagePlugin
+2025-06-09 12:51:45,248 - DEBUG - Importing GbrImagePlugin
+2025-06-09 12:51:45,249 - DEBUG - Importing GifImagePlugin
+2025-06-09 12:51:45,249 - DEBUG - Importing GribStubImagePlugin
+2025-06-09 12:51:45,249 - DEBUG - Importing Hdf5StubImagePlugin
+2025-06-09 12:51:45,250 - DEBUG - Importing IcnsImagePlugin
+2025-06-09 12:51:45,252 - DEBUG - Importing IcoImagePlugin
+2025-06-09 12:51:45,253 - DEBUG - Importing ImImagePlugin
+2025-06-09 12:51:45,254 - DEBUG - Importing ImtImagePlugin
+2025-06-09 12:51:45,254 - DEBUG - Importing IptcImagePlugin
+2025-06-09 12:51:45,255 - DEBUG - Importing JpegImagePlugin
+2025-06-09 12:51:45,255 - DEBUG - Importing Jpeg2KImagePlugin
+2025-06-09 12:51:45,256 - DEBUG - Importing McIdasImagePlugin
+2025-06-09 12:51:45,256 - DEBUG - Importing MicImagePlugin
+2025-06-09 12:51:45,257 - DEBUG - Importing MpegImagePlugin
+2025-06-09 12:51:45,258 - DEBUG - Importing MpoImagePlugin
+2025-06-09 12:51:45,259 - DEBUG - Importing MspImagePlugin
+2025-06-09 12:51:45,260 - DEBUG - Importing PalmImagePlugin
+2025-06-09 12:51:45,261 - DEBUG - Importing PcdImagePlugin
+2025-06-09 12:51:45,262 - DEBUG - Importing PcxImagePlugin
+2025-06-09 12:51:45,262 - DEBUG - Importing PdfImagePlugin
+2025-06-09 12:51:45,269 - DEBUG - Importing PixarImagePlugin
+2025-06-09 12:51:45,270 - DEBUG - Importing PngImagePlugin
+2025-06-09 12:51:45,271 - DEBUG - Importing PpmImagePlugin
+2025-06-09 12:51:45,271 - DEBUG - Importing PsdImagePlugin
+2025-06-09 12:51:45,272 - DEBUG - Importing SgiImagePlugin
+2025-06-09 12:51:45,273 - DEBUG - Importing SpiderImagePlugin
+2025-06-09 12:51:45,275 - DEBUG - Importing SunImagePlugin
+2025-06-09 12:51:45,275 - DEBUG - Importing TgaImagePlugin
+2025-06-09 12:51:45,276 - DEBUG - Importing TiffImagePlugin
+2025-06-09 12:51:45,277 - DEBUG - Importing WebPImagePlugin
+2025-06-09 12:51:45,278 - DEBUG - Importing WmfImagePlugin
+2025-06-09 12:51:45,279 - DEBUG - Importing XbmImagePlugin
+2025-06-09 12:51:45,280 - DEBUG - Importing XpmImagePlugin
+2025-06-09 12:51:45,281 - DEBUG - Importing XVThumbImagePlugin
+2025-06-09 12:51:45,283 - INFO - Tray icon initialized successfully
+2025-06-09 12:51:48,985 - INFO - F12 pressed - capturing clipboard command
+2025-06-09 12:51:48,987 - DEBUG - Modifying coordinates for command: setblock 4 4 4 minecraft:lime_concrete
+2025-06-09 12:51:48,988 - DEBUG - Setblock match groups: ('setblock ', '4', ' ', '4', ' ', '4', ' minecraft:lime_concrete', 'minecraft:lime_concrete')
+2025-06-09 12:51:48,989 - DEBUG - Setblock command modified: setblock 4 4 4minecraft:lime_concrete
+2025-06-09 12:52:22,223 - INFO - Application started (F12 clipboard mode with GUI)
+2025-06-09 12:52:22,308 - INFO - F12 keyboard hook initialized
+2025-06-09 12:52:22,399 - INFO - Always on top set to False
+2025-06-09 12:52:22,400 - INFO - Application started. Copy a command, press F12 to process.
+2025-06-09 12:52:22,414 - DEBUG - Importing BlpImagePlugin
+2025-06-09 12:52:22,415 - DEBUG - Importing BmpImagePlugin
+2025-06-09 12:52:22,416 - DEBUG - Importing BufrStubImagePlugin
+2025-06-09 12:52:22,416 - DEBUG - Importing CurImagePlugin
+2025-06-09 12:52:22,417 - DEBUG - Importing DcxImagePlugin
+2025-06-09 12:52:22,418 - DEBUG - Importing DdsImagePlugin
+2025-06-09 12:52:22,419 - DEBUG - Importing EpsImagePlugin
+2025-06-09 12:52:22,439 - DEBUG - Importing FitsImagePlugin
+2025-06-09 12:52:22,440 - DEBUG - Importing FitsStubImagePlugin
+2025-06-09 12:52:22,440 - DEBUG - Importing FliImagePlugin
+2025-06-09 12:52:22,441 - DEBUG - Importing FpxImagePlugin
+2025-06-09 12:52:22,445 - DEBUG - Importing FtexImagePlugin
+2025-06-09 12:52:22,446 - DEBUG - Importing GbrImagePlugin
+2025-06-09 12:52:22,447 - DEBUG - Importing GifImagePlugin
+2025-06-09 12:52:22,448 - DEBUG - Importing GribStubImagePlugin
+2025-06-09 12:52:22,448 - DEBUG - Importing Hdf5StubImagePlugin
+2025-06-09 12:52:22,449 - DEBUG - Importing IcnsImagePlugin
+2025-06-09 12:52:22,451 - DEBUG - Importing IcoImagePlugin
+2025-06-09 12:52:22,452 - DEBUG - Importing ImImagePlugin
+2025-06-09 12:52:22,453 - DEBUG - Importing ImtImagePlugin
+2025-06-09 12:52:22,453 - DEBUG - Importing IptcImagePlugin
+2025-06-09 12:52:22,454 - DEBUG - Importing JpegImagePlugin
+2025-06-09 12:52:22,454 - DEBUG - Importing Jpeg2KImagePlugin
+2025-06-09 12:52:22,455 - DEBUG - Importing McIdasImagePlugin
+2025-06-09 12:52:22,455 - DEBUG - Importing MicImagePlugin
+2025-06-09 12:52:22,456 - DEBUG - Importing MpegImagePlugin
+2025-06-09 12:52:22,457 - DEBUG - Importing MpoImagePlugin
+2025-06-09 12:52:22,458 - DEBUG - Importing MspImagePlugin
+2025-06-09 12:52:22,459 - DEBUG - Importing PalmImagePlugin
+2025-06-09 12:52:22,460 - DEBUG - Importing PcdImagePlugin
+2025-06-09 12:52:22,461 - DEBUG - Importing PcxImagePlugin
+2025-06-09 12:52:22,461 - DEBUG - Importing PdfImagePlugin
+2025-06-09 12:52:22,469 - DEBUG - Importing PixarImagePlugin
+2025-06-09 12:52:22,470 - DEBUG - Importing PngImagePlugin
+2025-06-09 12:52:22,470 - DEBUG - Importing PpmImagePlugin
+2025-06-09 12:52:22,470 - DEBUG - Importing PsdImagePlugin
+2025-06-09 12:52:22,471 - DEBUG - Importing SgiImagePlugin
+2025-06-09 12:52:22,472 - DEBUG - Importing SpiderImagePlugin
+2025-06-09 12:52:22,473 - DEBUG - Importing SunImagePlugin
+2025-06-09 12:52:22,473 - DEBUG - Importing TgaImagePlugin
+2025-06-09 12:52:22,474 - DEBUG - Importing TiffImagePlugin
+2025-06-09 12:52:22,474 - DEBUG - Importing WebPImagePlugin
+2025-06-09 12:52:22,476 - DEBUG - Importing WmfImagePlugin
+2025-06-09 12:52:22,476 - DEBUG - Importing XbmImagePlugin
+2025-06-09 12:52:22,478 - DEBUG - Importing XpmImagePlugin
+2025-06-09 12:52:22,479 - DEBUG - Importing XVThumbImagePlugin
+2025-06-09 12:52:22,480 - INFO - Tray icon initialized successfully
+2025-06-09 12:52:26,807 - INFO - F12 pressed - capturing clipboard command
+2025-06-09 12:52:26,809 - DEBUG - Modifying coordinates for command: setblock 4 4 4 minecraft:lime_concrete
+2025-06-09 12:52:26,810 - DEBUG - No modification applied
+2025-06-09 12:52:39,262 - INFO - Always on top set to True
+2025-06-09 12:52:39,606 - INFO - Show in tray set to False
+2025-06-09 12:52:55,142 - INFO - F12 pressed - capturing clipboard command
+2025-06-09 12:52:55,143 - DEBUG - Modifying coordinates for command: setblock 4 4 4 minecraft:lime_concrete
+2025-06-09 12:52:55,144 - DEBUG - No modification applied
+2025-06-09 12:53:09,459 - INFO - Application started (F12 clipboard mode with GUI)
+2025-06-09 12:53:09,562 - INFO - F12 keyboard hook initialized
+2025-06-09 12:53:09,668 - INFO - Always on top set to False
+2025-06-09 12:53:09,668 - INFO - Application started. Copy a command, press F12 to process.
+2025-06-09 12:53:09,687 - DEBUG - Importing BlpImagePlugin
+2025-06-09 12:53:09,688 - DEBUG - Importing BmpImagePlugin
+2025-06-09 12:53:09,689 - DEBUG - Importing BufrStubImagePlugin
+2025-06-09 12:53:09,690 - DEBUG - Importing CurImagePlugin
+2025-06-09 12:53:09,690 - DEBUG - Importing DcxImagePlugin
+2025-06-09 12:53:09,692 - DEBUG - Importing DdsImagePlugin
+2025-06-09 12:53:09,692 - DEBUG - Importing EpsImagePlugin
+2025-06-09 12:53:09,712 - DEBUG - Importing FitsImagePlugin
+2025-06-09 12:53:09,713 - DEBUG - Importing FitsStubImagePlugin
+2025-06-09 12:53:09,714 - DEBUG - Importing FliImagePlugin
+2025-06-09 12:53:09,716 - DEBUG - Importing FpxImagePlugin
+2025-06-09 12:53:09,720 - DEBUG - Importing FtexImagePlugin
+2025-06-09 12:53:09,721 - DEBUG - Importing GbrImagePlugin
+2025-06-09 12:53:09,722 - DEBUG - Importing GifImagePlugin
+2025-06-09 12:53:09,723 - DEBUG - Importing GribStubImagePlugin
+2025-06-09 12:53:09,724 - DEBUG - Importing Hdf5StubImagePlugin
+2025-06-09 12:53:09,724 - DEBUG - Importing IcnsImagePlugin
+2025-06-09 12:53:09,727 - DEBUG - Importing IcoImagePlugin
+2025-06-09 12:53:09,727 - DEBUG - Importing ImImagePlugin
+2025-06-09 12:53:09,728 - DEBUG - Importing ImtImagePlugin
+2025-06-09 12:53:09,730 - DEBUG - Importing IptcImagePlugin
+2025-06-09 12:53:09,731 - DEBUG - Importing JpegImagePlugin
+2025-06-09 12:53:09,731 - DEBUG - Importing Jpeg2KImagePlugin
+2025-06-09 12:53:09,731 - DEBUG - Importing McIdasImagePlugin
+2025-06-09 12:53:09,732 - DEBUG - Importing MicImagePlugin
+2025-06-09 12:53:09,733 - DEBUG - Importing MpegImagePlugin
+2025-06-09 12:53:09,734 - DEBUG - Importing MpoImagePlugin
+2025-06-09 12:53:09,734 - DEBUG - Importing MspImagePlugin
+2025-06-09 12:53:09,735 - DEBUG - Importing PalmImagePlugin
+2025-06-09 12:53:09,736 - DEBUG - Importing PcdImagePlugin
+2025-06-09 12:53:09,737 - DEBUG - Importing PcxImagePlugin
+2025-06-09 12:53:09,737 - DEBUG - Importing PdfImagePlugin
+2025-06-09 12:53:09,744 - DEBUG - Importing PixarImagePlugin
+2025-06-09 12:53:09,745 - DEBUG - Importing PngImagePlugin
+2025-06-09 12:53:09,747 - DEBUG - Importing PpmImagePlugin
+2025-06-09 12:53:09,747 - DEBUG - Importing PsdImagePlugin
+2025-06-09 12:53:09,748 - DEBUG - Importing SgiImagePlugin
+2025-06-09 12:53:09,749 - DEBUG - Importing SpiderImagePlugin
+2025-06-09 12:53:09,749 - DEBUG - Importing SunImagePlugin
+2025-06-09 12:53:09,750 - DEBUG - Importing TgaImagePlugin
+2025-06-09 12:53:09,751 - DEBUG - Importing TiffImagePlugin
+2025-06-09 12:53:09,751 - DEBUG - Importing WebPImagePlugin
+2025-06-09 12:53:09,753 - DEBUG - Importing WmfImagePlugin
+2025-06-09 12:53:09,754 - DEBUG - Importing XbmImagePlugin
+2025-06-09 12:53:09,755 - DEBUG - Importing XpmImagePlugin
+2025-06-09 12:53:09,756 - DEBUG - Importing XVThumbImagePlugin
+2025-06-09 12:53:09,758 - INFO - Tray icon initialized successfully
+2025-06-09 12:53:11,526 - INFO - Always on top set to True
+2025-06-09 12:53:11,784 - INFO - Show in tray set to False
+2025-06-09 12:53:20,784 - INFO - F12 pressed - capturing clipboard command
+2025-06-09 12:53:20,785 - DEBUG - Modifying coordinates for command: setblock 4 4 4 minecraft:blue_concrete
+2025-06-09 12:53:20,787 - DEBUG - No modification applied
+2025-06-09 12:54:08,909 - INFO - Application started (F12 clipboard mode with GUI)
+2025-06-09 12:54:09,025 - INFO - F12 keyboard hook initialized
+2025-06-09 12:54:09,122 - INFO - Always on top set to False
+2025-06-09 12:54:09,122 - INFO - Application started. Copy a command, press F12 to process.
+2025-06-09 12:54:09,139 - DEBUG - Importing BlpImagePlugin
+2025-06-09 12:54:09,140 - DEBUG - Importing BmpImagePlugin
+2025-06-09 12:54:09,140 - DEBUG - Importing BufrStubImagePlugin
+2025-06-09 12:54:09,141 - DEBUG - Importing CurImagePlugin
+2025-06-09 12:54:09,142 - DEBUG - Importing DcxImagePlugin
+2025-06-09 12:54:09,144 - DEBUG - Importing DdsImagePlugin
+2025-06-09 12:54:09,144 - DEBUG - Importing EpsImagePlugin
+2025-06-09 12:54:09,164 - DEBUG - Importing FitsImagePlugin
+2025-06-09 12:54:09,166 - DEBUG - Importing FitsStubImagePlugin
+2025-06-09 12:54:09,167 - DEBUG - Importing FliImagePlugin
+2025-06-09 12:54:09,167 - DEBUG - Importing FpxImagePlugin
+2025-06-09 12:54:09,172 - DEBUG - Importing FtexImagePlugin
+2025-06-09 12:54:09,173 - DEBUG - Importing GbrImagePlugin
+2025-06-09 12:54:09,173 - DEBUG - Importing GifImagePlugin
+2025-06-09 12:54:09,174 - DEBUG - Importing GribStubImagePlugin
+2025-06-09 12:54:09,174 - DEBUG - Importing Hdf5StubImagePlugin
+2025-06-09 12:54:09,175 - DEBUG - Importing IcnsImagePlugin
+2025-06-09 12:54:09,177 - DEBUG - Importing IcoImagePlugin
+2025-06-09 12:54:09,178 - DEBUG - Importing ImImagePlugin
+2025-06-09 12:54:09,179 - DEBUG - Importing ImtImagePlugin
+2025-06-09 12:54:09,180 - DEBUG - Importing IptcImagePlugin
+2025-06-09 12:54:09,181 - DEBUG - Importing JpegImagePlugin
+2025-06-09 12:54:09,181 - DEBUG - Importing Jpeg2KImagePlugin
+2025-06-09 12:54:09,181 - DEBUG - Importing McIdasImagePlugin
+2025-06-09 12:54:09,182 - DEBUG - Importing MicImagePlugin
+2025-06-09 12:54:09,183 - DEBUG - Importing MpegImagePlugin
+2025-06-09 12:54:09,183 - DEBUG - Importing MpoImagePlugin
+2025-06-09 12:54:09,184 - DEBUG - Importing MspImagePlugin
+2025-06-09 12:54:09,185 - DEBUG - Importing PalmImagePlugin
+2025-06-09 12:54:09,187 - DEBUG - Importing PcdImagePlugin
+2025-06-09 12:54:09,188 - DEBUG - Importing PcxImagePlugin
+2025-06-09 12:54:09,188 - DEBUG - Importing PdfImagePlugin
+2025-06-09 12:54:09,195 - DEBUG - Importing PixarImagePlugin
+2025-06-09 12:54:09,196 - DEBUG - Importing PngImagePlugin
+2025-06-09 12:54:09,196 - DEBUG - Importing PpmImagePlugin
+2025-06-09 12:54:09,197 - DEBUG - Importing PsdImagePlugin
+2025-06-09 12:54:09,197 - DEBUG - Importing SgiImagePlugin
+2025-06-09 12:54:09,198 - DEBUG - Importing SpiderImagePlugin
+2025-06-09 12:54:09,198 - DEBUG - Importing SunImagePlugin
+2025-06-09 12:54:09,200 - DEBUG - Importing TgaImagePlugin
+2025-06-09 12:54:09,201 - DEBUG - Importing TiffImagePlugin
+2025-06-09 12:54:09,201 - DEBUG - Importing WebPImagePlugin
+2025-06-09 12:54:09,203 - DEBUG - Importing WmfImagePlugin
+2025-06-09 12:54:09,203 - DEBUG - Importing XbmImagePlugin
+2025-06-09 12:54:09,205 - DEBUG - Importing XpmImagePlugin
+2025-06-09 12:54:09,206 - DEBUG - Importing XVThumbImagePlugin
+2025-06-09 12:54:09,207 - INFO - Tray icon initialized successfully
+2025-06-09 12:54:13,502 - INFO - F12 pressed - capturing clipboard command
+2025-06-09 12:54:13,504 - DEBUG - Modifying coordinates for command: setblock 4 4 4 minecraft:blue_concrete
+2025-06-09 12:54:13,505 - DEBUG - No modification applied
+2025-06-09 12:54:27,068 - INFO - Application started (F12 clipboard mode with GUI)
+2025-06-09 12:54:27,151 - INFO - F12 keyboard hook initialized
+2025-06-09 12:54:27,242 - INFO - Always on top set to False
+2025-06-09 12:54:27,243 - INFO - Application started. Copy a command, press F12 to process.
+2025-06-09 12:54:27,259 - DEBUG - Importing BlpImagePlugin
+2025-06-09 12:54:27,260 - DEBUG - Importing BmpImagePlugin
+2025-06-09 12:54:27,260 - DEBUG - Importing BufrStubImagePlugin
+2025-06-09 12:54:27,261 - DEBUG - Importing CurImagePlugin
+2025-06-09 12:54:27,262 - DEBUG - Importing DcxImagePlugin
+2025-06-09 12:54:27,263 - DEBUG - Importing DdsImagePlugin
+2025-06-09 12:54:27,264 - DEBUG - Importing EpsImagePlugin
+2025-06-09 12:54:27,284 - DEBUG - Importing FitsImagePlugin
+2025-06-09 12:54:27,285 - DEBUG - Importing FitsStubImagePlugin
+2025-06-09 12:54:27,286 - DEBUG - Importing FliImagePlugin
+2025-06-09 12:54:27,286 - DEBUG - Importing FpxImagePlugin
+2025-06-09 12:54:27,291 - DEBUG - Importing FtexImagePlugin
+2025-06-09 12:54:27,292 - DEBUG - Importing GbrImagePlugin
+2025-06-09 12:54:27,293 - DEBUG - Importing GifImagePlugin
+2025-06-09 12:54:27,293 - DEBUG - Importing GribStubImagePlugin
+2025-06-09 12:54:27,294 - DEBUG - Importing Hdf5StubImagePlugin
+2025-06-09 12:54:27,295 - DEBUG - Importing IcnsImagePlugin
+2025-06-09 12:54:27,298 - DEBUG - Importing IcoImagePlugin
+2025-06-09 12:54:27,299 - DEBUG - Importing ImImagePlugin
+2025-06-09 12:54:27,300 - DEBUG - Importing ImtImagePlugin
+2025-06-09 12:54:27,301 - DEBUG - Importing IptcImagePlugin
+2025-06-09 12:54:27,302 - DEBUG - Importing JpegImagePlugin
+2025-06-09 12:54:27,303 - DEBUG - Importing Jpeg2KImagePlugin
+2025-06-09 12:54:27,303 - DEBUG - Importing McIdasImagePlugin
+2025-06-09 12:54:27,303 - DEBUG - Importing MicImagePlugin
+2025-06-09 12:54:27,304 - DEBUG - Importing MpegImagePlugin
+2025-06-09 12:54:27,305 - DEBUG - Importing MpoImagePlugin
+2025-06-09 12:54:27,306 - DEBUG - Importing MspImagePlugin
+2025-06-09 12:54:27,306 - DEBUG - Importing PalmImagePlugin
+2025-06-09 12:54:27,308 - DEBUG - Importing PcdImagePlugin
+2025-06-09 12:54:27,308 - DEBUG - Importing PcxImagePlugin
+2025-06-09 12:54:27,308 - DEBUG - Importing PdfImagePlugin
+2025-06-09 12:54:27,316 - DEBUG - Importing PixarImagePlugin
+2025-06-09 12:54:27,316 - DEBUG - Importing PngImagePlugin
+2025-06-09 12:54:27,318 - DEBUG - Importing PpmImagePlugin
+2025-06-09 12:54:27,318 - DEBUG - Importing PsdImagePlugin
+2025-06-09 12:54:27,319 - DEBUG - Importing SgiImagePlugin
+2025-06-09 12:54:27,320 - DEBUG - Importing SpiderImagePlugin
+2025-06-09 12:54:27,320 - DEBUG - Importing SunImagePlugin
+2025-06-09 12:54:27,321 - DEBUG - Importing TgaImagePlugin
+2025-06-09 12:54:27,322 - DEBUG - Importing TiffImagePlugin
+2025-06-09 12:54:27,322 - DEBUG - Importing WebPImagePlugin
+2025-06-09 12:54:27,324 - DEBUG - Importing WmfImagePlugin
+2025-06-09 12:54:27,324 - DEBUG - Importing XbmImagePlugin
+2025-06-09 12:54:27,326 - DEBUG - Importing XpmImagePlugin
+2025-06-09 12:54:27,327 - DEBUG - Importing XVThumbImagePlugin
+2025-06-09 12:54:27,328 - INFO - Tray icon initialized successfully
+2025-06-09 12:54:31,080 - INFO - F12 pressed - capturing clipboard command
+2025-06-09 12:54:31,082 - DEBUG - Modifying coordinates for command: setblock 4 4 4 minecraft:blue_concrete
+2025-06-09 12:54:31,083 - DEBUG - Setblock match groups: ('setblock ', '4', ' ', '4', ' ', '4', ' minecraft:blue_concrete', 'minecraft:blue_concrete')
+2025-06-09 12:54:31,084 - DEBUG - Setblock command modified: setblock 4 4 4minecraft:lime_concrete
+2025-06-09 13:04:38,004 - INFO - Application started (F12 clipboard mode with GUI)
+2025-06-09 13:04:38,087 - INFO - F12 keyboard hook initialized
+2025-06-09 13:04:38,193 - INFO - Always on top set to False
+2025-06-09 13:04:38,194 - INFO - Application started. Copy a command, press F12 to process.
+2025-06-09 13:04:38,212 - DEBUG - Importing BlpImagePlugin
+2025-06-09 13:04:38,213 - DEBUG - Importing BmpImagePlugin
+2025-06-09 13:04:38,214 - DEBUG - Importing BufrStubImagePlugin
+2025-06-09 13:04:38,215 - DEBUG - Importing CurImagePlugin
+2025-06-09 13:04:38,216 - DEBUG - Importing DcxImagePlugin
+2025-06-09 13:04:38,217 - DEBUG - Importing DdsImagePlugin
+2025-06-09 13:04:38,218 - DEBUG - Importing EpsImagePlugin
+2025-06-09 13:04:38,238 - DEBUG - Importing FitsImagePlugin
+2025-06-09 13:04:38,240 - DEBUG - Importing FitsStubImagePlugin
+2025-06-09 13:04:38,241 - DEBUG - Importing FliImagePlugin
+2025-06-09 13:04:38,242 - DEBUG - Importing FpxImagePlugin
+2025-06-09 13:04:38,246 - DEBUG - Importing FtexImagePlugin
+2025-06-09 13:04:38,247 - DEBUG - Importing GbrImagePlugin
+2025-06-09 13:04:38,248 - DEBUG - Importing GifImagePlugin
+2025-06-09 13:04:38,248 - DEBUG - Importing GribStubImagePlugin
+2025-06-09 13:04:38,249 - DEBUG - Importing Hdf5StubImagePlugin
+2025-06-09 13:04:38,250 - DEBUG - Importing IcnsImagePlugin
+2025-06-09 13:04:38,252 - DEBUG - Importing IcoImagePlugin
+2025-06-09 13:04:38,253 - DEBUG - Importing ImImagePlugin
+2025-06-09 13:04:38,254 - DEBUG - Importing ImtImagePlugin
+2025-06-09 13:04:38,255 - DEBUG - Importing IptcImagePlugin
+2025-06-09 13:04:38,256 - DEBUG - Importing JpegImagePlugin
+2025-06-09 13:04:38,256 - DEBUG - Importing Jpeg2KImagePlugin
+2025-06-09 13:04:38,257 - DEBUG - Importing McIdasImagePlugin
+2025-06-09 13:04:38,257 - DEBUG - Importing MicImagePlugin
+2025-06-09 13:04:38,258 - DEBUG - Importing MpegImagePlugin
+2025-06-09 13:04:38,259 - DEBUG - Importing MpoImagePlugin
+2025-06-09 13:04:38,260 - DEBUG - Importing MspImagePlugin
+2025-06-09 13:04:38,261 - DEBUG - Importing PalmImagePlugin
+2025-06-09 13:04:38,262 - DEBUG - Importing PcdImagePlugin
+2025-06-09 13:04:38,263 - DEBUG - Importing PcxImagePlugin
+2025-06-09 13:04:38,263 - DEBUG - Importing PdfImagePlugin
+2025-06-09 13:04:38,276 - DEBUG - Importing PixarImagePlugin
+2025-06-09 13:04:38,278 - DEBUG - Importing PngImagePlugin
+2025-06-09 13:04:38,278 - DEBUG - Importing PpmImagePlugin
+2025-06-09 13:04:38,279 - DEBUG - Importing PsdImagePlugin
+2025-06-09 13:04:38,281 - DEBUG - Importing SgiImagePlugin
+2025-06-09 13:04:38,283 - DEBUG - Importing SpiderImagePlugin
+2025-06-09 13:04:38,286 - DEBUG - Importing SunImagePlugin
+2025-06-09 13:04:38,288 - DEBUG - Importing TgaImagePlugin
+2025-06-09 13:04:38,290 - DEBUG - Importing TiffImagePlugin
+2025-06-09 13:04:38,290 - DEBUG - Importing WebPImagePlugin
+2025-06-09 13:04:38,293 - DEBUG - Importing WmfImagePlugin
+2025-06-09 13:04:38,295 - DEBUG - Importing XbmImagePlugin
+2025-06-09 13:04:38,298 - DEBUG - Importing XpmImagePlugin
+2025-06-09 13:04:38,300 - DEBUG - Importing XVThumbImagePlugin
+2025-06-09 13:04:38,305 - INFO - Tray icon initialized successfully
+2025-06-09 13:08:52,678 - INFO - Application interrupted by user
+2025-06-09 13:08:52,680 - INFO - Cleaning up logging handlers
+2025-06-09 13:14:51,144 - INFO - Application started (F12 clipboard mode with GUI)
+2025-06-09 13:14:51,227 - INFO - F12 keyboard hook initialized
+2025-06-09 13:14:51,330 - INFO - Always on top set to False
+2025-06-09 13:14:51,331 - INFO - Application started. Copy a command, press F12 to process.
+2025-06-09 13:14:51,352 - DEBUG - Importing BlpImagePlugin
+2025-06-09 13:14:51,353 - DEBUG - Importing BmpImagePlugin
+2025-06-09 13:14:51,353 - DEBUG - Importing BufrStubImagePlugin
+2025-06-09 13:14:51,354 - DEBUG - Importing CurImagePlugin
+2025-06-09 13:14:51,355 - DEBUG - Importing DcxImagePlugin
+2025-06-09 13:14:51,357 - DEBUG - Importing DdsImagePlugin
+2025-06-09 13:14:51,357 - DEBUG - Importing EpsImagePlugin
+2025-06-09 13:14:51,379 - DEBUG - Importing FitsImagePlugin
+2025-06-09 13:14:51,380 - DEBUG - Importing FitsStubImagePlugin
+2025-06-09 13:14:51,381 - DEBUG - Importing FliImagePlugin
+2025-06-09 13:14:51,382 - DEBUG - Importing FpxImagePlugin
+2025-06-09 13:14:51,386 - DEBUG - Importing FtexImagePlugin
+2025-06-09 13:14:51,387 - DEBUG - Importing GbrImagePlugin
+2025-06-09 13:14:51,389 - DEBUG - Importing GifImagePlugin
+2025-06-09 13:14:51,389 - DEBUG - Importing GribStubImagePlugin
+2025-06-09 13:14:51,390 - DEBUG - Importing Hdf5StubImagePlugin
+2025-06-09 13:14:51,391 - DEBUG - Importing IcnsImagePlugin
+2025-06-09 13:14:51,393 - DEBUG - Importing IcoImagePlugin
+2025-06-09 13:14:51,394 - DEBUG - Importing ImImagePlugin
+2025-06-09 13:14:51,395 - DEBUG - Importing ImtImagePlugin
+2025-06-09 13:14:51,396 - DEBUG - Importing IptcImagePlugin
+2025-06-09 13:14:51,396 - DEBUG - Importing JpegImagePlugin
+2025-06-09 13:14:51,397 - DEBUG - Importing Jpeg2KImagePlugin
+2025-06-09 13:14:51,397 - DEBUG - Importing McIdasImagePlugin
+2025-06-09 13:14:51,397 - DEBUG - Importing MicImagePlugin
+2025-06-09 13:14:51,398 - DEBUG - Importing MpegImagePlugin
+2025-06-09 13:14:51,399 - DEBUG - Importing MpoImagePlugin
+2025-06-09 13:14:51,400 - DEBUG - Importing MspImagePlugin
+2025-06-09 13:14:51,401 - DEBUG - Importing PalmImagePlugin
+2025-06-09 13:14:51,401 - DEBUG - Importing PcdImagePlugin
+2025-06-09 13:14:51,402 - DEBUG - Importing PcxImagePlugin
+2025-06-09 13:14:51,402 - DEBUG - Importing PdfImagePlugin
+2025-06-09 13:14:51,410 - DEBUG - Importing PixarImagePlugin
+2025-06-09 13:14:51,411 - DEBUG - Importing PngImagePlugin
+2025-06-09 13:14:51,412 - DEBUG - Importing PpmImagePlugin
+2025-06-09 13:14:51,412 - DEBUG - Importing PsdImagePlugin
+2025-06-09 13:14:51,413 - DEBUG - Importing SgiImagePlugin
+2025-06-09 13:14:51,414 - DEBUG - Importing SpiderImagePlugin
+2025-06-09 13:14:51,415 - DEBUG - Importing SunImagePlugin
+2025-06-09 13:14:51,416 - DEBUG - Importing TgaImagePlugin
+2025-06-09 13:14:51,416 - DEBUG - Importing TiffImagePlugin
+2025-06-09 13:14:51,417 - DEBUG - Importing WebPImagePlugin
+2025-06-09 13:14:51,418 - DEBUG - Importing WmfImagePlugin
+2025-06-09 13:14:51,419 - DEBUG - Importing XbmImagePlugin
+2025-06-09 13:14:51,420 - DEBUG - Importing XpmImagePlugin
+2025-06-09 13:14:51,421 - DEBUG - Importing XVThumbImagePlugin
+2025-06-09 13:14:51,423 - INFO - Tray icon initialized successfully
+2025-06-09 13:19:45,122 - INFO - Application interrupted by user
+2025-06-09 13:19:45,125 - INFO - Cleaning up logging handlers
+2025-06-09 13:19:46,267 - INFO - Application started (F12 clipboard mode with GUI)
+2025-06-09 13:19:46,366 - INFO - F12 keyboard hook initialized
+2025-06-09 13:19:46,474 - INFO - Always on top set to False
+2025-06-09 13:19:46,475 - INFO - Application started. Copy a command, press F12 to process.
+2025-06-09 13:19:46,497 - DEBUG - Importing BlpImagePlugin
+2025-06-09 13:19:46,498 - DEBUG - Importing BmpImagePlugin
+2025-06-09 13:19:46,498 - DEBUG - Importing BufrStubImagePlugin
+2025-06-09 13:19:46,499 - DEBUG - Importing CurImagePlugin
+2025-06-09 13:19:46,500 - DEBUG - Importing DcxImagePlugin
+2025-06-09 13:19:46,502 - DEBUG - Importing DdsImagePlugin
+2025-06-09 13:19:46,503 - DEBUG - Importing EpsImagePlugin
+2025-06-09 13:19:46,525 - DEBUG - Importing FitsImagePlugin
+2025-06-09 13:19:46,526 - DEBUG - Importing FitsStubImagePlugin
+2025-06-09 13:19:46,527 - DEBUG - Importing FliImagePlugin
+2025-06-09 13:19:46,528 - DEBUG - Importing FpxImagePlugin
+2025-06-09 13:19:46,533 - DEBUG - Importing FtexImagePlugin
+2025-06-09 13:19:46,534 - DEBUG - Importing GbrImagePlugin
+2025-06-09 13:19:46,535 - DEBUG - Importing GifImagePlugin
+2025-06-09 13:19:46,535 - DEBUG - Importing GribStubImagePlugin
+2025-06-09 13:19:46,536 - DEBUG - Importing Hdf5StubImagePlugin
+2025-06-09 13:19:46,537 - DEBUG - Importing IcnsImagePlugin
+2025-06-09 13:19:46,539 - DEBUG - Importing IcoImagePlugin
+2025-06-09 13:19:46,541 - DEBUG - Importing ImImagePlugin
+2025-06-09 13:19:46,542 - DEBUG - Importing ImtImagePlugin
+2025-06-09 13:19:46,544 - DEBUG - Importing IptcImagePlugin
+2025-06-09 13:19:46,545 - DEBUG - Importing JpegImagePlugin
+2025-06-09 13:19:46,545 - DEBUG - Importing Jpeg2KImagePlugin
+2025-06-09 13:19:46,546 - DEBUG - Importing McIdasImagePlugin
+2025-06-09 13:19:46,548 - DEBUG - Importing MicImagePlugin
+2025-06-09 13:19:46,549 - DEBUG - Importing MpegImagePlugin
+2025-06-09 13:19:46,550 - DEBUG - Importing MpoImagePlugin
+2025-06-09 13:19:46,551 - DEBUG - Importing MspImagePlugin
+2025-06-09 13:19:46,552 - DEBUG - Importing PalmImagePlugin
+2025-06-09 13:19:46,554 - DEBUG - Importing PcdImagePlugin
+2025-06-09 13:19:46,555 - DEBUG - Importing PcxImagePlugin
+2025-06-09 13:19:46,555 - DEBUG - Importing PdfImagePlugin
+2025-06-09 13:19:46,565 - DEBUG - Importing PixarImagePlugin
+2025-06-09 13:19:46,566 - DEBUG - Importing PngImagePlugin
+2025-06-09 13:19:46,566 - DEBUG - Importing PpmImagePlugin
+2025-06-09 13:19:46,566 - DEBUG - Importing PsdImagePlugin
+2025-06-09 13:19:46,568 - DEBUG - Importing SgiImagePlugin
+2025-06-09 13:19:46,569 - DEBUG - Importing SpiderImagePlugin
+2025-06-09 13:19:46,571 - DEBUG - Importing SunImagePlugin
+2025-06-09 13:19:46,573 - DEBUG - Importing TgaImagePlugin
+2025-06-09 13:19:46,574 - DEBUG - Importing TiffImagePlugin
+2025-06-09 13:19:46,574 - DEBUG - Importing WebPImagePlugin
+2025-06-09 13:19:46,576 - DEBUG - Importing WmfImagePlugin
+2025-06-09 13:19:46,577 - DEBUG - Importing XbmImagePlugin
+2025-06-09 13:19:46,578 - DEBUG - Importing XpmImagePlugin
+2025-06-09 13:19:46,580 - DEBUG - Importing XVThumbImagePlugin
+2025-06-09 13:19:46,582 - INFO - Tray icon initialized successfully
+2025-06-09 13:20:50,449 - INFO - Application interrupted by user
+2025-06-09 13:20:50,452 - INFO - Cleaning up logging handlers
+2025-06-09 13:21:30,590 - INFO - Application started (F12 clipboard mode with GUI)
+2025-06-09 13:21:30,675 - INFO - F12 keyboard hook initialized
+2025-06-09 13:21:30,772 - INFO - Always on top set to False
+2025-06-09 13:21:30,772 - INFO - Application started. Copy a command, press F12 to process.
+2025-06-09 13:21:30,789 - DEBUG - Importing BlpImagePlugin
+2025-06-09 13:21:30,791 - DEBUG - Importing BmpImagePlugin
+2025-06-09 13:21:30,791 - DEBUG - Importing BufrStubImagePlugin
+2025-06-09 13:21:30,792 - DEBUG - Importing CurImagePlugin
+2025-06-09 13:21:30,793 - DEBUG - Importing DcxImagePlugin
+2025-06-09 13:21:30,794 - DEBUG - Importing DdsImagePlugin
+2025-06-09 13:21:30,795 - DEBUG - Importing EpsImagePlugin
+2025-06-09 13:21:30,816 - DEBUG - Importing FitsImagePlugin
+2025-06-09 13:21:30,817 - DEBUG - Importing FitsStubImagePlugin
+2025-06-09 13:21:30,818 - DEBUG - Importing FliImagePlugin
+2025-06-09 13:21:30,819 - DEBUG - Importing FpxImagePlugin
+2025-06-09 13:21:30,823 - DEBUG - Importing FtexImagePlugin
+2025-06-09 13:21:30,824 - DEBUG - Importing GbrImagePlugin
+2025-06-09 13:21:30,825 - DEBUG - Importing GifImagePlugin
+2025-06-09 13:21:30,825 - DEBUG - Importing GribStubImagePlugin
+2025-06-09 13:21:30,826 - DEBUG - Importing Hdf5StubImagePlugin
+2025-06-09 13:21:30,827 - DEBUG - Importing IcnsImagePlugin
+2025-06-09 13:21:30,829 - DEBUG - Importing IcoImagePlugin
+2025-06-09 13:21:30,830 - DEBUG - Importing ImImagePlugin
+2025-06-09 13:21:30,831 - DEBUG - Importing ImtImagePlugin
+2025-06-09 13:21:30,832 - DEBUG - Importing IptcImagePlugin
+2025-06-09 13:21:30,833 - DEBUG - Importing JpegImagePlugin
+2025-06-09 13:21:30,833 - DEBUG - Importing Jpeg2KImagePlugin
+2025-06-09 13:21:30,833 - DEBUG - Importing McIdasImagePlugin
+2025-06-09 13:21:30,834 - DEBUG - Importing MicImagePlugin
+2025-06-09 13:21:30,835 - DEBUG - Importing MpegImagePlugin
+2025-06-09 13:21:30,835 - DEBUG - Importing MpoImagePlugin
+2025-06-09 13:21:30,836 - DEBUG - Importing MspImagePlugin
+2025-06-09 13:21:30,837 - DEBUG - Importing PalmImagePlugin
+2025-06-09 13:21:30,838 - DEBUG - Importing PcdImagePlugin
+2025-06-09 13:21:30,839 - DEBUG - Importing PcxImagePlugin
+2025-06-09 13:21:30,839 - DEBUG - Importing PdfImagePlugin
+2025-06-09 13:21:30,846 - DEBUG - Importing PixarImagePlugin
+2025-06-09 13:21:30,847 - DEBUG - Importing PngImagePlugin
+2025-06-09 13:21:30,848 - DEBUG - Importing PpmImagePlugin
+2025-06-09 13:21:30,848 - DEBUG - Importing PsdImagePlugin
+2025-06-09 13:21:30,848 - DEBUG - Importing SgiImagePlugin
+2025-06-09 13:21:30,849 - DEBUG - Importing SpiderImagePlugin
+2025-06-09 13:21:30,850 - DEBUG - Importing SunImagePlugin
+2025-06-09 13:21:30,851 - DEBUG - Importing TgaImagePlugin
+2025-06-09 13:21:30,852 - DEBUG - Importing TiffImagePlugin
+2025-06-09 13:21:30,852 - DEBUG - Importing WebPImagePlugin
+2025-06-09 13:21:30,854 - DEBUG - Importing WmfImagePlugin
+2025-06-09 13:21:30,855 - DEBUG - Importing XbmImagePlugin
+2025-06-09 13:21:30,856 - DEBUG - Importing XpmImagePlugin
+2025-06-09 13:21:30,857 - DEBUG - Importing XVThumbImagePlugin
+2025-06-09 13:21:30,859 - INFO - Tray icon initialized successfully
+2025-06-09 13:22:00,247 - INFO - Application started (F12 clipboard mode with GUI)
+2025-06-09 13:22:00,329 - INFO - F12 keyboard hook initialized
+2025-06-09 13:22:00,432 - INFO - Always on top set to False
+2025-06-09 13:22:00,433 - INFO - Application started. Copy a command, press F12 to process.
+2025-06-09 13:22:00,453 - DEBUG - Importing BlpImagePlugin
+2025-06-09 13:22:00,455 - DEBUG - Importing BmpImagePlugin
+2025-06-09 13:22:00,455 - DEBUG - Importing BufrStubImagePlugin
+2025-06-09 13:22:00,456 - DEBUG - Importing CurImagePlugin
+2025-06-09 13:22:00,458 - DEBUG - Importing DcxImagePlugin
+2025-06-09 13:22:00,460 - DEBUG - Importing DdsImagePlugin
+2025-06-09 13:22:00,461 - DEBUG - Importing EpsImagePlugin
+2025-06-09 13:22:00,482 - DEBUG - Importing FitsImagePlugin
+2025-06-09 13:22:00,483 - DEBUG - Importing FitsStubImagePlugin
+2025-06-09 13:22:00,484 - DEBUG - Importing FliImagePlugin
+2025-06-09 13:22:00,485 - DEBUG - Importing FpxImagePlugin
+2025-06-09 13:22:00,490 - DEBUG - Importing FtexImagePlugin
+2025-06-09 13:22:00,491 - DEBUG - Importing GbrImagePlugin
+2025-06-09 13:22:00,492 - DEBUG - Importing GifImagePlugin
+2025-06-09 13:22:00,492 - DEBUG - Importing GribStubImagePlugin
+2025-06-09 13:22:00,493 - DEBUG - Importing Hdf5StubImagePlugin
+2025-06-09 13:22:00,495 - DEBUG - Importing IcnsImagePlugin
+2025-06-09 13:22:00,497 - DEBUG - Importing IcoImagePlugin
+2025-06-09 13:22:00,498 - DEBUG - Importing ImImagePlugin
+2025-06-09 13:22:00,500 - DEBUG - Importing ImtImagePlugin
+2025-06-09 13:22:00,501 - DEBUG - Importing IptcImagePlugin
+2025-06-09 13:22:00,503 - DEBUG - Importing JpegImagePlugin
+2025-06-09 13:22:00,503 - DEBUG - Importing Jpeg2KImagePlugin
+2025-06-09 13:22:00,503 - DEBUG - Importing McIdasImagePlugin
+2025-06-09 13:22:00,504 - DEBUG - Importing MicImagePlugin
+2025-06-09 13:22:00,505 - DEBUG - Importing MpegImagePlugin
+2025-06-09 13:22:00,506 - DEBUG - Importing MpoImagePlugin
+2025-06-09 13:22:00,507 - DEBUG - Importing MspImagePlugin
+2025-06-09 13:22:00,508 - DEBUG - Importing PalmImagePlugin
+2025-06-09 13:22:00,509 - DEBUG - Importing PcdImagePlugin
+2025-06-09 13:22:00,510 - DEBUG - Importing PcxImagePlugin
+2025-06-09 13:22:00,510 - DEBUG - Importing PdfImagePlugin
+2025-06-09 13:22:00,518 - DEBUG - Importing PixarImagePlugin
+2025-06-09 13:22:00,520 - DEBUG - Importing PngImagePlugin
+2025-06-09 13:22:00,520 - DEBUG - Importing PpmImagePlugin
+2025-06-09 13:22:00,520 - DEBUG - Importing PsdImagePlugin
+2025-06-09 13:22:00,520 - DEBUG - Importing SgiImagePlugin
+2025-06-09 13:22:00,521 - DEBUG - Importing SpiderImagePlugin
+2025-06-09 13:22:00,522 - DEBUG - Importing SunImagePlugin
+2025-06-09 13:22:00,523 - DEBUG - Importing TgaImagePlugin
+2025-06-09 13:22:00,524 - DEBUG - Importing TiffImagePlugin
+2025-06-09 13:22:00,524 - DEBUG - Importing WebPImagePlugin
+2025-06-09 13:22:00,526 - DEBUG - Importing WmfImagePlugin
+2025-06-09 13:22:00,527 - DEBUG - Importing XbmImagePlugin
+2025-06-09 13:22:00,528 - DEBUG - Importing XpmImagePlugin
+2025-06-09 13:22:00,530 - DEBUG - Importing XVThumbImagePlugin
+2025-06-09 13:22:00,532 - INFO - Tray icon initialized successfully
+2025-06-09 13:22:16,276 - INFO - Application started (F12 clipboard mode with GUI)
+2025-06-09 13:22:16,361 - INFO - F12 keyboard hook initialized
+2025-06-09 13:22:16,454 - INFO - Always on top set to False
+2025-06-09 13:22:16,454 - INFO - Application started. Copy a command, press F12 to process.
+2025-06-09 13:22:16,471 - DEBUG - Importing BlpImagePlugin
+2025-06-09 13:22:16,472 - DEBUG - Importing BmpImagePlugin
+2025-06-09 13:22:16,472 - DEBUG - Importing BufrStubImagePlugin
+2025-06-09 13:22:16,473 - DEBUG - Importing CurImagePlugin
+2025-06-09 13:22:16,474 - DEBUG - Importing DcxImagePlugin
+2025-06-09 13:22:16,475 - DEBUG - Importing DdsImagePlugin
+2025-06-09 13:22:16,476 - DEBUG - Importing EpsImagePlugin
+2025-06-09 13:22:16,496 - DEBUG - Importing FitsImagePlugin
+2025-06-09 13:22:16,497 - DEBUG - Importing FitsStubImagePlugin
+2025-06-09 13:22:16,499 - DEBUG - Importing FliImagePlugin
+2025-06-09 13:22:16,499 - DEBUG - Importing FpxImagePlugin
+2025-06-09 13:22:16,503 - DEBUG - Importing FtexImagePlugin
+2025-06-09 13:22:16,504 - DEBUG - Importing GbrImagePlugin
+2025-06-09 13:22:16,505 - DEBUG - Importing GifImagePlugin
+2025-06-09 13:22:16,506 - DEBUG - Importing GribStubImagePlugin
+2025-06-09 13:22:16,506 - DEBUG - Importing Hdf5StubImagePlugin
+2025-06-09 13:22:16,507 - DEBUG - Importing IcnsImagePlugin
+2025-06-09 13:22:16,509 - DEBUG - Importing IcoImagePlugin
+2025-06-09 13:22:16,510 - DEBUG - Importing ImImagePlugin
+2025-06-09 13:22:16,511 - DEBUG - Importing ImtImagePlugin
+2025-06-09 13:22:16,512 - DEBUG - Importing IptcImagePlugin
+2025-06-09 13:22:16,513 - DEBUG - Importing JpegImagePlugin
+2025-06-09 13:22:16,513 - DEBUG - Importing Jpeg2KImagePlugin
+2025-06-09 13:22:16,514 - DEBUG - Importing McIdasImagePlugin
+2025-06-09 13:22:16,514 - DEBUG - Importing MicImagePlugin
+2025-06-09 13:22:16,515 - DEBUG - Importing MpegImagePlugin
+2025-06-09 13:22:16,516 - DEBUG - Importing MpoImagePlugin
+2025-06-09 13:22:16,517 - DEBUG - Importing MspImagePlugin
+2025-06-09 13:22:16,517 - DEBUG - Importing PalmImagePlugin
+2025-06-09 13:22:16,518 - DEBUG - Importing PcdImagePlugin
+2025-06-09 13:22:16,519 - DEBUG - Importing PcxImagePlugin
+2025-06-09 13:22:16,519 - DEBUG - Importing PdfImagePlugin
+2025-06-09 13:22:16,526 - DEBUG - Importing PixarImagePlugin
+2025-06-09 13:22:16,527 - DEBUG - Importing PngImagePlugin
+2025-06-09 13:22:16,528 - DEBUG - Importing PpmImagePlugin
+2025-06-09 13:22:16,528 - DEBUG - Importing PsdImagePlugin
+2025-06-09 13:22:16,528 - DEBUG - Importing SgiImagePlugin
+2025-06-09 13:22:16,529 - DEBUG - Importing SpiderImagePlugin
+2025-06-09 13:22:16,530 - DEBUG - Importing SunImagePlugin
+2025-06-09 13:22:16,530 - DEBUG - Importing TgaImagePlugin
+2025-06-09 13:22:16,531 - DEBUG - Importing TiffImagePlugin
+2025-06-09 13:22:16,531 - DEBUG - Importing WebPImagePlugin
+2025-06-09 13:22:16,533 - DEBUG - Importing WmfImagePlugin
+2025-06-09 13:22:16,534 - DEBUG - Importing XbmImagePlugin
+2025-06-09 13:22:16,535 - DEBUG - Importing XpmImagePlugin
+2025-06-09 13:22:16,536 - DEBUG - Importing XVThumbImagePlugin
+2025-06-09 13:22:16,537 - INFO - Tray icon initialized successfully
+2025-06-09 13:26:12,493 - INFO - Application interrupted by user
+2025-06-09 13:26:12,495 - INFO - Cleaning up logging handlers
+2025-06-09 13:26:13,758 - INFO - Application started (F12 clipboard mode with GUI)
+2025-06-09 13:26:13,837 - INFO - F12 keyboard hook initialized
+2025-06-09 13:26:13,934 - INFO - Always on top set to False
+2025-06-09 13:26:13,934 - INFO - Application started. Copy a command, press F12 to process.
+2025-06-09 13:26:13,950 - DEBUG - Importing BlpImagePlugin
+2025-06-09 13:26:13,952 - DEBUG - Importing BmpImagePlugin
+2025-06-09 13:26:13,952 - DEBUG - Importing BufrStubImagePlugin
+2025-06-09 13:26:13,953 - DEBUG - Importing CurImagePlugin
+2025-06-09 13:26:13,953 - DEBUG - Importing DcxImagePlugin
+2025-06-09 13:26:13,955 - DEBUG - Importing DdsImagePlugin
+2025-06-09 13:26:13,955 - DEBUG - Importing EpsImagePlugin
+2025-06-09 13:26:13,975 - DEBUG - Importing FitsImagePlugin
+2025-06-09 13:26:13,976 - DEBUG - Importing FitsStubImagePlugin
+2025-06-09 13:26:13,977 - DEBUG - Importing FliImagePlugin
+2025-06-09 13:26:13,978 - DEBUG - Importing FpxImagePlugin
+2025-06-09 13:26:13,982 - DEBUG - Importing FtexImagePlugin
+2025-06-09 13:26:13,983 - DEBUG - Importing GbrImagePlugin
+2025-06-09 13:26:13,984 - DEBUG - Importing GifImagePlugin
+2025-06-09 13:26:13,984 - DEBUG - Importing GribStubImagePlugin
+2025-06-09 13:26:13,985 - DEBUG - Importing Hdf5StubImagePlugin
+2025-06-09 13:26:13,985 - DEBUG - Importing IcnsImagePlugin
+2025-06-09 13:26:13,987 - DEBUG - Importing IcoImagePlugin
+2025-06-09 13:26:13,988 - DEBUG - Importing ImImagePlugin
+2025-06-09 13:26:13,989 - DEBUG - Importing ImtImagePlugin
+2025-06-09 13:26:13,990 - DEBUG - Importing IptcImagePlugin
+2025-06-09 13:26:13,991 - DEBUG - Importing JpegImagePlugin
+2025-06-09 13:26:13,991 - DEBUG - Importing Jpeg2KImagePlugin
+2025-06-09 13:26:13,991 - DEBUG - Importing McIdasImagePlugin
+2025-06-09 13:26:13,992 - DEBUG - Importing MicImagePlugin
+2025-06-09 13:26:13,993 - DEBUG - Importing MpegImagePlugin
+2025-06-09 13:26:13,993 - DEBUG - Importing MpoImagePlugin
+2025-06-09 13:26:13,994 - DEBUG - Importing MspImagePlugin
+2025-06-09 13:26:13,995 - DEBUG - Importing PalmImagePlugin
+2025-06-09 13:26:13,996 - DEBUG - Importing PcdImagePlugin
+2025-06-09 13:26:13,998 - DEBUG - Importing PcxImagePlugin
+2025-06-09 13:26:13,998 - DEBUG - Importing PdfImagePlugin
+2025-06-09 13:26:14,005 - DEBUG - Importing PixarImagePlugin
+2025-06-09 13:26:14,005 - DEBUG - Importing PngImagePlugin
+2025-06-09 13:26:14,006 - DEBUG - Importing PpmImagePlugin
+2025-06-09 13:26:14,006 - DEBUG - Importing PsdImagePlugin
+2025-06-09 13:26:14,007 - DEBUG - Importing SgiImagePlugin
+2025-06-09 13:26:14,008 - DEBUG - Importing SpiderImagePlugin
+2025-06-09 13:26:14,008 - DEBUG - Importing SunImagePlugin
+2025-06-09 13:26:14,009 - DEBUG - Importing TgaImagePlugin
+2025-06-09 13:26:14,010 - DEBUG - Importing TiffImagePlugin
+2025-06-09 13:26:14,010 - DEBUG - Importing WebPImagePlugin
+2025-06-09 13:26:14,012 - DEBUG - Importing WmfImagePlugin
+2025-06-09 13:26:14,013 - DEBUG - Importing XbmImagePlugin
+2025-06-09 13:26:14,014 - DEBUG - Importing XpmImagePlugin
+2025-06-09 13:26:14,015 - DEBUG - Importing XVThumbImagePlugin
+2025-06-09 13:26:14,017 - INFO - Tray icon initialized successfully
+2025-06-09 13:26:44,060 - INFO - F12 pressed - capturing clipboard command
+2025-06-09 13:26:44,062 - DEBUG - Modifying coordinates for command: kill @e[type=end_crystal,tag=laser,distance=..2,x=1,y=1,z=1]
+2025-06-09 13:26:44,064 - DEBUG - Kill match groups: ('kill @e[type=end_crystal,tag=laser,distance=..2,x=', '1', ',y=', '1', ',z=', '1', ']')
+2025-06-09 13:26:44,064 - DEBUG - Kill command modified: kill @e[type=end_crystal,tag=laser,distance=..2,x=0,y=0,z=0]
+2025-06-09 13:26:46,455 - INFO - F12 pressed - capturing clipboard command
+2025-06-09 13:26:46,456 - DEBUG - Modifying coordinates for command: kill @e[type=end_crystal,tag=laser,distance=..2,x=0,y=0,z=0]
+2025-06-09 13:26:46,456 - DEBUG - Kill match groups: ('kill @e[type=end_crystal,tag=laser,distance=..2,x=', '0', ',y=', '0', ',z=', '0', ']')
+2025-06-09 13:26:46,456 - DEBUG - Kill command modified: kill @e[type=end_crystal,tag=laser,distance=..2,x=-1,y=-1,z=-1]
+2025-06-09 13:26:48,293 - INFO - F12 pressed - capturing clipboard command
+2025-06-09 13:26:48,295 - DEBUG - Modifying coordinates for command: kill @e[type=end_crystal,tag=laser,distance=..2,x=-1,y=-1,z=-1]
+2025-06-09 13:26:48,295 - DEBUG - Kill match groups: ('kill @e[type=end_crystal,tag=laser,distance=..2,x=', '-1', ',y=', '-1', ',z=', '-1', ']')
+2025-06-09 13:26:48,295 - DEBUG - Kill command modified: kill @e[type=end_crystal,tag=laser,distance=..2,x=-2,y=-2,z=-2]
+2025-06-09 13:27:08,222 - INFO - Application interrupted by user
+2025-06-09 13:27:08,225 - INFO - Cleaning up logging handlers
+2025-06-09 13:34:11,326 - INFO - Application started (F12 clipboard mode with GUI)
+2025-06-09 13:34:11,405 - INFO - F12 keyboard hook initialized
+2025-06-09 13:34:11,494 - INFO - Always on top set to False
+2025-06-09 13:34:11,495 - INFO - Application started. Copy a command, press F12 to process.
+2025-06-09 13:34:11,506 - DEBUG - Importing BlpImagePlugin
+2025-06-09 13:34:11,507 - DEBUG - Importing BmpImagePlugin
+2025-06-09 13:34:11,508 - DEBUG - Importing BufrStubImagePlugin
+2025-06-09 13:34:11,508 - DEBUG - Importing CurImagePlugin
+2025-06-09 13:34:11,510 - DEBUG - Importing DcxImagePlugin
+2025-06-09 13:34:11,510 - DEBUG - Importing DdsImagePlugin
+2025-06-09 13:34:11,511 - DEBUG - Importing EpsImagePlugin
+2025-06-09 13:34:11,529 - DEBUG - Importing FitsImagePlugin
+2025-06-09 13:34:11,530 - DEBUG - Importing FitsStubImagePlugin
+2025-06-09 13:34:11,530 - DEBUG - Importing FliImagePlugin
+2025-06-09 13:34:11,531 - DEBUG - Importing FpxImagePlugin
+2025-06-09 13:34:11,535 - DEBUG - Importing FtexImagePlugin
+2025-06-09 13:34:11,535 - DEBUG - Importing GbrImagePlugin
+2025-06-09 13:34:11,536 - DEBUG - Importing GifImagePlugin
+2025-06-09 13:34:11,536 - DEBUG - Importing GribStubImagePlugin
+2025-06-09 13:34:11,537 - DEBUG - Importing Hdf5StubImagePlugin
+2025-06-09 13:34:11,537 - DEBUG - Importing IcnsImagePlugin
+2025-06-09 13:34:11,539 - DEBUG - Importing IcoImagePlugin
+2025-06-09 13:34:11,540 - DEBUG - Importing ImImagePlugin
+2025-06-09 13:34:11,540 - DEBUG - Importing ImtImagePlugin
+2025-06-09 13:34:11,541 - DEBUG - Importing IptcImagePlugin
+2025-06-09 13:34:11,542 - DEBUG - Importing JpegImagePlugin
+2025-06-09 13:34:11,542 - DEBUG - Importing Jpeg2KImagePlugin
+2025-06-09 13:34:11,542 - DEBUG - Importing McIdasImagePlugin
+2025-06-09 13:34:11,542 - DEBUG - Importing MicImagePlugin
+2025-06-09 13:34:11,543 - DEBUG - Importing MpegImagePlugin
+2025-06-09 13:34:11,543 - DEBUG - Importing MpoImagePlugin
+2025-06-09 13:34:11,544 - DEBUG - Importing MspImagePlugin
+2025-06-09 13:34:11,545 - DEBUG - Importing PalmImagePlugin
+2025-06-09 13:34:11,546 - DEBUG - Importing PcdImagePlugin
+2025-06-09 13:34:11,546 - DEBUG - Importing PcxImagePlugin
+2025-06-09 13:34:11,546 - DEBUG - Importing PdfImagePlugin
+2025-06-09 13:34:11,552 - DEBUG - Importing PixarImagePlugin
+2025-06-09 13:34:11,553 - DEBUG - Importing PngImagePlugin
+2025-06-09 13:34:11,553 - DEBUG - Importing PpmImagePlugin
+2025-06-09 13:34:11,553 - DEBUG - Importing PsdImagePlugin
+2025-06-09 13:34:11,554 - DEBUG - Importing SgiImagePlugin
+2025-06-09 13:34:11,554 - DEBUG - Importing SpiderImagePlugin
+2025-06-09 13:34:11,555 - DEBUG - Importing SunImagePlugin
+2025-06-09 13:34:11,555 - DEBUG - Importing TgaImagePlugin
+2025-06-09 13:34:11,556 - DEBUG - Importing TiffImagePlugin
+2025-06-09 13:34:11,556 - DEBUG - Importing WebPImagePlugin
+2025-06-09 13:34:11,557 - DEBUG - Importing WmfImagePlugin
+2025-06-09 13:34:11,558 - DEBUG - Importing XbmImagePlugin
+2025-06-09 13:34:11,558 - DEBUG - Importing XpmImagePlugin
+2025-06-09 13:34:11,560 - DEBUG - Importing XVThumbImagePlugin
+2025-06-09 13:34:11,561 - INFO - Tray icon initialized successfully
+2025-06-09 13:34:39,382 - INFO - Application interrupted by user
+2025-06-09 13:34:39,383 - INFO - Cleaning up logging handlers
+2025-06-09 13:34:40,629 - INFO - Application started (F12 clipboard mode with GUI)
+2025-06-09 13:34:40,708 - INFO - F12 keyboard hook initialized
+2025-06-09 13:34:40,798 - INFO - Always on top set to False
+2025-06-09 13:34:40,798 - INFO - Application started. Copy a command, press F12 to process.
+2025-06-09 13:34:40,812 - DEBUG - Importing BlpImagePlugin
+2025-06-09 13:34:40,813 - DEBUG - Importing BmpImagePlugin
+2025-06-09 13:34:40,813 - DEBUG - Importing BufrStubImagePlugin
+2025-06-09 13:34:40,814 - DEBUG - Importing CurImagePlugin
+2025-06-09 13:34:40,814 - DEBUG - Importing DcxImagePlugin
+2025-06-09 13:34:40,815 - DEBUG - Importing DdsImagePlugin
+2025-06-09 13:34:40,816 - DEBUG - Importing EpsImagePlugin
+2025-06-09 13:34:40,835 - DEBUG - Importing FitsImagePlugin
+2025-06-09 13:34:40,835 - DEBUG - Importing FitsStubImagePlugin
+2025-06-09 13:34:40,836 - DEBUG - Importing FliImagePlugin
+2025-06-09 13:34:40,837 - DEBUG - Importing FpxImagePlugin
+2025-06-09 13:34:40,840 - DEBUG - Importing FtexImagePlugin
+2025-06-09 13:34:40,841 - DEBUG - Importing GbrImagePlugin
+2025-06-09 13:34:40,841 - DEBUG - Importing GifImagePlugin
+2025-06-09 13:34:40,841 - DEBUG - Importing GribStubImagePlugin
+2025-06-09 13:34:40,842 - DEBUG - Importing Hdf5StubImagePlugin
+2025-06-09 13:34:40,843 - DEBUG - Importing IcnsImagePlugin
+2025-06-09 13:34:40,843 - DEBUG - Importing IcoImagePlugin
+2025-06-09 13:34:40,845 - DEBUG - Importing ImImagePlugin
+2025-06-09 13:34:40,846 - DEBUG - Importing ImtImagePlugin
+2025-06-09 13:34:40,847 - DEBUG - Importing IptcImagePlugin
+2025-06-09 13:34:40,847 - DEBUG - Importing JpegImagePlugin
+2025-06-09 13:34:40,847 - DEBUG - Importing Jpeg2KImagePlugin
+2025-06-09 13:34:40,848 - DEBUG - Importing McIdasImagePlugin
+2025-06-09 13:34:40,848 - DEBUG - Importing MicImagePlugin
+2025-06-09 13:34:40,848 - DEBUG - Importing MpegImagePlugin
+2025-06-09 13:34:40,849 - DEBUG - Importing MpoImagePlugin
+2025-06-09 13:34:40,849 - DEBUG - Importing MspImagePlugin
+2025-06-09 13:34:40,850 - DEBUG - Importing PalmImagePlugin
+2025-06-09 13:34:40,851 - DEBUG - Importing PcdImagePlugin
+2025-06-09 13:34:40,852 - DEBUG - Importing PcxImagePlugin
+2025-06-09 13:34:40,852 - DEBUG - Importing PdfImagePlugin
+2025-06-09 13:34:40,858 - DEBUG - Importing PixarImagePlugin
+2025-06-09 13:34:40,859 - DEBUG - Importing PngImagePlugin
+2025-06-09 13:34:40,859 - DEBUG - Importing PpmImagePlugin
+2025-06-09 13:34:40,860 - DEBUG - Importing PsdImagePlugin
+2025-06-09 13:34:40,860 - DEBUG - Importing SgiImagePlugin
+2025-06-09 13:34:40,861 - DEBUG - Importing SpiderImagePlugin
+2025-06-09 13:34:40,861 - DEBUG - Importing SunImagePlugin
+2025-06-09 13:34:40,862 - DEBUG - Importing TgaImagePlugin
+2025-06-09 13:34:40,862 - DEBUG - Importing TiffImagePlugin
+2025-06-09 13:34:40,863 - DEBUG - Importing WebPImagePlugin
+2025-06-09 13:34:40,864 - DEBUG - Importing WmfImagePlugin
+2025-06-09 13:34:40,864 - DEBUG - Importing XbmImagePlugin
+2025-06-09 13:34:40,866 - DEBUG - Importing XpmImagePlugin
+2025-06-09 13:34:40,866 - DEBUG - Importing XVThumbImagePlugin
+2025-06-09 13:34:40,868 - INFO - Tray icon initialized successfully
+2025-06-09 13:36:02,260 - INFO - Application started (F12 clipboard mode with GUI)
+2025-06-09 13:36:02,340 - INFO - F12 keyboard hook initialized
+2025-06-09 13:36:02,431 - INFO - Always on top set to False
+2025-06-09 13:36:02,431 - INFO - Application started. Copy a command, press F12 to process.
+2025-06-09 13:36:02,431 - ERROR - Application error: __init__() missing 1 required positional argument: 'command_processor'
+2025-06-09 13:36:02,458 - INFO - Cleaning up logging handlers
+2025-06-09 13:36:10,184 - INFO - Application started (F12 clipboard mode with GUI)
+2025-06-09 13:36:10,268 - INFO - F12 keyboard hook initialized
+2025-06-09 13:36:10,359 - INFO - Always on top set to False
+2025-06-09 13:36:10,360 - INFO - Application started. Copy a command, press F12 to process.
+2025-06-09 13:36:10,360 - ERROR - Application error: __init__() missing 1 required positional argument: 'command_processor'
+2025-06-09 13:36:10,383 - INFO - Cleaning up logging handlers
+2025-06-09 13:36:37,457 - INFO - Application started (F12 clipboard mode with GUI)
+2025-06-09 13:36:37,539 - INFO - F12 keyboard hook initialized
+2025-06-09 13:36:37,634 - INFO - Always on top set to False
+2025-06-09 13:36:37,635 - INFO - Application started. Copy a command, press F12 to process.
+2025-06-09 13:36:37,652 - DEBUG - Importing BlpImagePlugin
+2025-06-09 13:36:37,653 - DEBUG - Importing BmpImagePlugin
+2025-06-09 13:36:37,653 - DEBUG - Importing BufrStubImagePlugin
+2025-06-09 13:36:37,653 - DEBUG - Importing CurImagePlugin
+2025-06-09 13:36:37,654 - DEBUG - Importing DcxImagePlugin
+2025-06-09 13:36:37,655 - DEBUG - Importing DdsImagePlugin
+2025-06-09 13:36:37,656 - DEBUG - Importing EpsImagePlugin
+2025-06-09 13:36:37,677 - DEBUG - Importing FitsImagePlugin
+2025-06-09 13:36:37,678 - DEBUG - Importing FitsStubImagePlugin
+2025-06-09 13:36:37,678 - DEBUG - Importing FliImagePlugin
+2025-06-09 13:36:37,679 - DEBUG - Importing FpxImagePlugin
+2025-06-09 13:36:37,684 - DEBUG - Importing FtexImagePlugin
+2025-06-09 13:36:37,685 - DEBUG - Importing GbrImagePlugin
+2025-06-09 13:36:37,686 - DEBUG - Importing GifImagePlugin
+2025-06-09 13:36:37,686 - DEBUG - Importing GribStubImagePlugin
+2025-06-09 13:36:37,687 - DEBUG - Importing Hdf5StubImagePlugin
+2025-06-09 13:36:37,687 - DEBUG - Importing IcnsImagePlugin
+2025-06-09 13:36:37,689 - DEBUG - Importing IcoImagePlugin
+2025-06-09 13:36:37,689 - DEBUG - Importing ImImagePlugin
+2025-06-09 13:36:37,690 - DEBUG - Importing ImtImagePlugin
+2025-06-09 13:36:37,691 - DEBUG - Importing IptcImagePlugin
+2025-06-09 13:36:37,691 - DEBUG - Importing JpegImagePlugin
+2025-06-09 13:36:37,691 - DEBUG - Importing Jpeg2KImagePlugin
+2025-06-09 13:36:37,692 - DEBUG - Importing McIdasImagePlugin
+2025-06-09 13:36:37,692 - DEBUG - Importing MicImagePlugin
+2025-06-09 13:36:37,693 - DEBUG - Importing MpegImagePlugin
+2025-06-09 13:36:37,693 - DEBUG - Importing MpoImagePlugin
+2025-06-09 13:36:37,694 - DEBUG - Importing MspImagePlugin
+2025-06-09 13:36:37,694 - DEBUG - Importing PalmImagePlugin
+2025-06-09 13:36:37,695 - DEBUG - Importing PcdImagePlugin
+2025-06-09 13:36:37,696 - DEBUG - Importing PcxImagePlugin
+2025-06-09 13:36:37,696 - DEBUG - Importing PdfImagePlugin
+2025-06-09 13:36:37,703 - DEBUG - Importing PixarImagePlugin
+2025-06-09 13:36:37,704 - DEBUG - Importing PngImagePlugin
+2025-06-09 13:36:37,704 - DEBUG - Importing PpmImagePlugin
+2025-06-09 13:36:37,705 - DEBUG - Importing PsdImagePlugin
+2025-06-09 13:36:37,705 - DEBUG - Importing SgiImagePlugin
+2025-06-09 13:36:37,706 - DEBUG - Importing SpiderImagePlugin
+2025-06-09 13:36:37,707 - DEBUG - Importing SunImagePlugin
+2025-06-09 13:36:37,707 - DEBUG - Importing TgaImagePlugin
+2025-06-09 13:36:37,708 - DEBUG - Importing TiffImagePlugin
+2025-06-09 13:36:37,708 - DEBUG - Importing WebPImagePlugin
+2025-06-09 13:36:37,710 - DEBUG - Importing WmfImagePlugin
+2025-06-09 13:36:37,711 - DEBUG - Importing XbmImagePlugin
+2025-06-09 13:36:37,712 - DEBUG - Importing XpmImagePlugin
+2025-06-09 13:36:37,712 - DEBUG - Importing XVThumbImagePlugin
+2025-06-09 13:36:37,715 - INFO - Tray icon initialized successfully
+2025-06-09 13:36:47,156 - INFO - Always on top set to True
+2025-06-09 13:36:52,392 - INFO - Application interrupted by user
+2025-06-09 13:36:52,393 - INFO - Cleaning up logging handlers
+2025-06-09 13:36:53,759 - INFO - Application started (F12 clipboard mode with GUI)
+2025-06-09 13:36:54,035 - INFO - F12 keyboard hook initialized
+2025-06-09 13:36:54,154 - INFO - Always on top set to False
+2025-06-09 13:36:54,155 - INFO - Application started. Copy a command, press F12 to process.
+2025-06-09 13:36:54,170 - DEBUG - Importing BlpImagePlugin
+2025-06-09 13:36:54,171 - DEBUG - Importing BmpImagePlugin
+2025-06-09 13:36:54,171 - DEBUG - Importing BufrStubImagePlugin
+2025-06-09 13:36:54,172 - DEBUG - Importing CurImagePlugin
+2025-06-09 13:36:54,173 - DEBUG - Importing DcxImagePlugin
+2025-06-09 13:36:54,174 - DEBUG - Importing DdsImagePlugin
+2025-06-09 13:36:54,174 - DEBUG - Importing EpsImagePlugin
+2025-06-09 13:36:54,194 - DEBUG - Importing FitsImagePlugin
+2025-06-09 13:36:54,195 - DEBUG - Importing FitsStubImagePlugin
+2025-06-09 13:36:54,195 - DEBUG - Importing FliImagePlugin
+2025-06-09 13:36:54,196 - DEBUG - Importing FpxImagePlugin
+2025-06-09 13:36:54,200 - DEBUG - Importing FtexImagePlugin
+2025-06-09 13:36:54,201 - DEBUG - Importing GbrImagePlugin
+2025-06-09 13:36:54,202 - DEBUG - Importing GifImagePlugin
+2025-06-09 13:36:54,202 - DEBUG - Importing GribStubImagePlugin
+2025-06-09 13:36:54,203 - DEBUG - Importing Hdf5StubImagePlugin
+2025-06-09 13:36:54,203 - DEBUG - Importing IcnsImagePlugin
+2025-06-09 13:36:54,204 - DEBUG - Importing IcoImagePlugin
+2025-06-09 13:36:54,205 - DEBUG - Importing ImImagePlugin
+2025-06-09 13:36:54,206 - DEBUG - Importing ImtImagePlugin
+2025-06-09 13:36:54,207 - DEBUG - Importing IptcImagePlugin
+2025-06-09 13:36:54,207 - DEBUG - Importing JpegImagePlugin
+2025-06-09 13:36:54,208 - DEBUG - Importing Jpeg2KImagePlugin
+2025-06-09 13:36:54,208 - DEBUG - Importing McIdasImagePlugin
+2025-06-09 13:36:54,209 - DEBUG - Importing MicImagePlugin
+2025-06-09 13:36:54,209 - DEBUG - Importing MpegImagePlugin
+2025-06-09 13:36:54,210 - DEBUG - Importing MpoImagePlugin
+2025-06-09 13:36:54,211 - DEBUG - Importing MspImagePlugin
+2025-06-09 13:36:54,211 - DEBUG - Importing PalmImagePlugin
+2025-06-09 13:36:54,212 - DEBUG - Importing PcdImagePlugin
+2025-06-09 13:36:54,214 - DEBUG - Importing PcxImagePlugin
+2025-06-09 13:36:54,214 - DEBUG - Importing PdfImagePlugin
+2025-06-09 13:36:54,221 - DEBUG - Importing PixarImagePlugin
+2025-06-09 13:36:54,222 - DEBUG - Importing PngImagePlugin
+2025-06-09 13:36:54,223 - DEBUG - Importing PpmImagePlugin
+2025-06-09 13:36:54,223 - DEBUG - Importing PsdImagePlugin
+2025-06-09 13:36:54,224 - DEBUG - Importing SgiImagePlugin
+2025-06-09 13:36:54,225 - DEBUG - Importing SpiderImagePlugin
+2025-06-09 13:36:54,226 - DEBUG - Importing SunImagePlugin
+2025-06-09 13:36:54,227 - DEBUG - Importing TgaImagePlugin
+2025-06-09 13:36:54,227 - DEBUG - Importing TiffImagePlugin
+2025-06-09 13:36:54,228 - DEBUG - Importing WebPImagePlugin
+2025-06-09 13:36:54,230 - DEBUG - Importing WmfImagePlugin
+2025-06-09 13:36:54,231 - DEBUG - Importing XbmImagePlugin
+2025-06-09 13:36:54,233 - DEBUG - Importing XpmImagePlugin
+2025-06-09 13:36:54,234 - DEBUG - Importing XVThumbImagePlugin
+2025-06-09 13:36:54,236 - INFO - Tray icon initialized successfully
+2025-06-09 13:36:57,571 - INFO - Always on top set to True
+2025-06-09 13:36:57,842 - INFO - Show in tray set to False
+2025-06-09 13:38:19,163 - INFO - Application started (F12 clipboard mode with GUI)
+2025-06-09 13:38:19,245 - INFO - F12 keyboard hook initialized
+2025-06-09 13:38:19,341 - INFO - Always on top set to False
+2025-06-09 13:38:19,341 - INFO - Application started. Copy a command, press F12 to process.
+2025-06-09 13:38:19,355 - DEBUG - Importing BlpImagePlugin
+2025-06-09 13:38:19,356 - DEBUG - Importing BmpImagePlugin
+2025-06-09 13:38:19,356 - DEBUG - Importing BufrStubImagePlugin
+2025-06-09 13:38:19,357 - DEBUG - Importing CurImagePlugin
+2025-06-09 13:38:19,357 - DEBUG - Importing DcxImagePlugin
+2025-06-09 13:38:19,358 - DEBUG - Importing DdsImagePlugin
+2025-06-09 13:38:19,359 - DEBUG - Importing EpsImagePlugin
+2025-06-09 13:38:19,380 - DEBUG - Importing FitsImagePlugin
+2025-06-09 13:38:19,381 - DEBUG - Importing FitsStubImagePlugin
+2025-06-09 13:38:19,382 - DEBUG - Importing FliImagePlugin
+2025-06-09 13:38:19,383 - DEBUG - Importing FpxImagePlugin
+2025-06-09 13:38:19,386 - DEBUG - Importing FtexImagePlugin
+2025-06-09 13:38:19,387 - DEBUG - Importing GbrImagePlugin
+2025-06-09 13:38:19,388 - DEBUG - Importing GifImagePlugin
+2025-06-09 13:38:19,388 - DEBUG - Importing GribStubImagePlugin
+2025-06-09 13:38:19,388 - DEBUG - Importing Hdf5StubImagePlugin
+2025-06-09 13:38:19,389 - DEBUG - Importing IcnsImagePlugin
+2025-06-09 13:38:19,390 - DEBUG - Importing IcoImagePlugin
+2025-06-09 13:38:19,391 - DEBUG - Importing ImImagePlugin
+2025-06-09 13:38:19,392 - DEBUG - Importing ImtImagePlugin
+2025-06-09 13:38:19,393 - DEBUG - Importing IptcImagePlugin
+2025-06-09 13:38:19,393 - DEBUG - Importing JpegImagePlugin
+2025-06-09 13:38:19,393 - DEBUG - Importing Jpeg2KImagePlugin
+2025-06-09 13:38:19,393 - DEBUG - Importing McIdasImagePlugin
+2025-06-09 13:38:19,395 - DEBUG - Importing MicImagePlugin
+2025-06-09 13:38:19,395 - DEBUG - Importing MpegImagePlugin
+2025-06-09 13:38:19,396 - DEBUG - Importing MpoImagePlugin
+2025-06-09 13:38:19,396 - DEBUG - Importing MspImagePlugin
+2025-06-09 13:38:19,397 - DEBUG - Importing PalmImagePlugin
+2025-06-09 13:38:19,398 - DEBUG - Importing PcdImagePlugin
+2025-06-09 13:38:19,399 - DEBUG - Importing PcxImagePlugin
+2025-06-09 13:38:19,399 - DEBUG - Importing PdfImagePlugin
+2025-06-09 13:38:19,406 - DEBUG - Importing PixarImagePlugin
+2025-06-09 13:38:19,407 - DEBUG - Importing PngImagePlugin
+2025-06-09 13:38:19,407 - DEBUG - Importing PpmImagePlugin
+2025-06-09 13:38:19,407 - DEBUG - Importing PsdImagePlugin
+2025-06-09 13:38:19,408 - DEBUG - Importing SgiImagePlugin
+2025-06-09 13:38:19,409 - DEBUG - Importing SpiderImagePlugin
+2025-06-09 13:38:19,409 - DEBUG - Importing SunImagePlugin
+2025-06-09 13:38:19,410 - DEBUG - Importing TgaImagePlugin
+2025-06-09 13:38:19,410 - DEBUG - Importing TiffImagePlugin
+2025-06-09 13:38:19,410 - DEBUG - Importing WebPImagePlugin
+2025-06-09 13:38:19,412 - DEBUG - Importing WmfImagePlugin
+2025-06-09 13:38:19,412 - DEBUG - Importing XbmImagePlugin
+2025-06-09 13:38:19,414 - DEBUG - Importing XpmImagePlugin
+2025-06-09 13:38:19,414 - DEBUG - Importing XVThumbImagePlugin
+2025-06-09 13:38:19,416 - INFO - Tray icon initialized successfully
+2025-06-09 13:38:22,185 - INFO - Always on top set to False
+2025-06-09 13:38:33,243 - INFO - Show in tray set to False
+2025-06-09 13:38:38,136 - INFO - Application started (F12 clipboard mode with GUI)
+2025-06-09 13:38:38,221 - INFO - F12 keyboard hook initialized
+2025-06-09 13:38:38,317 - INFO - Always on top set to False
+2025-06-09 13:38:38,318 - INFO - Application started. Copy a command, press F12 to process.
+2025-06-09 13:38:38,331 - DEBUG - Importing BlpImagePlugin
+2025-06-09 13:38:38,332 - DEBUG - Importing BmpImagePlugin
+2025-06-09 13:38:38,332 - DEBUG - Importing BufrStubImagePlugin
+2025-06-09 13:38:38,333 - DEBUG - Importing CurImagePlugin
+2025-06-09 13:38:38,333 - DEBUG - Importing DcxImagePlugin
+2025-06-09 13:38:38,334 - DEBUG - Importing DdsImagePlugin
+2025-06-09 13:38:38,335 - DEBUG - Importing EpsImagePlugin
+2025-06-09 13:38:38,354 - DEBUG - Importing FitsImagePlugin
+2025-06-09 13:38:38,355 - DEBUG - Importing FitsStubImagePlugin
+2025-06-09 13:38:38,356 - DEBUG - Importing FliImagePlugin
+2025-06-09 13:38:38,357 - DEBUG - Importing FpxImagePlugin
+2025-06-09 13:38:38,360 - DEBUG - Importing FtexImagePlugin
+2025-06-09 13:38:38,361 - DEBUG - Importing GbrImagePlugin
+2025-06-09 13:38:38,361 - DEBUG - Importing GifImagePlugin
+2025-06-09 13:38:38,362 - DEBUG - Importing GribStubImagePlugin
+2025-06-09 13:38:38,362 - DEBUG - Importing Hdf5StubImagePlugin
+2025-06-09 13:38:38,363 - DEBUG - Importing IcnsImagePlugin
+2025-06-09 13:38:38,364 - DEBUG - Importing IcoImagePlugin
+2025-06-09 13:38:38,364 - DEBUG - Importing ImImagePlugin
+2025-06-09 13:38:38,365 - DEBUG - Importing ImtImagePlugin
+2025-06-09 13:38:38,366 - DEBUG - Importing IptcImagePlugin
+2025-06-09 13:38:38,366 - DEBUG - Importing JpegImagePlugin
+2025-06-09 13:38:38,366 - DEBUG - Importing Jpeg2KImagePlugin
+2025-06-09 13:38:38,367 - DEBUG - Importing McIdasImagePlugin
+2025-06-09 13:38:38,367 - DEBUG - Importing MicImagePlugin
+2025-06-09 13:38:38,368 - DEBUG - Importing MpegImagePlugin
+2025-06-09 13:38:38,368 - DEBUG - Importing MpoImagePlugin
+2025-06-09 13:38:38,369 - DEBUG - Importing MspImagePlugin
+2025-06-09 13:38:38,369 - DEBUG - Importing PalmImagePlugin
+2025-06-09 13:38:38,370 - DEBUG - Importing PcdImagePlugin
+2025-06-09 13:38:38,371 - DEBUG - Importing PcxImagePlugin
+2025-06-09 13:38:38,371 - DEBUG - Importing PdfImagePlugin
+2025-06-09 13:38:38,378 - DEBUG - Importing PixarImagePlugin
+2025-06-09 13:38:38,379 - DEBUG - Importing PngImagePlugin
+2025-06-09 13:38:38,379 - DEBUG - Importing PpmImagePlugin
+2025-06-09 13:38:38,379 - DEBUG - Importing PsdImagePlugin
+2025-06-09 13:38:38,379 - DEBUG - Importing SgiImagePlugin
+2025-06-09 13:38:38,380 - DEBUG - Importing SpiderImagePlugin
+2025-06-09 13:38:38,380 - DEBUG - Importing SunImagePlugin
+2025-06-09 13:38:38,381 - DEBUG - Importing TgaImagePlugin
+2025-06-09 13:38:38,382 - DEBUG - Importing TiffImagePlugin
+2025-06-09 13:38:38,382 - DEBUG - Importing WebPImagePlugin
+2025-06-09 13:38:38,383 - DEBUG - Importing WmfImagePlugin
+2025-06-09 13:38:38,384 - DEBUG - Importing XbmImagePlugin
+2025-06-09 13:38:38,386 - DEBUG - Importing XpmImagePlugin
+2025-06-09 13:38:38,386 - DEBUG - Importing XVThumbImagePlugin
+2025-06-09 13:38:38,388 - INFO - Tray icon initialized successfully
+2025-06-09 13:38:40,894 - INFO - Show in tray set to False
+2025-06-09 13:38:44,346 - INFO - Always on top set to False
+2025-06-09 13:43:38,834 - INFO - Application started (F12 clipboard mode with GUI)
+2025-06-09 13:43:38,916 - INFO - F12 keyboard hook initialized
+2025-06-09 13:43:38,987 - ERROR - Application error: 'CommandModifierGUI' object has no attribute 'on_closing'
+2025-06-09 13:43:44,140 - INFO - Application started (F12 clipboard mode with GUI)
+2025-06-09 13:43:44,219 - INFO - F12 keyboard hook initialized
+2025-06-09 13:43:44,286 - ERROR - Application error: 'CommandModifierGUI' object has no attribute 'on_closing'
+2025-06-09 13:43:55,850 - INFO - Application started (F12 clipboard mode with GUI)
+2025-06-09 13:43:55,933 - INFO - F12 keyboard hook initialized
+2025-06-09 13:43:56,009 - ERROR - Application error: 'CommandModifierGUI' object has no attribute 'on_closing'
+2025-06-09 13:43:56,009 - INFO - Cleaning up logging handlers
+2025-06-09 13:44:38,314 - INFO - Application started (F12 clipboard mode with GUI)
+2025-06-09 13:44:38,397 - INFO - F12 keyboard hook initialized
+2025-06-09 13:44:38,494 - INFO - Always on top set to False
+2025-06-09 13:44:38,494 - INFO - Application started. Copy a command, press F12 to process.
+2025-06-09 13:44:38,507 - DEBUG - Importing BlpImagePlugin
+2025-06-09 13:44:38,508 - DEBUG - Importing BmpImagePlugin
+2025-06-09 13:44:38,509 - DEBUG - Importing BufrStubImagePlugin
+2025-06-09 13:44:38,509 - DEBUG - Importing CurImagePlugin
+2025-06-09 13:44:38,510 - DEBUG - Importing DcxImagePlugin
+2025-06-09 13:44:38,511 - DEBUG - Importing DdsImagePlugin
+2025-06-09 13:44:38,511 - DEBUG - Importing EpsImagePlugin
+2025-06-09 13:44:38,531 - DEBUG - Importing FitsImagePlugin
+2025-06-09 13:44:38,532 - DEBUG - Importing FitsStubImagePlugin
+2025-06-09 13:44:38,533 - DEBUG - Importing FliImagePlugin
+2025-06-09 13:44:38,533 - DEBUG - Importing FpxImagePlugin
+2025-06-09 13:44:38,537 - DEBUG - Importing FtexImagePlugin
+2025-06-09 13:44:38,538 - DEBUG - Importing GbrImagePlugin
+2025-06-09 13:44:38,539 - DEBUG - Importing GifImagePlugin
+2025-06-09 13:44:38,539 - DEBUG - Importing GribStubImagePlugin
+2025-06-09 13:44:38,539 - DEBUG - Importing Hdf5StubImagePlugin
+2025-06-09 13:44:38,541 - DEBUG - Importing IcnsImagePlugin
+2025-06-09 13:44:38,542 - DEBUG - Importing IcoImagePlugin
+2025-06-09 13:44:38,543 - DEBUG - Importing ImImagePlugin
+2025-06-09 13:44:38,543 - DEBUG - Importing ImtImagePlugin
+2025-06-09 13:44:38,544 - DEBUG - Importing IptcImagePlugin
+2025-06-09 13:44:38,544 - DEBUG - Importing JpegImagePlugin
+2025-06-09 13:44:38,545 - DEBUG - Importing Jpeg2KImagePlugin
+2025-06-09 13:44:38,545 - DEBUG - Importing McIdasImagePlugin
+2025-06-09 13:44:38,545 - DEBUG - Importing MicImagePlugin
+2025-06-09 13:44:38,546 - DEBUG - Importing MpegImagePlugin
+2025-06-09 13:44:38,547 - DEBUG - Importing MpoImagePlugin
+2025-06-09 13:44:38,547 - DEBUG - Importing MspImagePlugin
+2025-06-09 13:44:38,548 - DEBUG - Importing PalmImagePlugin
+2025-06-09 13:44:38,549 - DEBUG - Importing PcdImagePlugin
+2025-06-09 13:44:38,549 - DEBUG - Importing PcxImagePlugin
+2025-06-09 13:44:38,550 - DEBUG - Importing PdfImagePlugin
+2025-06-09 13:44:38,557 - DEBUG - Importing PixarImagePlugin
+2025-06-09 13:44:38,558 - DEBUG - Importing PngImagePlugin
+2025-06-09 13:44:38,558 - DEBUG - Importing PpmImagePlugin
+2025-06-09 13:44:38,558 - DEBUG - Importing PsdImagePlugin
+2025-06-09 13:44:38,559 - DEBUG - Importing SgiImagePlugin
+2025-06-09 13:44:38,560 - DEBUG - Importing SpiderImagePlugin
+2025-06-09 13:44:38,560 - DEBUG - Importing SunImagePlugin
+2025-06-09 13:44:38,561 - DEBUG - Importing TgaImagePlugin
+2025-06-09 13:44:38,561 - DEBUG - Importing TiffImagePlugin
+2025-06-09 13:44:38,562 - DEBUG - Importing WebPImagePlugin
+2025-06-09 13:44:38,563 - DEBUG - Importing WmfImagePlugin
+2025-06-09 13:44:38,564 - DEBUG - Importing XbmImagePlugin
+2025-06-09 13:44:38,565 - DEBUG - Importing XpmImagePlugin
+2025-06-09 13:44:38,566 - DEBUG - Importing XVThumbImagePlugin
+2025-06-09 13:44:38,567 - INFO - Tray icon initialized successfully
+2025-06-09 13:45:54,083 - INFO - Application started (F12 clipboard mode with GUI)
+2025-06-09 13:45:54,162 - INFO - F12 keyboard hook initialized
+2025-06-09 13:45:54,253 - INFO - Always on top set to False
+2025-06-09 13:45:54,253 - INFO - Application started. Copy a command, press F12 to process.
+2025-06-09 13:45:54,266 - DEBUG - Importing BlpImagePlugin
+2025-06-09 13:45:54,267 - DEBUG - Importing BmpImagePlugin
+2025-06-09 13:45:54,267 - DEBUG - Importing BufrStubImagePlugin
+2025-06-09 13:45:54,267 - DEBUG - Importing CurImagePlugin
+2025-06-09 13:45:54,268 - DEBUG - Importing DcxImagePlugin
+2025-06-09 13:45:54,269 - DEBUG - Importing DdsImagePlugin
+2025-06-09 13:45:54,269 - DEBUG - Importing EpsImagePlugin
+2025-06-09 13:45:54,288 - DEBUG - Importing FitsImagePlugin
+2025-06-09 13:45:54,289 - DEBUG - Importing FitsStubImagePlugin
+2025-06-09 13:45:54,289 - DEBUG - Importing FliImagePlugin
+2025-06-09 13:45:54,290 - DEBUG - Importing FpxImagePlugin
+2025-06-09 13:45:54,294 - DEBUG - Importing FtexImagePlugin
+2025-06-09 13:45:54,295 - DEBUG - Importing GbrImagePlugin
+2025-06-09 13:45:54,296 - DEBUG - Importing GifImagePlugin
+2025-06-09 13:45:54,296 - DEBUG - Importing GribStubImagePlugin
+2025-06-09 13:45:54,296 - DEBUG - Importing Hdf5StubImagePlugin
+2025-06-09 13:45:54,298 - DEBUG - Importing IcnsImagePlugin
+2025-06-09 13:45:54,299 - DEBUG - Importing IcoImagePlugin
+2025-06-09 13:45:54,300 - DEBUG - Importing ImImagePlugin
+2025-06-09 13:45:54,301 - DEBUG - Importing ImtImagePlugin
+2025-06-09 13:45:54,301 - DEBUG - Importing IptcImagePlugin
+2025-06-09 13:45:54,302 - DEBUG - Importing JpegImagePlugin
+2025-06-09 13:45:54,302 - DEBUG - Importing Jpeg2KImagePlugin
+2025-06-09 13:45:54,302 - DEBUG - Importing McIdasImagePlugin
+2025-06-09 13:45:54,303 - DEBUG - Importing MicImagePlugin
+2025-06-09 13:45:54,304 - DEBUG - Importing MpegImagePlugin
+2025-06-09 13:45:54,304 - DEBUG - Importing MpoImagePlugin
+2025-06-09 13:45:54,305 - DEBUG - Importing MspImagePlugin
+2025-06-09 13:45:54,305 - DEBUG - Importing PalmImagePlugin
+2025-06-09 13:45:54,306 - DEBUG - Importing PcdImagePlugin
+2025-06-09 13:45:54,307 - DEBUG - Importing PcxImagePlugin
+2025-06-09 13:45:54,307 - DEBUG - Importing PdfImagePlugin
+2025-06-09 13:45:54,313 - DEBUG - Importing PixarImagePlugin
+2025-06-09 13:45:54,314 - DEBUG - Importing PngImagePlugin
+2025-06-09 13:45:54,314 - DEBUG - Importing PpmImagePlugin
+2025-06-09 13:45:54,315 - DEBUG - Importing PsdImagePlugin
+2025-06-09 13:45:54,315 - DEBUG - Importing SgiImagePlugin
+2025-06-09 13:45:54,315 - DEBUG - Importing SpiderImagePlugin
+2025-06-09 13:45:54,316 - DEBUG - Importing SunImagePlugin
+2025-06-09 13:45:54,317 - DEBUG - Importing TgaImagePlugin
+2025-06-09 13:45:54,317 - DEBUG - Importing TiffImagePlugin
+2025-06-09 13:45:54,317 - DEBUG - Importing WebPImagePlugin
+2025-06-09 13:45:54,319 - DEBUG - Importing WmfImagePlugin
+2025-06-09 13:45:54,319 - DEBUG - Importing XbmImagePlugin
+2025-06-09 13:45:54,320 - DEBUG - Importing XpmImagePlugin
+2025-06-09 13:45:54,321 - DEBUG - Importing XVThumbImagePlugin
+2025-06-09 13:45:54,323 - INFO - Tray icon initialized successfully
+2025-06-09 13:46:01,193 - INFO - Always on top set to False
+2025-06-09 13:46:01,562 - INFO - Show in tray set to False
+2025-06-09 13:48:43,319 - INFO - Application started (F12 clipboard mode with GUI)
+2025-06-09 13:48:43,397 - INFO - F12 keyboard hook initialized
+2025-06-09 13:48:43,493 - INFO - Always on top set to True
+2025-06-09 13:48:43,493 - INFO - Application started. Copy a command, press F12 to process.
+2025-06-09 13:48:43,560 - INFO - Tray icon initialized successfully
+2025-06-09 13:48:43,561 - INFO - Tray icon initialized successfully
+2025-06-09 13:48:54,706 - INFO - Always on top set to False
+2025-06-09 13:49:07,958 - INFO - Always on top set to True
+2025-06-09 13:49:08,500 - INFO - Always on top set to False
+2025-06-09 13:56:34,623 - INFO - Application started (F12 clipboard mode with GUI)
+2025-06-09 13:56:34,711 - INFO - F12 keyboard hook initialized
+2025-06-09 13:56:34,824 - INFO - Always on top set to False
+2025-06-09 13:56:34,824 - INFO - Application started. Copy a command, press F12 to process.
+2025-06-09 13:56:34,825 - INFO - Tray icon not initialized (disabled in settings)
+2025-06-09 13:56:37,512 - INFO - Tray icon initialized successfully
+2025-06-09 13:56:37,513 - INFO - Tray icon reinitialized
+2025-06-09 13:56:37,513 - INFO - Show in tray set to True
+2025-06-09 13:56:38,306 - INFO - Show in tray set to False
+2025-06-09 13:56:38,685 - INFO - Tray icon initialized successfully
+2025-06-09 13:56:38,685 - INFO - Tray icon reinitialized
+2025-06-09 13:56:38,685 - INFO - Show in tray set to True
+2025-06-09 13:56:39,021 - INFO - Show in tray set to False
+2025-06-09 13:56:39,488 - INFO - Always on top set to False
+2025-06-09 13:56:39,948 - INFO - Always on top set to True
+2025-06-09 13:56:40,504 - INFO - Always on top set to False
+2025-06-09 13:56:41,015 - INFO - Tray icon initialized successfully
+2025-06-09 13:56:41,015 - INFO - Tray icon reinitialized
+2025-06-09 13:56:41,015 - INFO - Show in tray set to True
+2025-06-09 13:56:53,246 - INFO - Application started (F12 clipboard mode with GUI)
+2025-06-09 13:56:53,518 - INFO - F12 keyboard hook initialized
+2025-06-09 13:56:53,650 - INFO - Always on top set to False
+2025-06-09 13:56:53,650 - INFO - Application started. Copy a command, press F12 to process.
+2025-06-09 13:56:53,722 - INFO - Tray icon initialized successfully
+2025-06-09 13:56:53,722 - INFO - Tray icon initialized successfully
+2025-06-09 13:56:56,155 - INFO - Show in tray set to False
+2025-06-09 13:56:57,836 - INFO - Application shutdown completed
+2025-06-09 13:57:02,487 - INFO - Application started (F12 clipboard mode with GUI)
+2025-06-09 13:57:02,699 - INFO - F12 keyboard hook initialized
+2025-06-09 13:57:02,809 - INFO - Always on top set to False
+2025-06-09 13:57:02,809 - INFO - Application started. Copy a command, press F12 to process.
+2025-06-09 13:57:02,810 - INFO - Tray icon not initialized (disabled in settings)
+2025-06-09 13:57:06,090 - INFO - Tray icon initialized successfully
+2025-06-09 13:57:06,090 - INFO - Tray icon reinitialized
+2025-06-09 13:57:06,091 - INFO - Show in tray set to True
+2025-06-09 13:57:25,874 - INFO - Always on top set to False
+2025-06-09 13:57:28,260 - INFO - Show in tray set to False
+2025-06-09 13:57:28,540 - INFO - Tray icon initialized successfully
+2025-06-09 13:57:28,540 - INFO - Tray icon reinitialized
+2025-06-09 13:57:28,540 - INFO - Show in tray set to True
+2025-06-09 13:57:39,487 - INFO - Application started (F12 clipboard mode with GUI)
+2025-06-09 13:57:39,830 - INFO - F12 keyboard hook initialized
+2025-06-09 13:57:39,953 - INFO - Always on top set to False
+2025-06-09 13:57:39,953 - INFO - Application started. Copy a command, press F12 to process.
+2025-06-09 13:57:40,029 - INFO - Tray icon initialized successfully
+2025-06-09 13:57:40,029 - INFO - Tray icon initialized successfully
+2025-06-09 13:57:51,911 - INFO - Always on top set to False
+2025-06-09 13:57:52,511 - INFO - Always on top set to True
+2025-06-09 14:20:59,993 - INFO - Application started (F12 clipboard mode with GUI)
+2025-06-09 14:21:00,227 - INFO - F12 keyboard hook initialized
+2025-06-09 14:21:00,341 - INFO - Always on top set to True
+2025-06-09 14:21:00,341 - INFO - Application started. Copy a command, press F12 to process.
+2025-06-09 14:21:00,404 - INFO - Tray icon initialized successfully
+2025-06-09 14:21:00,404 - INFO - Tray icon initialized successfully
+2025-06-09 14:21:03,316 - INFO - Show in tray set to False
+2025-06-09 14:21:03,821 - INFO - Tray icon initialized successfully
+2025-06-09 14:21:03,821 - INFO - Tray icon reinitialized
+2025-06-09 14:21:03,821 - INFO - Show in tray set to True
+2025-06-09 14:21:04,522 - INFO - Always on top set to False
+2025-06-09 14:21:04,926 - INFO - Always on top set to True
+2025-06-09 14:21:06,503 - INFO - Always on top set to False
+2025-06-09 14:21:08,662 - INFO - Always on top set to True
+2025-06-09 14:21:10,320 - INFO - Show in tray set to False
+2025-06-09 14:21:11,972 - INFO - Application shutdown completed
+2025-06-09 14:21:16,717 - INFO - Application started (F12 clipboard mode with GUI)
+2025-06-09 14:21:16,809 - INFO - F12 keyboard hook initialized
+2025-06-09 14:21:16,916 - INFO - Always on top set to True
+2025-06-09 14:21:16,916 - INFO - Application started. Copy a command, press F12 to process.
+2025-06-09 14:21:16,917 - INFO - Tray icon not initialized (disabled in settings)
+2025-06-09 14:21:22,857 - INFO - Tray icon initialized successfully
+2025-06-09 14:21:22,857 - INFO - Tray icon reinitialized
+2025-06-09 14:21:22,857 - INFO - Show in tray set to True
+2025-06-09 14:21:30,397 - INFO - Always on top set to False
+2025-06-09 14:21:32,542 - INFO - Show in tray set to False
+2025-06-09 14:21:38,272 - INFO - Tray icon initialized successfully
+2025-06-09 14:21:38,272 - INFO - Tray icon reinitialized
+2025-06-09 14:21:38,272 - INFO - Show in tray set to True
+2025-06-09 14:21:41,057 - INFO - Show in tray set to False
+2025-06-09 14:21:41,524 - INFO - Always on top set to False
+2025-06-09 14:21:43,357 - INFO - Tray icon initialized successfully
+2025-06-09 14:21:43,357 - INFO - Tray icon reinitialized
+2025-06-09 14:21:43,357 - INFO - Show in tray set to True
+2025-06-09 14:21:44,839 - INFO - Show in tray set to False
+2025-06-09 14:21:46,338 - INFO - Tray icon initialized successfully
+2025-06-09 14:21:46,338 - INFO - Tray icon reinitialized
+2025-06-09 14:21:46,338 - INFO - Show in tray set to True
+2025-06-09 14:21:46,650 - INFO - Always on top set to False
+2025-06-09 14:21:48,990 - INFO - Show in tray set to False
+2025-06-09 14:21:56,817 - INFO - Application shutdown completed
+2025-06-09 14:26:31,017 - INFO - Application started (F12 clipboard mode with GUI)
+2025-06-09 14:26:31,100 - INFO - F12 keyboard hook initialized
+2025-06-09 14:26:31,190 - INFO - Always on top set to False
+2025-06-09 14:26:31,190 - INFO - Application started. Copy a command, press F12 to process.
+2025-06-09 14:26:33,684 - INFO - Always on top set to True
+2025-06-09 14:26:35,162 - INFO - Always on top set to False
+2025-06-09 14:26:49,747 - INFO - Application started (F12 clipboard mode with GUI)
+2025-06-09 14:26:49,847 - INFO - F12 keyboard hook initialized
+2025-06-09 14:26:49,945 - INFO - Always on top set to False
+2025-06-09 14:26:49,945 - INFO - Application started. Copy a command, press F12 to process.
+2025-06-09 14:27:04,399 - INFO - Application shutdown completed
+2025-06-09 14:30:41,438 - INFO - Application started (F12 clipboard mode with GUI)
+2025-06-09 14:30:41,524 - INFO - F12 keyboard hook initialized
+2025-06-09 14:30:41,683 - INFO - Always on top set to False
+2025-06-09 14:30:41,683 - INFO - Application started. Copy a command, press F12 to process.
+2025-06-09 14:31:37,044 - INFO - Application shutdown completed
+2025-06-09 14:31:38,469 - INFO - Application started (F12 clipboard mode with GUI)
+2025-06-09 14:31:38,557 - INFO - F12 keyboard hook initialized
+2025-06-09 14:31:38,635 - WARNING - Failed to set iconbitmap: bitmap "C:\Users\ryant\IdeaProjects\MInecraft Command Block Modifiers\icon.ico" not defined. Using default icon.
+2025-06-09 14:31:38,659 - INFO - Always on top set to False
+2025-06-09 14:31:38,659 - INFO - Application started. Copy a command, press F12 to process.
+2025-06-09 14:32:02,144 - INFO - Application started (F12 clipboard mode with GUI)
+2025-06-09 14:32:02,227 - INFO - F12 keyboard hook initialized
+2025-06-09 14:32:02,321 - INFO - Always on top set to False
+2025-06-09 14:32:02,321 - INFO - Application started. Copy a command, press F12 to process.
+2025-06-09 14:32:09,555 - INFO - Application shutdown completed
+2025-06-09 14:33:27,006 - INFO - Application started (F12 clipboard mode with GUI)
+2025-06-09 14:33:27,088 - INFO - F12 keyboard hook initialized
+2025-06-09 14:33:27,180 - INFO - Always on top set to False
+2025-06-09 14:33:27,180 - INFO - Application started. Copy a command, press F12 to process.
+2025-06-09 14:33:34,151 - INFO - Application shutdown completed

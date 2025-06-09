@@ -1,0 +1,687 @@
+2025-06-09 11:21:17,197 - INFO - Application started (F12 clipboard mode with GUI)
+2025-06-09 11:21:17,198 - INFO - Always on top set to False
+2025-06-09 11:21:17,361 - WARNING - Icon file 'icon.ico' not found at C:\Users\ryant\IdeaProjects\MInecraft Command Block Modifiers\.idea\icon.ico. Using fallback image.
+2025-06-09 11:21:17,363 - INFO - Tray icon initialized successfully
+2025-06-09 11:21:17,400 - DEBUG - Importing AvifImagePlugin
+2025-06-09 11:21:17,402 - DEBUG - Importing BlpImagePlugin
+2025-06-09 11:21:17,405 - DEBUG - Importing BmpImagePlugin
+2025-06-09 11:21:17,405 - DEBUG - Importing BufrStubImagePlugin
+2025-06-09 11:21:17,407 - DEBUG - Importing CurImagePlugin
+2025-06-09 11:21:17,409 - DEBUG - Importing DcxImagePlugin
+2025-06-09 11:21:17,411 - DEBUG - Importing DdsImagePlugin
+2025-06-09 11:21:17,415 - DEBUG - Importing EpsImagePlugin
+2025-06-09 11:21:17,416 - DEBUG - Importing FitsImagePlugin
+2025-06-09 11:21:17,419 - DEBUG - Importing FliImagePlugin
+2025-06-09 11:21:17,420 - DEBUG - Importing FpxImagePlugin
+2025-06-09 11:21:17,421 - DEBUG - Image: failed to import FpxImagePlugin: No module named 'olefile'
+2025-06-09 11:21:17,421 - DEBUG - Importing FtexImagePlugin
+2025-06-09 11:21:17,423 - DEBUG - Importing GbrImagePlugin
+2025-06-09 11:21:17,423 - DEBUG - Importing GifImagePlugin
+2025-06-09 11:21:17,423 - DEBUG - Importing GribStubImagePlugin
+2025-06-09 11:21:17,425 - DEBUG - Importing Hdf5StubImagePlugin
+2025-06-09 11:21:17,427 - DEBUG - Importing IcnsImagePlugin
+2025-06-09 11:21:17,431 - DEBUG - Importing IcoImagePlugin
+2025-06-09 11:21:17,432 - DEBUG - Importing ImImagePlugin
+2025-06-09 11:21:17,434 - DEBUG - Importing ImtImagePlugin
+2025-06-09 11:21:17,435 - DEBUG - Importing IptcImagePlugin
+2025-06-09 11:21:17,436 - DEBUG - Importing JpegImagePlugin
+2025-06-09 11:21:17,436 - DEBUG - Importing Jpeg2KImagePlugin
+2025-06-09 11:21:17,437 - DEBUG - Importing McIdasImagePlugin
+2025-06-09 11:21:17,438 - DEBUG - Importing MicImagePlugin
+2025-06-09 11:21:17,440 - DEBUG - Image: failed to import MicImagePlugin: No module named 'olefile'
+2025-06-09 11:21:17,440 - DEBUG - Importing MpegImagePlugin
+2025-06-09 11:21:17,441 - DEBUG - Importing MpoImagePlugin
+2025-06-09 11:21:17,451 - DEBUG - Importing MspImagePlugin
+2025-06-09 11:21:17,452 - DEBUG - Importing PalmImagePlugin
+2025-06-09 11:21:17,453 - DEBUG - Importing PcdImagePlugin
+2025-06-09 11:21:17,456 - DEBUG - Importing PcxImagePlugin
+2025-06-09 11:21:17,456 - DEBUG - Importing PdfImagePlugin
+2025-06-09 11:21:17,472 - DEBUG - Importing PixarImagePlugin
+2025-06-09 11:21:17,473 - DEBUG - Importing PngImagePlugin
+2025-06-09 11:21:17,474 - DEBUG - Importing PpmImagePlugin
+2025-06-09 11:21:17,474 - DEBUG - Importing PsdImagePlugin
+2025-06-09 11:21:17,475 - DEBUG - Importing QoiImagePlugin
+2025-06-09 11:21:17,477 - DEBUG - Importing SgiImagePlugin
+2025-06-09 11:21:17,478 - DEBUG - Importing SpiderImagePlugin
+2025-06-09 11:21:17,479 - DEBUG - Importing SunImagePlugin
+2025-06-09 11:21:17,481 - DEBUG - Importing TgaImagePlugin
+2025-06-09 11:21:17,482 - DEBUG - Importing TiffImagePlugin
+2025-06-09 11:21:17,482 - DEBUG - Importing WebPImagePlugin
+2025-06-09 11:21:17,488 - DEBUG - Importing WmfImagePlugin
+2025-06-09 11:21:17,489 - DEBUG - Importing XbmImagePlugin
+2025-06-09 11:21:17,492 - DEBUG - Importing XpmImagePlugin
+2025-06-09 11:21:17,494 - DEBUG - Importing XVThumbImagePlugin
+2025-06-09 11:21:41,793 - INFO - Always on top set to True
+2025-06-09 11:29:51,850 - INFO - Application interrupted by user
+2025-06-09 11:29:51,850 - INFO - Application exiting
+2025-06-09 11:29:54,009 - INFO - Application started (F12 clipboard mode with GUI)
+2025-06-09 11:29:54,011 - INFO - Always on top set to False
+2025-06-09 11:29:54,116 - WARNING - Icon file 'icon.ico' not found at C:\Users\ryant\IdeaProjects\MInecraft Command Block Modifiers\.idea\icon.ico. Using fallback image.
+2025-06-09 11:29:54,117 - INFO - Tray icon initialized successfully
+2025-06-09 11:29:54,196 - DEBUG - Importing AvifImagePlugin
+2025-06-09 11:29:54,199 - DEBUG - Importing BlpImagePlugin
+2025-06-09 11:29:54,201 - DEBUG - Importing BmpImagePlugin
+2025-06-09 11:29:54,201 - DEBUG - Importing BufrStubImagePlugin
+2025-06-09 11:29:54,203 - DEBUG - Importing CurImagePlugin
+2025-06-09 11:29:54,205 - DEBUG - Importing DcxImagePlugin
+2025-06-09 11:29:54,210 - DEBUG - Importing DdsImagePlugin
+2025-06-09 11:29:54,215 - DEBUG - Importing EpsImagePlugin
+2025-06-09 11:29:54,218 - DEBUG - Importing FitsImagePlugin
+2025-06-09 11:29:54,221 - DEBUG - Importing FliImagePlugin
+2025-06-09 11:29:54,224 - DEBUG - Importing FpxImagePlugin
+2025-06-09 11:29:54,225 - DEBUG - Image: failed to import FpxImagePlugin: No module named 'olefile'
+2025-06-09 11:29:54,226 - DEBUG - Importing FtexImagePlugin
+2025-06-09 11:29:54,227 - DEBUG - Importing GbrImagePlugin
+2025-06-09 11:29:54,229 - DEBUG - Importing GifImagePlugin
+2025-06-09 11:29:54,229 - DEBUG - Importing GribStubImagePlugin
+2025-06-09 11:29:54,231 - DEBUG - Importing Hdf5StubImagePlugin
+2025-06-09 11:29:54,233 - DEBUG - Importing IcnsImagePlugin
+2025-06-09 11:29:54,238 - DEBUG - Importing IcoImagePlugin
+2025-06-09 11:29:54,240 - DEBUG - Importing ImImagePlugin
+2025-06-09 11:29:54,242 - DEBUG - Importing ImtImagePlugin
+2025-06-09 11:29:54,243 - DEBUG - Importing IptcImagePlugin
+2025-06-09 11:29:54,245 - DEBUG - Importing JpegImagePlugin
+2025-06-09 11:29:54,245 - DEBUG - Importing Jpeg2KImagePlugin
+2025-06-09 11:29:54,245 - DEBUG - Importing McIdasImagePlugin
+2025-06-09 11:29:54,247 - DEBUG - Importing MicImagePlugin
+2025-06-09 11:29:54,249 - DEBUG - Image: failed to import MicImagePlugin: No module named 'olefile'
+2025-06-09 11:29:54,249 - DEBUG - Importing MpegImagePlugin
+2025-06-09 11:29:54,250 - DEBUG - Importing MpoImagePlugin
+2025-06-09 11:29:54,264 - DEBUG - Importing MspImagePlugin
+2025-06-09 11:29:54,274 - DEBUG - Importing PalmImagePlugin
+2025-06-09 11:29:54,278 - DEBUG - Importing PcdImagePlugin
+2025-06-09 11:29:54,280 - DEBUG - Importing PcxImagePlugin
+2025-06-09 11:29:54,281 - DEBUG - Importing PdfImagePlugin
+2025-06-09 11:29:54,302 - DEBUG - Importing PixarImagePlugin
+2025-06-09 11:29:54,304 - DEBUG - Importing PngImagePlugin
+2025-06-09 11:29:54,304 - DEBUG - Importing PpmImagePlugin
+2025-06-09 11:29:54,304 - DEBUG - Importing PsdImagePlugin
+2025-06-09 11:29:54,305 - DEBUG - Importing QoiImagePlugin
+2025-06-09 11:29:54,307 - DEBUG - Importing SgiImagePlugin
+2025-06-09 11:29:54,308 - DEBUG - Importing SpiderImagePlugin
+2025-06-09 11:29:54,310 - DEBUG - Importing SunImagePlugin
+2025-06-09 11:29:54,312 - DEBUG - Importing TgaImagePlugin
+2025-06-09 11:29:54,315 - DEBUG - Importing TiffImagePlugin
+2025-06-09 11:29:54,315 - DEBUG - Importing WebPImagePlugin
+2025-06-09 11:29:54,369 - DEBUG - Importing WmfImagePlugin
+2025-06-09 11:29:54,371 - DEBUG - Importing XbmImagePlugin
+2025-06-09 11:29:54,373 - DEBUG - Importing XpmImagePlugin
+2025-06-09 11:29:54,376 - DEBUG - Importing XVThumbImagePlugin
+2025-06-09 11:30:08,079 - INFO - Always on top set to True
+2025-06-09 11:30:31,309 - INFO - F12 pressed - capturing clipboard command
+2025-06-09 11:30:31,312 - DEBUG - Processing command
+2025-06-09 11:30:31,312 - DEBUG - Modifying coordinates for command: kill @e[type=end_crystal,tag=laser,distance=..2,x=0,y=0,z=0]
+2025-06-09 11:30:31,314 - DEBUG - Kill match groups: ('kill @e[type=end_crystal,tag=laser,distance=..2,x=', '0', ',y=', '0', ',z=', '0', ']')
+2025-06-09 11:30:31,314 - DEBUG - Kill command modified: kill @e[type=end_crystal,tag=laser,distance=..2,x=1,y=-1,z=2]
+2025-06-09 11:30:31,314 - DEBUG - Modified command: kill @e[type=end_crystal,tag=laser,distance=..2,x=1,y=-1,z=2]
+2025-06-09 11:30:31,406 - DEBUG - Clipboard updated with modified command
+2025-06-09 11:30:38,415 - INFO - F12 pressed - capturing clipboard command
+2025-06-09 11:30:38,416 - DEBUG - Processing command
+2025-06-09 11:30:38,417 - DEBUG - Modifying coordinates for command: kill @e[type=end_crystal,tag=laser,distance=..2,x=1,y=-1,z=2]
+2025-06-09 11:30:38,417 - DEBUG - Kill match groups: ('kill @e[type=end_crystal,tag=laser,distance=..2,x=', '1', ',y=', '-1', ',z=', '2', ']')
+2025-06-09 11:30:38,418 - DEBUG - Kill command modified: kill @e[type=end_crystal,tag=laser,distance=..2,x=2,y=-2,z=4]
+2025-06-09 11:30:38,418 - DEBUG - Modified command: kill @e[type=end_crystal,tag=laser,distance=..2,x=2,y=-2,z=4]
+2025-06-09 11:30:38,537 - DEBUG - Clipboard updated with modified command
+2025-06-09 11:30:41,408 - INFO - F12 pressed - capturing clipboard command
+2025-06-09 11:30:41,409 - DEBUG - Processing command
+2025-06-09 11:30:41,410 - DEBUG - Modifying coordinates for command: kill @e[type=end_crystal,tag=laser,distance=..2,x=1,y=-1,z=2]
+2025-06-09 11:30:41,411 - DEBUG - Kill match groups: ('kill @e[type=end_crystal,tag=laser,distance=..2,x=', '1', ',y=', '-1', ',z=', '2', ']')
+2025-06-09 11:30:41,411 - DEBUG - Kill command modified: kill @e[type=end_crystal,tag=laser,distance=..2,x=2,y=-2,z=4]
+2025-06-09 11:30:41,411 - DEBUG - Modified command: kill @e[type=end_crystal,tag=laser,distance=..2,x=2,y=-2,z=4]
+2025-06-09 11:30:41,524 - DEBUG - Clipboard updated with modified command
+2025-06-09 11:30:48,716 - INFO - F12 pressed - capturing clipboard command
+2025-06-09 11:30:48,717 - DEBUG - Processing command
+2025-06-09 11:30:48,718 - DEBUG - Modifying coordinates for command: summon end_crystal 0 0 0 {ShowBottom:0b,Invulnerable:1b,Tags:["laser"],BeamTarget:{X:0,Y:0,Z:0}}
+2025-06-09 11:30:48,718 - DEBUG - Summon match groups: ('summon end_crystal ', '0', ' ', '0', ' ', '0', ' {ShowBottom:0b,Invulnerable:1b,Tags:["laser"],BeamTarget:{X:', '0', ',Y:', '0', ',Z:', '0', '}}')
+2025-06-09 11:30:48,718 - DEBUG - Summon command modified: summon end_crystal 1 -1 2 {ShowBottom:0b,Invulnerable:1b,Tags:["laser"],BeamTarget:{X:3,Y:-3,Z:-4}}
+2025-06-09 11:30:48,718 - DEBUG - Modified command: summon end_crystal 1 -1 2 {ShowBottom:0b,Invulnerable:1b,Tags:["laser"],BeamTarget:{X:3,Y:-3,Z:-4}}
+2025-06-09 11:30:48,797 - DEBUG - Clipboard updated with modified command
+2025-06-09 11:30:53,280 - INFO - F12 pressed - capturing clipboard command
+2025-06-09 11:30:53,281 - DEBUG - Processing command
+2025-06-09 11:30:53,281 - DEBUG - Modifying coordinates for command: summon end_crystal 1 -1 2 {ShowBottom:0b,Invulnerable:1b,Tags:["laser"],BeamTarget:{X:3,Y:-3,Z:-4}}
+2025-06-09 11:30:53,282 - DEBUG - Summon match groups: ('summon end_crystal ', '1', ' ', '-1', ' ', '2', ' {ShowBottom:0b,Invulnerable:1b,Tags:["laser"],BeamTarget:{X:', '3', ',Y:', '-3', ',Z:', '-4', '}}')
+2025-06-09 11:30:53,282 - DEBUG - Summon command modified: summon end_crystal 2 -2 4 {ShowBottom:0b,Invulnerable:1b,Tags:["laser"],BeamTarget:{X:6,Y:-6,Z:-8}}
+2025-06-09 11:30:53,282 - DEBUG - Modified command: summon end_crystal 2 -2 4 {ShowBottom:0b,Invulnerable:1b,Tags:["laser"],BeamTarget:{X:6,Y:-6,Z:-8}}
+2025-06-09 11:30:53,353 - DEBUG - Clipboard updated with modified command
+2025-06-09 11:30:54,443 - INFO - F12 pressed - capturing clipboard command
+2025-06-09 11:30:54,444 - DEBUG - Processing command
+2025-06-09 11:30:54,445 - DEBUG - Modifying coordinates for command: summon end_crystal 2 -2 4 {ShowBottom:0b,Invulnerable:1b,Tags:["laser"],BeamTarget:{X:6,Y:-6,Z:-8}}
+2025-06-09 11:30:54,445 - DEBUG - Summon match groups: ('summon end_crystal ', '2', ' ', '-2', ' ', '4', ' {ShowBottom:0b,Invulnerable:1b,Tags:["laser"],BeamTarget:{X:', '6', ',Y:', '-6', ',Z:', '-8', '}}')
+2025-06-09 11:30:54,445 - DEBUG - Summon command modified: summon end_crystal 3 -3 6 {ShowBottom:0b,Invulnerable:1b,Tags:["laser"],BeamTarget:{X:9,Y:-9,Z:-12}}
+2025-06-09 11:30:54,445 - DEBUG - Modified command: summon end_crystal 3 -3 6 {ShowBottom:0b,Invulnerable:1b,Tags:["laser"],BeamTarget:{X:9,Y:-9,Z:-12}}
+2025-06-09 11:30:54,516 - DEBUG - Clipboard updated with modified command
+2025-06-09 11:30:55,249 - INFO - F12 pressed - capturing clipboard command
+2025-06-09 11:30:55,250 - DEBUG - Processing command
+2025-06-09 11:30:55,251 - DEBUG - Modifying coordinates for command: summon end_crystal 3 -3 6 {ShowBottom:0b,Invulnerable:1b,Tags:["laser"],BeamTarget:{X:9,Y:-9,Z:-12}}
+2025-06-09 11:30:55,251 - DEBUG - Summon match groups: ('summon end_crystal ', '3', ' ', '-3', ' ', '6', ' {ShowBottom:0b,Invulnerable:1b,Tags:["laser"],BeamTarget:{X:', '9', ',Y:', '-9', ',Z:', '-12', '}}')
+2025-06-09 11:30:55,251 - DEBUG - Summon command modified: summon end_crystal 4 -4 8 {ShowBottom:0b,Invulnerable:1b,Tags:["laser"],BeamTarget:{X:12,Y:-12,Z:-16}}
+2025-06-09 11:30:55,251 - DEBUG - Modified command: summon end_crystal 4 -4 8 {ShowBottom:0b,Invulnerable:1b,Tags:["laser"],BeamTarget:{X:12,Y:-12,Z:-16}}
+2025-06-09 11:30:55,330 - DEBUG - Clipboard updated with modified command
+2025-06-09 11:30:56,051 - INFO - F12 pressed - capturing clipboard command
+2025-06-09 11:30:56,052 - DEBUG - Processing command
+2025-06-09 11:30:56,052 - DEBUG - Modifying coordinates for command: summon end_crystal 4 -4 8 {ShowBottom:0b,Invulnerable:1b,Tags:["laser"],BeamTarget:{X:12,Y:-12,Z:-16}}
+2025-06-09 11:30:56,053 - DEBUG - Summon match groups: ('summon end_crystal ', '4', ' ', '-4', ' ', '8', ' {ShowBottom:0b,Invulnerable:1b,Tags:["laser"],BeamTarget:{X:', '12', ',Y:', '-12', ',Z:', '-16', '}}')
+2025-06-09 11:30:56,053 - DEBUG - Summon command modified: summon end_crystal 5 -5 10 {ShowBottom:0b,Invulnerable:1b,Tags:["laser"],BeamTarget:{X:15,Y:-15,Z:-20}}
+2025-06-09 11:30:56,053 - DEBUG - Modified command: summon end_crystal 5 -5 10 {ShowBottom:0b,Invulnerable:1b,Tags:["laser"],BeamTarget:{X:15,Y:-15,Z:-20}}
+2025-06-09 11:30:56,126 - DEBUG - Clipboard updated with modified command
+2025-06-09 11:30:58,592 - INFO - F12 pressed - capturing clipboard command
+2025-06-09 11:30:58,592 - DEBUG - Processing command
+2025-06-09 11:30:58,594 - DEBUG - Modifying coordinates for command: setblock 0 0 0 minecraft:white_concrete
+2025-06-09 11:30:58,594 - DEBUG - Setblock match groups: ('setblock ', '0', ' ', '0', ' ', '0', ' minecraft:white_concrete', 'minecraft:white_concrete')
+2025-06-09 11:30:58,594 - DEBUG - Setblock command modified: setblock 1 -1 2 minecraft:white_concrete
+2025-06-09 11:30:58,594 - DEBUG - Modified command: setblock 1 -1 2 minecraft:white_concrete
+2025-06-09 11:30:58,679 - DEBUG - Clipboard updated with modified command
+2025-06-09 11:30:59,304 - INFO - F12 pressed - capturing clipboard command
+2025-06-09 11:30:59,305 - DEBUG - Processing command
+2025-06-09 11:30:59,305 - DEBUG - Modifying coordinates for command: setblock 1 -1 2 minecraft:white_concrete
+2025-06-09 11:30:59,306 - DEBUG - Setblock match groups: ('setblock ', '1', ' ', '-1', ' ', '2', ' minecraft:white_concrete', 'minecraft:white_concrete')
+2025-06-09 11:30:59,306 - DEBUG - Setblock command modified: setblock 2 -2 4 minecraft:white_concrete
+2025-06-09 11:30:59,306 - DEBUG - Modified command: setblock 2 -2 4 minecraft:white_concrete
+2025-06-09 11:30:59,392 - DEBUG - Clipboard updated with modified command
+2025-06-09 11:31:00,045 - INFO - F12 pressed - capturing clipboard command
+2025-06-09 11:31:00,047 - DEBUG - Processing command
+2025-06-09 11:31:00,047 - DEBUG - Modifying coordinates for command: setblock 2 -2 4 minecraft:white_concrete
+2025-06-09 11:31:00,047 - DEBUG - Setblock match groups: ('setblock ', '2', ' ', '-2', ' ', '4', ' minecraft:white_concrete', 'minecraft:white_concrete')
+2025-06-09 11:31:00,048 - DEBUG - Setblock command modified: setblock 3 -3 6 minecraft:white_concrete
+2025-06-09 11:31:00,048 - DEBUG - Modified command: setblock 3 -3 6 minecraft:white_concrete
+2025-06-09 11:31:00,135 - DEBUG - Clipboard updated with modified command
+2025-06-09 11:31:00,725 - INFO - F12 pressed - capturing clipboard command
+2025-06-09 11:31:00,726 - DEBUG - Processing command
+2025-06-09 11:31:00,727 - DEBUG - Modifying coordinates for command: setblock 3 -3 6 minecraft:white_concrete
+2025-06-09 11:31:00,727 - DEBUG - Setblock match groups: ('setblock ', '3', ' ', '-3', ' ', '6', ' minecraft:white_concrete', 'minecraft:white_concrete')
+2025-06-09 11:31:00,727 - DEBUG - Setblock command modified: setblock 4 -4 8 minecraft:white_concrete
+2025-06-09 11:31:00,727 - DEBUG - Modified command: setblock 4 -4 8 minecraft:white_concrete
+2025-06-09 11:31:00,810 - DEBUG - Clipboard updated with modified command
+2025-06-09 11:31:08,558 - INFO - F12 pressed - capturing clipboard command
+2025-06-09 11:31:08,558 - DEBUG - Processing command
+2025-06-09 11:31:08,560 - DEBUG - Modifying coordinates for command: kill @e[type=end_crystal,tag=laser,distance=..2,x=1,y=-1,z=2]
+2025-06-09 11:31:08,560 - DEBUG - Kill match groups: ('kill @e[type=end_crystal,tag=laser,distance=..2,x=', '1', ',y=', '-1', ',z=', '2', ']')
+2025-06-09 11:31:08,560 - DEBUG - Kill command modified: kill @e[type=end_crystal,tag=laser,distance=..2,x=2,y=-2,z=4]
+2025-06-09 11:31:08,560 - DEBUG - Modified command: kill @e[type=end_crystal,tag=laser,distance=..2,x=2,y=-2,z=4]
+2025-06-09 11:31:08,656 - DEBUG - Clipboard updated with modified command
+2025-06-09 11:31:09,298 - INFO - F12 pressed - capturing clipboard command
+2025-06-09 11:31:09,299 - DEBUG - Processing command
+2025-06-09 11:31:09,299 - DEBUG - Modifying coordinates for command: kill @e[type=end_crystal,tag=laser,distance=..2,x=2,y=-2,z=4]
+2025-06-09 11:31:09,300 - DEBUG - Kill match groups: ('kill @e[type=end_crystal,tag=laser,distance=..2,x=', '2', ',y=', '-2', ',z=', '4', ']')
+2025-06-09 11:31:09,300 - DEBUG - Kill command modified: kill @e[type=end_crystal,tag=laser,distance=..2,x=3,y=-3,z=6]
+2025-06-09 11:31:09,300 - DEBUG - Modified command: kill @e[type=end_crystal,tag=laser,distance=..2,x=3,y=-3,z=6]
+2025-06-09 11:31:09,382 - DEBUG - Clipboard updated with modified command
+2025-06-09 11:31:10,012 - INFO - F12 pressed - capturing clipboard command
+2025-06-09 11:31:10,013 - DEBUG - Processing command
+2025-06-09 11:31:10,014 - DEBUG - Modifying coordinates for command: kill @e[type=end_crystal,tag=laser,distance=..2,x=3,y=-3,z=6]
+2025-06-09 11:31:10,014 - DEBUG - Kill match groups: ('kill @e[type=end_crystal,tag=laser,distance=..2,x=', '3', ',y=', '-3', ',z=', '6', ']')
+2025-06-09 11:31:10,014 - DEBUG - Kill command modified: kill @e[type=end_crystal,tag=laser,distance=..2,x=4,y=-4,z=8]
+2025-06-09 11:31:10,014 - DEBUG - Modified command: kill @e[type=end_crystal,tag=laser,distance=..2,x=4,y=-4,z=8]
+2025-06-09 11:31:10,103 - DEBUG - Clipboard updated with modified command
+2025-06-09 11:31:10,939 - INFO - F12 pressed - capturing clipboard command
+2025-06-09 11:31:10,940 - DEBUG - Processing command
+2025-06-09 11:31:10,940 - DEBUG - Modifying coordinates for command: kill @e[type=end_crystal,tag=laser,distance=..2,x=4,y=-4,z=8]
+2025-06-09 11:31:10,940 - DEBUG - Kill match groups: ('kill @e[type=end_crystal,tag=laser,distance=..2,x=', '4', ',y=', '-4', ',z=', '8', ']')
+2025-06-09 11:31:10,940 - DEBUG - Kill command modified: kill @e[type=end_crystal,tag=laser,distance=..2,x=5,y=-5,z=10]
+2025-06-09 11:31:10,940 - DEBUG - Modified command: kill @e[type=end_crystal,tag=laser,distance=..2,x=5,y=-5,z=10]
+2025-06-09 11:31:11,016 - DEBUG - Clipboard updated with modified command
+2025-06-09 11:31:19,128 - INFO - Application interrupted by user
+2025-06-09 11:31:19,133 - INFO - Application exiting
+2025-06-09 11:31:20,896 - INFO - Application started (F12 clipboard mode with GUI)
+2025-06-09 11:31:20,898 - INFO - Always on top set to False
+2025-06-09 11:31:21,074 - WARNING - Icon file 'icon.ico' not found at C:\Users\ryant\IdeaProjects\MInecraft Command Block Modifiers\.idea\icon.ico. Using fallback image.
+2025-06-09 11:31:21,076 - INFO - Tray icon initialized successfully
+2025-06-09 11:31:21,122 - DEBUG - Importing AvifImagePlugin
+2025-06-09 11:31:21,124 - DEBUG - Importing BlpImagePlugin
+2025-06-09 11:31:21,127 - DEBUG - Importing BmpImagePlugin
+2025-06-09 11:31:21,127 - DEBUG - Importing BufrStubImagePlugin
+2025-06-09 11:31:21,129 - DEBUG - Importing CurImagePlugin
+2025-06-09 11:31:21,130 - DEBUG - Importing DcxImagePlugin
+2025-06-09 11:31:21,133 - DEBUG - Importing DdsImagePlugin
+2025-06-09 11:31:21,138 - DEBUG - Importing EpsImagePlugin
+2025-06-09 11:31:21,141 - DEBUG - Importing FitsImagePlugin
+2025-06-09 11:31:21,144 - DEBUG - Importing FliImagePlugin
+2025-06-09 11:31:21,146 - DEBUG - Importing FpxImagePlugin
+2025-06-09 11:31:21,149 - DEBUG - Image: failed to import FpxImagePlugin: No module named 'olefile'
+2025-06-09 11:31:21,149 - DEBUG - Importing FtexImagePlugin
+2025-06-09 11:31:21,150 - DEBUG - Importing GbrImagePlugin
+2025-06-09 11:31:21,155 - DEBUG - Importing GifImagePlugin
+2025-06-09 11:31:21,155 - DEBUG - Importing GribStubImagePlugin
+2025-06-09 11:31:21,156 - DEBUG - Importing Hdf5StubImagePlugin
+2025-06-09 11:31:21,157 - DEBUG - Importing IcnsImagePlugin
+2025-06-09 11:31:21,160 - DEBUG - Importing IcoImagePlugin
+2025-06-09 11:31:21,162 - DEBUG - Importing ImImagePlugin
+2025-06-09 11:31:21,164 - DEBUG - Importing ImtImagePlugin
+2025-06-09 11:31:21,165 - DEBUG - Importing IptcImagePlugin
+2025-06-09 11:31:21,166 - DEBUG - Importing JpegImagePlugin
+2025-06-09 11:31:21,166 - DEBUG - Importing Jpeg2KImagePlugin
+2025-06-09 11:31:21,166 - DEBUG - Importing McIdasImagePlugin
+2025-06-09 11:31:21,167 - DEBUG - Importing MicImagePlugin
+2025-06-09 11:31:21,169 - DEBUG - Image: failed to import MicImagePlugin: No module named 'olefile'
+2025-06-09 11:31:21,169 - DEBUG - Importing MpegImagePlugin
+2025-06-09 11:31:21,170 - DEBUG - Importing MpoImagePlugin
+2025-06-09 11:31:21,181 - DEBUG - Importing MspImagePlugin
+2025-06-09 11:31:21,182 - DEBUG - Importing PalmImagePlugin
+2025-06-09 11:31:21,185 - DEBUG - Importing PcdImagePlugin
+2025-06-09 11:31:21,186 - DEBUG - Importing PcxImagePlugin
+2025-06-09 11:31:21,186 - DEBUG - Importing PdfImagePlugin
+2025-06-09 11:31:21,198 - DEBUG - Importing PixarImagePlugin
+2025-06-09 11:31:21,200 - DEBUG - Importing PngImagePlugin
+2025-06-09 11:31:21,200 - DEBUG - Importing PpmImagePlugin
+2025-06-09 11:31:21,200 - DEBUG - Importing PsdImagePlugin
+2025-06-09 11:31:21,202 - DEBUG - Importing QoiImagePlugin
+2025-06-09 11:31:21,203 - DEBUG - Importing SgiImagePlugin
+2025-06-09 11:31:21,204 - DEBUG - Importing SpiderImagePlugin
+2025-06-09 11:31:21,205 - DEBUG - Importing SunImagePlugin
+2025-06-09 11:31:21,206 - DEBUG - Importing TgaImagePlugin
+2025-06-09 11:31:21,206 - DEBUG - Importing TiffImagePlugin
+2025-06-09 11:31:21,206 - DEBUG - Importing WebPImagePlugin
+2025-06-09 11:31:21,208 - DEBUG - Importing WmfImagePlugin
+2025-06-09 11:31:21,209 - DEBUG - Importing XbmImagePlugin
+2025-06-09 11:31:21,210 - DEBUG - Importing XpmImagePlugin
+2025-06-09 11:31:21,211 - DEBUG - Importing XVThumbImagePlugin
+2025-06-09 11:31:32,303 - INFO - Always on top set to True
+2025-06-09 11:31:53,079 - INFO - F12 pressed - capturing clipboard command
+2025-06-09 11:31:53,081 - DEBUG - Processing command
+2025-06-09 11:31:53,081 - DEBUG - Modifying coordinates for command: kill @e[type=end_crystal,tag=laser,distance=..2,x=1,y=1,z=1]
+2025-06-09 11:31:53,083 - DEBUG - Kill match groups: ('kill @e[type=end_crystal,tag=laser,distance=..2,x=', '1', ',y=', '1', ',z=', '1', ']')
+2025-06-09 11:31:53,083 - DEBUG - Kill command modified: kill @e[type=end_crystal,tag=laser,distance=..2,x=2,y=2,z=2]
+2025-06-09 11:31:53,083 - DEBUG - Modified command: kill @e[type=end_crystal,tag=laser,distance=..2,x=2,y=2,z=2]
+2025-06-09 11:31:53,183 - DEBUG - Clipboard updated with modified command
+2025-06-09 11:31:55,635 - INFO - F12 pressed - capturing clipboard command
+2025-06-09 11:31:55,635 - DEBUG - Processing command
+2025-06-09 11:31:55,637 - DEBUG - Modifying coordinates for command: kill @e[type=end_crystal,tag=laser,distance=..2,x=1,y=1,z=1]
+2025-06-09 11:31:55,637 - DEBUG - Kill match groups: ('kill @e[type=end_crystal,tag=laser,distance=..2,x=', '1', ',y=', '1', ',z=', '1', ']')
+2025-06-09 11:31:55,637 - DEBUG - Kill command modified: kill @e[type=end_crystal,tag=laser,distance=..2,x=2,y=2,z=2]
+2025-06-09 11:31:55,637 - DEBUG - Modified command: kill @e[type=end_crystal,tag=laser,distance=..2,x=2,y=2,z=2]
+2025-06-09 11:31:55,731 - DEBUG - Clipboard updated with modified command
+2025-06-09 11:31:56,488 - INFO - F12 pressed - capturing clipboard command
+2025-06-09 11:31:56,489 - DEBUG - Processing command
+2025-06-09 11:31:56,489 - DEBUG - Modifying coordinates for command: kill @e[type=end_crystal,tag=laser,distance=..2,x=2,y=2,z=2]
+2025-06-09 11:31:56,489 - DEBUG - Kill match groups: ('kill @e[type=end_crystal,tag=laser,distance=..2,x=', '2', ',y=', '2', ',z=', '2', ']')
+2025-06-09 11:31:56,489 - DEBUG - Kill command modified: kill @e[type=end_crystal,tag=laser,distance=..2,x=3,y=3,z=3]
+2025-06-09 11:31:56,489 - DEBUG - Modified command: kill @e[type=end_crystal,tag=laser,distance=..2,x=3,y=3,z=3]
+2025-06-09 11:31:56,577 - DEBUG - Clipboard updated with modified command
+2025-06-09 11:31:57,434 - INFO - F12 pressed - capturing clipboard command
+2025-06-09 11:31:57,434 - DEBUG - Processing command
+2025-06-09 11:31:57,436 - DEBUG - Modifying coordinates for command: kill @e[type=end_crystal,tag=laser,distance=..2,x=3,y=3,z=3]
+2025-06-09 11:31:57,436 - DEBUG - Kill match groups: ('kill @e[type=end_crystal,tag=laser,distance=..2,x=', '3', ',y=', '3', ',z=', '3', ']')
+2025-06-09 11:31:57,436 - DEBUG - Kill command modified: kill @e[type=end_crystal,tag=laser,distance=..2,x=4,y=4,z=4]
+2025-06-09 11:31:57,436 - DEBUG - Modified command: kill @e[type=end_crystal,tag=laser,distance=..2,x=4,y=4,z=4]
+2025-06-09 11:31:57,540 - DEBUG - Clipboard updated with modified command
+2025-06-09 11:32:02,832 - INFO - Application interrupted by user
+2025-06-09 11:32:02,836 - INFO - Application exiting
+2025-06-09 11:32:05,393 - INFO - Application started (F12 clipboard mode with GUI)
+2025-06-09 11:32:05,394 - INFO - Always on top set to False
+2025-06-09 11:32:05,535 - WARNING - Icon file 'icon.ico' not found at C:\Users\ryant\IdeaProjects\MInecraft Command Block Modifiers\.idea\icon.ico. Using fallback image.
+2025-06-09 11:32:05,536 - INFO - Tray icon initialized successfully
+2025-06-09 11:32:05,561 - DEBUG - Importing AvifImagePlugin
+2025-06-09 11:32:05,562 - DEBUG - Importing BlpImagePlugin
+2025-06-09 11:32:05,565 - DEBUG - Importing BmpImagePlugin
+2025-06-09 11:32:05,565 - DEBUG - Importing BufrStubImagePlugin
+2025-06-09 11:32:05,566 - DEBUG - Importing CurImagePlugin
+2025-06-09 11:32:05,567 - DEBUG - Importing DcxImagePlugin
+2025-06-09 11:32:05,569 - DEBUG - Importing DdsImagePlugin
+2025-06-09 11:32:05,572 - DEBUG - Importing EpsImagePlugin
+2025-06-09 11:32:05,573 - DEBUG - Importing FitsImagePlugin
+2025-06-09 11:32:05,575 - DEBUG - Importing FliImagePlugin
+2025-06-09 11:32:05,576 - DEBUG - Importing FpxImagePlugin
+2025-06-09 11:32:05,578 - DEBUG - Image: failed to import FpxImagePlugin: No module named 'olefile'
+2025-06-09 11:32:05,578 - DEBUG - Importing FtexImagePlugin
+2025-06-09 11:32:05,579 - DEBUG - Importing GbrImagePlugin
+2025-06-09 11:32:05,580 - DEBUG - Importing GifImagePlugin
+2025-06-09 11:32:05,580 - DEBUG - Importing GribStubImagePlugin
+2025-06-09 11:32:05,581 - DEBUG - Importing Hdf5StubImagePlugin
+2025-06-09 11:32:05,582 - DEBUG - Importing IcnsImagePlugin
+2025-06-09 11:32:05,584 - DEBUG - Importing IcoImagePlugin
+2025-06-09 11:32:05,585 - DEBUG - Importing ImImagePlugin
+2025-06-09 11:32:05,586 - DEBUG - Importing ImtImagePlugin
+2025-06-09 11:32:05,588 - DEBUG - Importing IptcImagePlugin
+2025-06-09 11:32:05,589 - DEBUG - Importing JpegImagePlugin
+2025-06-09 11:32:05,589 - DEBUG - Importing Jpeg2KImagePlugin
+2025-06-09 11:32:05,589 - DEBUG - Importing McIdasImagePlugin
+2025-06-09 11:32:05,589 - DEBUG - Importing MicImagePlugin
+2025-06-09 11:32:05,591 - DEBUG - Image: failed to import MicImagePlugin: No module named 'olefile'
+2025-06-09 11:32:05,591 - DEBUG - Importing MpegImagePlugin
+2025-06-09 11:32:05,592 - DEBUG - Importing MpoImagePlugin
+2025-06-09 11:32:05,601 - DEBUG - Importing MspImagePlugin
+2025-06-09 11:32:05,603 - DEBUG - Importing PalmImagePlugin
+2025-06-09 11:32:05,604 - DEBUG - Importing PcdImagePlugin
+2025-06-09 11:32:05,605 - DEBUG - Importing PcxImagePlugin
+2025-06-09 11:32:05,605 - DEBUG - Importing PdfImagePlugin
+2025-06-09 11:32:05,618 - DEBUG - Importing PixarImagePlugin
+2025-06-09 11:32:05,619 - DEBUG - Importing PngImagePlugin
+2025-06-09 11:32:05,619 - DEBUG - Importing PpmImagePlugin
+2025-06-09 11:32:05,619 - DEBUG - Importing PsdImagePlugin
+2025-06-09 11:32:05,620 - DEBUG - Importing QoiImagePlugin
+2025-06-09 11:32:05,620 - DEBUG - Importing SgiImagePlugin
+2025-06-09 11:32:05,622 - DEBUG - Importing SpiderImagePlugin
+2025-06-09 11:32:05,623 - DEBUG - Importing SunImagePlugin
+2025-06-09 11:32:05,623 - DEBUG - Importing TgaImagePlugin
+2025-06-09 11:32:05,624 - DEBUG - Importing TiffImagePlugin
+2025-06-09 11:32:05,624 - DEBUG - Importing WebPImagePlugin
+2025-06-09 11:32:05,626 - DEBUG - Importing WmfImagePlugin
+2025-06-09 11:32:05,627 - DEBUG - Importing XbmImagePlugin
+2025-06-09 11:32:05,628 - DEBUG - Importing XpmImagePlugin
+2025-06-09 11:32:05,630 - DEBUG - Importing XVThumbImagePlugin
+2025-06-09 11:32:13,697 - INFO - F12 pressed - capturing clipboard command
+2025-06-09 11:32:13,699 - DEBUG - Processing command
+2025-06-09 11:32:13,700 - DEBUG - Modifying coordinates for command: kill @e[type=end_crystal,tag=laser,distance=..2,x=3,y=3,z=3]
+2025-06-09 11:32:13,701 - DEBUG - Kill match groups: ('kill @e[type=end_crystal,tag=laser,distance=..2,x=', '3', ',y=', '3', ',z=', '3', ']')
+2025-06-09 11:32:13,701 - DEBUG - Kill command modified: kill @e[type=end_crystal,tag=laser,distance=..2,x=1,y=1,z=1]
+2025-06-09 11:32:13,701 - DEBUG - Modified command: kill @e[type=end_crystal,tag=laser,distance=..2,x=1,y=1,z=1]
+2025-06-09 11:32:13,764 - DEBUG - Clipboard updated with modified command
+2025-06-09 11:32:27,421 - INFO - Always on top set to True
+2025-06-09 11:32:29,466 - INFO - F12 pressed - capturing clipboard command
+2025-06-09 11:32:29,467 - DEBUG - Processing command
+2025-06-09 11:32:29,468 - DEBUG - Modifying coordinates for command: kill @e[type=end_crystal,tag=laser,distance=..2,x=1,y=1,z=1]
+2025-06-09 11:32:29,468 - DEBUG - Kill match groups: ('kill @e[type=end_crystal,tag=laser,distance=..2,x=', '1', ',y=', '1', ',z=', '1', ']')
+2025-06-09 11:32:29,468 - DEBUG - Kill command modified: kill @e[type=end_crystal,tag=laser,distance=..2,x=0,y=0,z=0]
+2025-06-09 11:32:29,468 - DEBUG - Modified command: kill @e[type=end_crystal,tag=laser,distance=..2,x=0,y=0,z=0]
+2025-06-09 11:32:29,535 - DEBUG - Clipboard updated with modified command
+2025-06-09 11:32:33,802 - INFO - F12 pressed - capturing clipboard command
+2025-06-09 11:32:33,802 - DEBUG - Processing command
+2025-06-09 11:32:33,803 - DEBUG - Modifying coordinates for command: kill @e[type=end_crystal,tag=laser,distance=..2,x=0,y=0,z=0]
+2025-06-09 11:32:33,803 - DEBUG - Kill match groups: ('kill @e[type=end_crystal,tag=laser,distance=..2,x=', '0', ',y=', '0', ',z=', '0', ']')
+2025-06-09 11:32:33,803 - DEBUG - Kill command modified: kill @e[type=end_crystal,tag=laser,distance=..2,x=-2,y=-2,z=-2]
+2025-06-09 11:32:33,803 - DEBUG - Modified command: kill @e[type=end_crystal,tag=laser,distance=..2,x=-2,y=-2,z=-2]
+2025-06-09 11:32:33,882 - DEBUG - Clipboard updated with modified command
+2025-06-09 11:32:39,012 - INFO - F12 pressed - capturing clipboard command
+2025-06-09 11:32:39,012 - DEBUG - Processing command
+2025-06-09 11:32:39,013 - DEBUG - Modifying coordinates for command: kill @e[type=end_crystal,tag=laser,distance=..2,x=-2,y=-2,z=-2]
+2025-06-09 11:32:39,014 - DEBUG - Kill match groups: ('kill @e[type=end_crystal,tag=laser,distance=..2,x=', '-2', ',y=', '-2', ',z=', '-2', ']')
+2025-06-09 11:32:39,014 - DEBUG - Kill command modified: kill @e[type=end_crystal,tag=laser,distance=..2,x=-1,y=-3,z=-4]
+2025-06-09 11:32:39,014 - DEBUG - Modified command: kill @e[type=end_crystal,tag=laser,distance=..2,x=-1,y=-3,z=-4]
+2025-06-09 11:32:39,091 - DEBUG - Clipboard updated with modified command
+2025-06-09 11:32:45,166 - INFO - F12 pressed - capturing clipboard command
+2025-06-09 11:32:45,168 - DEBUG - Processing command
+2025-06-09 11:32:45,168 - DEBUG - Modifying coordinates for command: kill @e[type=end_crystal,tag=laser,distance=..2,x=-1,y=-3,z=-4]
+2025-06-09 11:32:45,168 - DEBUG - Kill match groups: ('kill @e[type=end_crystal,tag=laser,distance=..2,x=', '-1', ',y=', '-3', ',z=', '-4', ']')
+2025-06-09 11:32:45,168 - DEBUG - Kill command modified: kill @e[type=end_crystal,tag=laser,distance=..2,x=0,y=0,z=0]
+2025-06-09 11:32:45,169 - DEBUG - Modified command: kill @e[type=end_crystal,tag=laser,distance=..2,x=0,y=0,z=0]
+2025-06-09 11:32:45,248 - DEBUG - Clipboard updated with modified command
+2025-06-09 11:33:55,699 - DEBUG - Generated laser commands: summon end_crystal -93 -50 -102 {ShowBottom:0b,Invulnerable:1b,Tags:["laser"],BeamTarget:{X:-93,Y:-50,Z:-114}}
+kill @e[type=end_crystal,tag=laser,distance=..2,x=-93,y=-50,z=-102]
+2025-06-09 11:41:11,469 - INFO - Application interrupted by user
+2025-06-09 11:41:11,474 - INFO - Application exiting
+2025-06-09 11:41:42,226 - INFO - Application started (F12 clipboard mode with GUI)
+2025-06-09 11:41:42,227 - INFO - Always on top set to False
+2025-06-09 11:41:42,354 - WARNING - Icon file 'icon.ico' not found at C:\Users\ryant\IdeaProjects\MInecraft Command Block Modifiers\.idea\icon.ico. Using fallback image.
+2025-06-09 11:41:42,355 - INFO - Tray icon initialized successfully
+2025-06-09 11:41:42,382 - DEBUG - Importing AvifImagePlugin
+2025-06-09 11:41:42,383 - DEBUG - Importing BlpImagePlugin
+2025-06-09 11:41:42,384 - DEBUG - Importing BmpImagePlugin
+2025-06-09 11:41:42,385 - DEBUG - Importing BufrStubImagePlugin
+2025-06-09 11:41:42,385 - DEBUG - Importing CurImagePlugin
+2025-06-09 11:41:42,387 - DEBUG - Importing DcxImagePlugin
+2025-06-09 11:41:42,388 - DEBUG - Importing DdsImagePlugin
+2025-06-09 11:41:42,392 - DEBUG - Importing EpsImagePlugin
+2025-06-09 11:41:42,393 - DEBUG - Importing FitsImagePlugin
+2025-06-09 11:41:42,395 - DEBUG - Importing FliImagePlugin
+2025-06-09 11:41:42,396 - DEBUG - Importing FpxImagePlugin
+2025-06-09 11:41:42,397 - DEBUG - Image: failed to import FpxImagePlugin: No module named 'olefile'
+2025-06-09 11:41:42,397 - DEBUG - Importing FtexImagePlugin
+2025-06-09 11:41:42,398 - DEBUG - Importing GbrImagePlugin
+2025-06-09 11:41:42,399 - DEBUG - Importing GifImagePlugin
+2025-06-09 11:41:42,399 - DEBUG - Importing GribStubImagePlugin
+2025-06-09 11:41:42,399 - DEBUG - Importing Hdf5StubImagePlugin
+2025-06-09 11:41:42,400 - DEBUG - Importing IcnsImagePlugin
+2025-06-09 11:41:42,402 - DEBUG - Importing IcoImagePlugin
+2025-06-09 11:41:42,403 - DEBUG - Importing ImImagePlugin
+2025-06-09 11:41:42,404 - DEBUG - Importing ImtImagePlugin
+2025-06-09 11:41:42,405 - DEBUG - Importing IptcImagePlugin
+2025-06-09 11:41:42,406 - DEBUG - Importing JpegImagePlugin
+2025-06-09 11:41:42,406 - DEBUG - Importing Jpeg2KImagePlugin
+2025-06-09 11:41:42,406 - DEBUG - Importing McIdasImagePlugin
+2025-06-09 11:41:42,407 - DEBUG - Importing MicImagePlugin
+2025-06-09 11:41:42,408 - DEBUG - Image: failed to import MicImagePlugin: No module named 'olefile'
+2025-06-09 11:41:42,408 - DEBUG - Importing MpegImagePlugin
+2025-06-09 11:41:42,409 - DEBUG - Importing MpoImagePlugin
+2025-06-09 11:41:42,418 - DEBUG - Importing MspImagePlugin
+2025-06-09 11:41:42,419 - DEBUG - Importing PalmImagePlugin
+2025-06-09 11:41:42,421 - DEBUG - Importing PcdImagePlugin
+2025-06-09 11:41:42,422 - DEBUG - Importing PcxImagePlugin
+2025-06-09 11:41:42,422 - DEBUG - Importing PdfImagePlugin
+2025-06-09 11:41:42,432 - DEBUG - Importing PixarImagePlugin
+2025-06-09 11:41:42,433 - DEBUG - Importing PngImagePlugin
+2025-06-09 11:41:42,433 - DEBUG - Importing PpmImagePlugin
+2025-06-09 11:41:42,434 - DEBUG - Importing PsdImagePlugin
+2025-06-09 11:41:42,435 - DEBUG - Importing QoiImagePlugin
+2025-06-09 11:41:42,436 - DEBUG - Importing SgiImagePlugin
+2025-06-09 11:41:42,437 - DEBUG - Importing SpiderImagePlugin
+2025-06-09 11:41:42,438 - DEBUG - Importing SunImagePlugin
+2025-06-09 11:41:42,440 - DEBUG - Importing TgaImagePlugin
+2025-06-09 11:41:42,441 - DEBUG - Importing TiffImagePlugin
+2025-06-09 11:41:42,441 - DEBUG - Importing WebPImagePlugin
+2025-06-09 11:41:42,444 - DEBUG - Importing WmfImagePlugin
+2025-06-09 11:41:42,445 - DEBUG - Importing XbmImagePlugin
+2025-06-09 11:41:42,446 - DEBUG - Importing XpmImagePlugin
+2025-06-09 11:41:42,447 - DEBUG - Importing XVThumbImagePlugin
+2025-06-09 11:41:49,379 - INFO - Always on top set to True
+2025-06-09 11:42:41,277 - DEBUG - Generated laser commands: summon end_crystal -93 -50 -102 {ShowBottom:0b,Invulnerable:1b,Tags:["laser"],BeamTarget:{X:-93,Y:-50,Z:-114}}
+kill @e[type=end_crystal,tag=laser,distance=..2,x=-93,y=-50,z=-102]
+2025-06-09 11:44:32,475 - INFO - Application interrupted by user
+2025-06-09 11:44:32,476 - INFO - Application exiting
+2025-06-09 11:44:34,254 - INFO - Application started (F12 clipboard mode with GUI)
+2025-06-09 11:44:34,256 - INFO - Always on top set to False
+2025-06-09 11:44:34,549 - WARNING - Icon file 'icon.ico' not found at C:\Users\ryant\IdeaProjects\MInecraft Command Block Modifiers\.idea\icon.ico. Using fallback image.
+2025-06-09 11:44:34,552 - INFO - Tray icon initialized successfully
+2025-06-09 11:44:34,611 - DEBUG - Importing AvifImagePlugin
+2025-06-09 11:44:34,613 - DEBUG - Importing BlpImagePlugin
+2025-06-09 11:44:34,625 - DEBUG - Importing BmpImagePlugin
+2025-06-09 11:44:34,626 - DEBUG - Importing BufrStubImagePlugin
+2025-06-09 11:44:34,629 - DEBUG - Importing CurImagePlugin
+2025-06-09 11:44:34,632 - DEBUG - Importing DcxImagePlugin
+2025-06-09 11:44:34,636 - DEBUG - Importing DdsImagePlugin
+2025-06-09 11:44:34,641 - DEBUG - Importing EpsImagePlugin
+2025-06-09 11:44:34,644 - DEBUG - Importing FitsImagePlugin
+2025-06-09 11:44:34,650 - DEBUG - Importing FliImagePlugin
+2025-06-09 11:44:34,652 - DEBUG - Importing FpxImagePlugin
+2025-06-09 11:44:34,656 - DEBUG - Image: failed to import FpxImagePlugin: No module named 'olefile'
+2025-06-09 11:44:34,657 - DEBUG - Importing FtexImagePlugin
+2025-06-09 11:44:34,659 - DEBUG - Importing GbrImagePlugin
+2025-06-09 11:44:34,661 - DEBUG - Importing GifImagePlugin
+2025-06-09 11:44:34,661 - DEBUG - Importing GribStubImagePlugin
+2025-06-09 11:44:34,663 - DEBUG - Importing Hdf5StubImagePlugin
+2025-06-09 11:44:34,666 - DEBUG - Importing IcnsImagePlugin
+2025-06-09 11:44:34,673 - DEBUG - Importing IcoImagePlugin
+2025-06-09 11:44:34,676 - DEBUG - Importing ImImagePlugin
+2025-06-09 11:44:34,679 - DEBUG - Importing ImtImagePlugin
+2025-06-09 11:44:34,681 - DEBUG - Importing IptcImagePlugin
+2025-06-09 11:44:34,683 - DEBUG - Importing JpegImagePlugin
+2025-06-09 11:44:34,684 - DEBUG - Importing Jpeg2KImagePlugin
+2025-06-09 11:44:34,684 - DEBUG - Importing McIdasImagePlugin
+2025-06-09 11:44:34,686 - DEBUG - Importing MicImagePlugin
+2025-06-09 11:44:34,689 - DEBUG - Image: failed to import MicImagePlugin: No module named 'olefile'
+2025-06-09 11:44:34,689 - DEBUG - Importing MpegImagePlugin
+2025-06-09 11:44:34,691 - DEBUG - Importing MpoImagePlugin
+2025-06-09 11:44:34,706 - DEBUG - Importing MspImagePlugin
+2025-06-09 11:44:34,709 - DEBUG - Importing PalmImagePlugin
+2025-06-09 11:44:34,712 - DEBUG - Importing PcdImagePlugin
+2025-06-09 11:44:34,714 - DEBUG - Importing PcxImagePlugin
+2025-06-09 11:44:34,714 - DEBUG - Importing PdfImagePlugin
+2025-06-09 11:44:34,741 - DEBUG - Importing PixarImagePlugin
+2025-06-09 11:44:34,742 - DEBUG - Importing PngImagePlugin
+2025-06-09 11:44:34,743 - DEBUG - Importing PpmImagePlugin
+2025-06-09 11:44:34,743 - DEBUG - Importing PsdImagePlugin
+2025-06-09 11:44:34,745 - DEBUG - Importing QoiImagePlugin
+2025-06-09 11:44:34,746 - DEBUG - Importing SgiImagePlugin
+2025-06-09 11:44:34,749 - DEBUG - Importing SpiderImagePlugin
+2025-06-09 11:44:34,751 - DEBUG - Importing SunImagePlugin
+2025-06-09 11:44:34,753 - DEBUG - Importing TgaImagePlugin
+2025-06-09 11:44:34,755 - DEBUG - Importing TiffImagePlugin
+2025-06-09 11:44:34,755 - DEBUG - Importing WebPImagePlugin
+2025-06-09 11:44:34,759 - DEBUG - Importing WmfImagePlugin
+2025-06-09 11:44:34,761 - DEBUG - Importing XbmImagePlugin
+2025-06-09 11:44:34,764 - DEBUG - Importing XpmImagePlugin
+2025-06-09 11:44:34,767 - DEBUG - Importing XVThumbImagePlugin
+2025-06-09 11:44:39,011 - DEBUG - Generated laser commands: summon end_crystal 0 0 0 {ShowBottom:0b,Invulnerable:1b,Tags:["laser"],BeamTarget:{X:100,Y:100,Z:100}}
+kill @e[type=end_crystal,tag=laser,distance=..2,x=0,y=0,z=0]
+2025-06-09 11:44:58,974 - INFO - Application interrupted by user
+2025-06-09 11:44:58,978 - INFO - Application exiting
+2025-06-09 11:45:00,721 - INFO - Application started (F12 clipboard mode with GUI)
+2025-06-09 11:45:00,723 - INFO - Always on top set to False
+2025-06-09 11:45:00,927 - WARNING - Icon file 'icon.ico' not found at C:\Users\ryant\IdeaProjects\MInecraft Command Block Modifiers\.idea\icon.ico. Using fallback image.
+2025-06-09 11:45:00,927 - INFO - Tray icon initialized successfully
+2025-06-09 11:45:00,965 - DEBUG - Importing AvifImagePlugin
+2025-06-09 11:45:00,967 - DEBUG - Importing BlpImagePlugin
+2025-06-09 11:45:00,969 - DEBUG - Importing BmpImagePlugin
+2025-06-09 11:45:00,969 - DEBUG - Importing BufrStubImagePlugin
+2025-06-09 11:45:00,971 - DEBUG - Importing CurImagePlugin
+2025-06-09 11:45:00,974 - DEBUG - Importing DcxImagePlugin
+2025-06-09 11:45:00,977 - DEBUG - Importing DdsImagePlugin
+2025-06-09 11:45:00,980 - DEBUG - Importing EpsImagePlugin
+2025-06-09 11:45:00,982 - DEBUG - Importing FitsImagePlugin
+2025-06-09 11:45:00,987 - DEBUG - Importing FliImagePlugin
+2025-06-09 11:45:00,989 - DEBUG - Importing FpxImagePlugin
+2025-06-09 11:45:00,991 - DEBUG - Image: failed to import FpxImagePlugin: No module named 'olefile'
+2025-06-09 11:45:00,991 - DEBUG - Importing FtexImagePlugin
+2025-06-09 11:45:00,994 - DEBUG - Importing GbrImagePlugin
+2025-06-09 11:45:00,994 - DEBUG - Importing GifImagePlugin
+2025-06-09 11:45:00,996 - DEBUG - Importing GribStubImagePlugin
+2025-06-09 11:45:00,997 - DEBUG - Importing Hdf5StubImagePlugin
+2025-06-09 11:45:00,999 - DEBUG - Importing IcnsImagePlugin
+2025-06-09 11:45:01,002 - DEBUG - Importing IcoImagePlugin
+2025-06-09 11:45:01,005 - DEBUG - Importing ImImagePlugin
+2025-06-09 11:45:01,007 - DEBUG - Importing ImtImagePlugin
+2025-06-09 11:45:01,009 - DEBUG - Importing IptcImagePlugin
+2025-06-09 11:45:01,010 - DEBUG - Importing JpegImagePlugin
+2025-06-09 11:45:01,011 - DEBUG - Importing Jpeg2KImagePlugin
+2025-06-09 11:45:01,011 - DEBUG - Importing McIdasImagePlugin
+2025-06-09 11:45:01,012 - DEBUG - Importing MicImagePlugin
+2025-06-09 11:45:01,014 - DEBUG - Image: failed to import MicImagePlugin: No module named 'olefile'
+2025-06-09 11:45:01,014 - DEBUG - Importing MpegImagePlugin
+2025-06-09 11:45:01,015 - DEBUG - Importing MpoImagePlugin
+2025-06-09 11:45:01,030 - DEBUG - Importing MspImagePlugin
+2025-06-09 11:45:01,032 - DEBUG - Importing PalmImagePlugin
+2025-06-09 11:45:01,034 - DEBUG - Importing PcdImagePlugin
+2025-06-09 11:45:01,036 - DEBUG - Importing PcxImagePlugin
+2025-06-09 11:45:01,036 - DEBUG - Importing PdfImagePlugin
+2025-06-09 11:45:01,052 - DEBUG - Importing PixarImagePlugin
+2025-06-09 11:45:01,053 - DEBUG - Importing PngImagePlugin
+2025-06-09 11:45:01,054 - DEBUG - Importing PpmImagePlugin
+2025-06-09 11:45:01,054 - DEBUG - Importing PsdImagePlugin
+2025-06-09 11:45:01,055 - DEBUG - Importing QoiImagePlugin
+2025-06-09 11:45:01,056 - DEBUG - Importing SgiImagePlugin
+2025-06-09 11:45:01,058 - DEBUG - Importing SpiderImagePlugin
+2025-06-09 11:45:01,059 - DEBUG - Importing SunImagePlugin
+2025-06-09 11:45:01,060 - DEBUG - Importing TgaImagePlugin
+2025-06-09 11:45:01,061 - DEBUG - Importing TiffImagePlugin
+2025-06-09 11:45:01,062 - DEBUG - Importing WebPImagePlugin
+2025-06-09 11:45:01,065 - DEBUG - Importing WmfImagePlugin
+2025-06-09 11:45:01,067 - DEBUG - Importing XbmImagePlugin
+2025-06-09 11:45:01,069 - DEBUG - Importing XpmImagePlugin
+2025-06-09 11:45:01,074 - DEBUG - Importing XVThumbImagePlugin
+2025-06-09 11:45:07,000 - DEBUG - Generated laser commands: summon end_crystal 0 0 0 {ShowBottom:0b,Invulnerable:1b,Tags:["laser"],BeamTarget:{X:100,Y:100,Z:100}}
+kill @e[type=end_crystal,tag=laser,distance=..2,x=0,y=0,z=0]
+2025-06-09 11:45:32,169 - INFO - Application interrupted by user
+2025-06-09 11:45:32,172 - INFO - Application exiting
+2025-06-09 11:45:34,120 - INFO - Application started (F12 clipboard mode with GUI)
+2025-06-09 11:45:34,121 - INFO - Always on top set to False
+2025-06-09 11:45:34,306 - WARNING - Icon file 'icon.ico' not found at C:\Users\ryant\IdeaProjects\MInecraft Command Block Modifiers\.idea\icon.ico. Using fallback image.
+2025-06-09 11:45:34,307 - INFO - Tray icon initialized successfully
+2025-06-09 11:45:34,344 - DEBUG - Importing AvifImagePlugin
+2025-06-09 11:45:34,346 - DEBUG - Importing BlpImagePlugin
+2025-06-09 11:45:34,347 - DEBUG - Importing BmpImagePlugin
+2025-06-09 11:45:34,347 - DEBUG - Importing BufrStubImagePlugin
+2025-06-09 11:45:34,349 - DEBUG - Importing CurImagePlugin
+2025-06-09 11:45:34,349 - DEBUG - Importing DcxImagePlugin
+2025-06-09 11:45:34,352 - DEBUG - Importing DdsImagePlugin
+2025-06-09 11:45:34,355 - DEBUG - Importing EpsImagePlugin
+2025-06-09 11:45:34,357 - DEBUG - Importing FitsImagePlugin
+2025-06-09 11:45:34,360 - DEBUG - Importing FliImagePlugin
+2025-06-09 11:45:34,362 - DEBUG - Importing FpxImagePlugin
+2025-06-09 11:45:34,363 - DEBUG - Image: failed to import FpxImagePlugin: No module named 'olefile'
+2025-06-09 11:45:34,363 - DEBUG - Importing FtexImagePlugin
+2025-06-09 11:45:34,364 - DEBUG - Importing GbrImagePlugin
+2025-06-09 11:45:34,366 - DEBUG - Importing GifImagePlugin
+2025-06-09 11:45:34,366 - DEBUG - Importing GribStubImagePlugin
+2025-06-09 11:45:34,367 - DEBUG - Importing Hdf5StubImagePlugin
+2025-06-09 11:45:34,369 - DEBUG - Importing IcnsImagePlugin
+2025-06-09 11:45:34,373 - DEBUG - Importing IcoImagePlugin
+2025-06-09 11:45:34,374 - DEBUG - Importing ImImagePlugin
+2025-06-09 11:45:34,376 - DEBUG - Importing ImtImagePlugin
+2025-06-09 11:45:34,378 - DEBUG - Importing IptcImagePlugin
+2025-06-09 11:45:34,379 - DEBUG - Importing JpegImagePlugin
+2025-06-09 11:45:34,379 - DEBUG - Importing Jpeg2KImagePlugin
+2025-06-09 11:45:34,379 - DEBUG - Importing McIdasImagePlugin
+2025-06-09 11:45:34,380 - DEBUG - Importing MicImagePlugin
+2025-06-09 11:45:34,383 - DEBUG - Image: failed to import MicImagePlugin: No module named 'olefile'
+2025-06-09 11:45:34,384 - DEBUG - Importing MpegImagePlugin
+2025-06-09 11:45:34,385 - DEBUG - Importing MpoImagePlugin
+2025-06-09 11:45:34,394 - DEBUG - Importing MspImagePlugin
+2025-06-09 11:45:34,395 - DEBUG - Importing PalmImagePlugin
+2025-06-09 11:45:34,396 - DEBUG - Importing PcdImagePlugin
+2025-06-09 11:45:34,398 - DEBUG - Importing PcxImagePlugin
+2025-06-09 11:45:34,398 - DEBUG - Importing PdfImagePlugin
+2025-06-09 11:45:34,410 - DEBUG - Importing PixarImagePlugin
+2025-06-09 11:45:34,412 - DEBUG - Importing PngImagePlugin
+2025-06-09 11:45:34,412 - DEBUG - Importing PpmImagePlugin
+2025-06-09 11:45:34,412 - DEBUG - Importing PsdImagePlugin
+2025-06-09 11:45:34,414 - DEBUG - Importing QoiImagePlugin
+2025-06-09 11:45:34,416 - DEBUG - Importing SgiImagePlugin
+2025-06-09 11:45:34,418 - DEBUG - Importing SpiderImagePlugin
+2025-06-09 11:45:34,420 - DEBUG - Importing SunImagePlugin
+2025-06-09 11:45:34,422 - DEBUG - Importing TgaImagePlugin
+2025-06-09 11:45:34,423 - DEBUG - Importing TiffImagePlugin
+2025-06-09 11:45:34,423 - DEBUG - Importing WebPImagePlugin
+2025-06-09 11:45:34,426 - DEBUG - Importing WmfImagePlugin
+2025-06-09 11:45:34,428 - DEBUG - Importing XbmImagePlugin
+2025-06-09 11:45:34,430 - DEBUG - Importing XpmImagePlugin
+2025-06-09 11:45:34,432 - DEBUG - Importing XVThumbImagePlugin
+2025-06-09 11:45:38,561 - DEBUG - Generated laser commands: summon end_crystal 0 0 0 {ShowBottom:0b,Invulnerable:1b,Tags:["laser"],BeamTarget:{X:100,Y:100,Z:100}}
+kill @e[type=end_crystal,tag=laser,distance=..2,x=0,y=0,z=0]
+2025-06-09 11:47:23,439 - INFO - Application interrupted by user
+2025-06-09 11:47:23,442 - INFO - Application exiting
+2025-06-09 11:47:24,877 - INFO - Application started (F12 clipboard mode with GUI)
+2025-06-09 11:47:24,880 - INFO - Always on top set to False
+2025-06-09 11:47:25,080 - WARNING - Icon file 'icon.ico' not found at C:\Users\ryant\IdeaProjects\MInecraft Command Block Modifiers\.idea\icon.ico. Using fallback image.
+2025-06-09 11:47:25,081 - INFO - Tray icon initialized successfully
+2025-06-09 11:47:25,119 - DEBUG - Importing AvifImagePlugin
+2025-06-09 11:47:25,122 - DEBUG - Importing BlpImagePlugin
+2025-06-09 11:47:25,123 - DEBUG - Importing BmpImagePlugin
+2025-06-09 11:47:25,123 - DEBUG - Importing BufrStubImagePlugin
+2025-06-09 11:47:25,125 - DEBUG - Importing CurImagePlugin
+2025-06-09 11:47:25,127 - DEBUG - Importing DcxImagePlugin
+2025-06-09 11:47:25,129 - DEBUG - Importing DdsImagePlugin
+2025-06-09 11:47:25,134 - DEBUG - Importing EpsImagePlugin
+2025-06-09 11:47:25,136 - DEBUG - Importing FitsImagePlugin
+2025-06-09 11:47:25,139 - DEBUG - Importing FliImagePlugin
+2025-06-09 11:47:25,140 - DEBUG - Importing FpxImagePlugin
+2025-06-09 11:47:25,142 - DEBUG - Image: failed to import FpxImagePlugin: No module named 'olefile'
+2025-06-09 11:47:25,142 - DEBUG - Importing FtexImagePlugin
+2025-06-09 11:47:25,143 - DEBUG - Importing GbrImagePlugin
+2025-06-09 11:47:25,145 - DEBUG - Importing GifImagePlugin
+2025-06-09 11:47:25,146 - DEBUG - Importing GribStubImagePlugin
+2025-06-09 11:47:25,147 - DEBUG - Importing Hdf5StubImagePlugin
+2025-06-09 11:47:25,148 - DEBUG - Importing IcnsImagePlugin
+2025-06-09 11:47:25,152 - DEBUG - Importing IcoImagePlugin
+2025-06-09 11:47:25,153 - DEBUG - Importing ImImagePlugin
+2025-06-09 11:47:25,155 - DEBUG - Importing ImtImagePlugin
+2025-06-09 11:47:25,156 - DEBUG - Importing IptcImagePlugin
+2025-06-09 11:47:25,157 - DEBUG - Importing JpegImagePlugin
+2025-06-09 11:47:25,158 - DEBUG - Importing Jpeg2KImagePlugin
+2025-06-09 11:47:25,158 - DEBUG - Importing McIdasImagePlugin
+2025-06-09 11:47:25,159 - DEBUG - Importing MicImagePlugin
+2025-06-09 11:47:25,161 - DEBUG - Image: failed to import MicImagePlugin: No module named 'olefile'
+2025-06-09 11:47:25,161 - DEBUG - Importing MpegImagePlugin
+2025-06-09 11:47:25,163 - DEBUG - Importing MpoImagePlugin
+2025-06-09 11:47:25,173 - DEBUG - Importing MspImagePlugin
+2025-06-09 11:47:25,176 - DEBUG - Importing PalmImagePlugin
+2025-06-09 11:47:25,178 - DEBUG - Importing PcdImagePlugin
+2025-06-09 11:47:25,179 - DEBUG - Importing PcxImagePlugin
+2025-06-09 11:47:25,179 - DEBUG - Importing PdfImagePlugin
+2025-06-09 11:47:25,196 - DEBUG - Importing PixarImagePlugin
+2025-06-09 11:47:25,197 - DEBUG - Importing PngImagePlugin
+2025-06-09 11:47:25,197 - DEBUG - Importing PpmImagePlugin
+2025-06-09 11:47:25,198 - DEBUG - Importing PsdImagePlugin
+2025-06-09 11:47:25,199 - DEBUG - Importing QoiImagePlugin
+2025-06-09 11:47:25,200 - DEBUG - Importing SgiImagePlugin
+2025-06-09 11:47:25,201 - DEBUG - Importing SpiderImagePlugin
+2025-06-09 11:47:25,202 - DEBUG - Importing SunImagePlugin
+2025-06-09 11:47:25,203 - DEBUG - Importing TgaImagePlugin
+2025-06-09 11:47:25,205 - DEBUG - Importing TiffImagePlugin
+2025-06-09 11:47:25,205 - DEBUG - Importing WebPImagePlugin
+2025-06-09 11:47:25,207 - DEBUG - Importing WmfImagePlugin
+2025-06-09 11:47:25,209 - DEBUG - Importing XbmImagePlugin
+2025-06-09 11:47:25,210 - DEBUG - Importing XpmImagePlugin
+2025-06-09 11:47:25,212 - DEBUG - Importing XVThumbImagePlugin
+2025-06-09 11:47:29,457 - DEBUG - Generated laser commands: summon end_crystal 0 0 0 {ShowBottom:0b,Invulnerable:1b,Tags:["laser"],BeamTarget:{X:100,Y:100,Z:100}}
+kill @e[type=end_crystal,tag=laser,distance=..2,x=0,y=0,z=0]
+2025-06-09 11:50:11,946 - INFO - Application interrupted by user
+2025-06-09 11:50:11,955 - INFO - Application exiting
