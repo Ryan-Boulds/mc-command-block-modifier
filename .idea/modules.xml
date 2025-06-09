@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/MInecraft Command Block Modifiers.iml" filepath="$PROJECT_DIR$/MInecraft Command Block Modifiers.iml" />
+      <module fileurl="file://$PROJECT_DIR$/src/MInecraft Command Block Modifiers.iml" filepath="$PROJECT_DIR$/src/MInecraft Command Block Modifiers.iml" />
     </modules>
   </component>
 </project>
