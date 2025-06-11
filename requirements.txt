@@ -4,3 +4,7 @@ pywin32==306
 keyboard==0.13.5
 olefile==0.46
 pyperclip==1.8.2
+pyperclip
+pygame
+PyOpenGL
+PyOpenGL_accelerate

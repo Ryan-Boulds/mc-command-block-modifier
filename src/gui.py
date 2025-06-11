@@ -6,6 +6,7 @@ import os
 import json
 from src.command_processor import CommandProcessor
 from src.settings import load_settings, save_settings
+from src.viewer3d import Block3DViewer
 
 class CommandModifierGUI:
     def __init__(self, command_processor: CommandProcessor):
@@ -38,7 +39,7 @@ class CommandModifierGUI:
         self.notebook.add(self.command_frame, text="Command Modifier")
         self.notebook.add(self.set_coord_frame, text="Set Coordinates")
         self.notebook.add(self.change_block_frame, text="Change Block")
-        self.notebook.add(self.generate_laser_frame, text="Generate Laser")
+        self.notebook.add(self.generate_laser_frame, text="Generate End Beam")
         self.notebook.add(self.settings_frame, text="Settings")
 
         self.pos_x_offset = tk.StringVar(value="0")
@@ -114,6 +115,7 @@ class CommandModifierGUI:
 
     def create_settings_gui(self):
         tk.Checkbutton(self.settings_frame, text="Always Remains on Top", variable=self.always_on_top, command=self.toggle_always_on_top, bg='#f0f0f0', font=("Arial", 10)).grid(row=0, column=0, pady=5, padx=10, sticky="w")
+        tk.Button(self.settings_frame, text="View 3D Model", command=self.open_3d_viewer, bg='#4CAF50', fg='#ffffff', font=("Arial", 10)).grid(row=1, column=0, pady=5, padx=10, sticky="w")
 
     def create_terminal_gui(self):
         tk.Label(self.main_frame, text="Terminal Output", font=("Arial", 12, "bold"), bg='#f0f0f0', fg='#333333').pack(pady=5, fill="x", padx=10)
@@ -213,6 +215,14 @@ class CommandModifierGUI:
                 self.origin_y.set(coords[1])
                 self.origin_z.set(coords[2])
             self.print_to_text(f"Pasted from clipboard: {clipboard_content} (filled Origin fields)", "normal")
+
+    def open_3d_viewer(self):
+        commands = self.terminal_text.get("1.0", tk.END).strip()
+        if commands:
+            viewer = Block3DViewer(commands)
+            viewer.run()
+            commands_list = viewer.get_commands()
+            self.print_to_text("Updated setblock commands:\n" + commands_list, "command")
 
     def run(self):
         self.root.mainloop()
