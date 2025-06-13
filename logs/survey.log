@@ -518,3 +518,105 @@
 2025-06-13 01:45:05,733 - INFO - F12 pressed - capturing clipboard command
 2025-06-13 01:45:06,263 - INFO - F12 pressed - capturing clipboard command
 2025-06-13 01:45:37,043 - INFO - Application shutdown completed
+2025-06-13 01:46:33,991 - INFO - Application started (F12 clipboard mode with GUI)
+2025-06-13 01:46:34,089 - INFO - F12 keyboard hook initialized
+2025-06-13 01:46:34,239 - INFO - Always on top set to True
+2025-06-13 01:46:34,239 - INFO - Application started. Copy a command, press 1 to process.
+2025-06-13 01:48:09,861 - INFO - Application shutdown completed
+2025-06-13 01:48:13,316 - INFO - Application started (F12 clipboard mode with GUI)
+2025-06-13 01:48:13,410 - INFO - F12 keyboard hook initialized
+2025-06-13 01:48:13,560 - INFO - Always on top set to True
+2025-06-13 01:48:13,560 - INFO - Application started. Copy a command, press 1 to process.
+2025-06-13 01:49:02,052 - INFO - Application shutdown completed
+2025-06-13 01:49:29,249 - INFO - Application started (F12 clipboard mode with GUI)
+2025-06-13 01:49:29,354 - INFO - F12 keyboard hook initialized
+2025-06-13 01:49:29,499 - INFO - Always on top set to True
+2025-06-13 01:49:29,499 - INFO - Application started. Copy a command, press 1 to process.
+2025-06-13 01:50:20,262 - INFO - Application shutdown completed
+2025-06-13 11:31:24,811 - INFO - Application started (F12 clipboard mode with GUI)
+2025-06-13 11:31:24,891 - INFO - F12 keyboard hook initialized
+2025-06-13 11:33:03,093 - INFO - Application started (F12 clipboard mode with GUI)
+2025-06-13 11:33:03,173 - INFO - F12 keyboard hook initialized
+2025-06-13 11:34:39,345 - INFO - Application started (F12 clipboard mode with GUI)
+2025-06-13 11:34:39,424 - INFO - F12 keyboard hook initialized
+2025-06-13 11:34:39,554 - INFO - Always on top set to True
+2025-06-13 11:34:39,554 - INFO - Application started. Copy a command, press 1 to process.
+2025-06-13 11:35:00,138 - INFO - Application shutdown completed
+2025-06-13 11:38:26,639 - INFO - Application started (F12 clipboard mode with GUI)
+2025-06-13 11:38:26,717 - INFO - F12 keyboard hook initialized
+2025-06-13 11:38:26,854 - INFO - Always on top set to True
+2025-06-13 11:38:26,854 - INFO - Application started. Copy a command, press 1 to process.
+2025-06-13 11:39:06,866 - INFO - Application shutdown completed
+2025-06-13 11:39:08,383 - INFO - Application started (F12 clipboard mode with GUI)
+2025-06-13 11:39:08,463 - INFO - F12 keyboard hook initialized
+2025-06-13 11:39:08,580 - INFO - Always on top set to True
+2025-06-13 11:39:08,580 - INFO - Application started. Copy a command, press 1 to process.
+2025-06-13 11:41:27,973 - INFO - Application shutdown completed
+2025-06-13 11:42:16,499 - INFO - Application started (F12 clipboard mode with GUI)
+2025-06-13 11:42:16,578 - INFO - F12 keyboard hook initialized
+2025-06-13 11:42:16,702 - INFO - Always on top set to True
+2025-06-13 11:42:16,702 - INFO - Application started. Copy a command, press 1 to process.
+2025-06-13 11:42:46,787 - INFO - Application shutdown completed
+2025-06-13 11:45:25,669 - INFO - Application started (F12 clipboard mode with GUI)
+2025-06-13 11:45:25,748 - INFO - F12 keyboard hook initialized
+2025-06-13 11:45:25,866 - INFO - Always on top set to True
+2025-06-13 11:45:25,866 - INFO - Application started. Copy a command, press 1 to process.
+2025-06-13 11:45:45,962 - INFO - Application shutdown completed
+2025-06-13 11:45:49,458 - INFO - Application started (F12 clipboard mode with GUI)
+2025-06-13 11:45:49,544 - INFO - F12 keyboard hook initialized
+2025-06-13 11:45:49,668 - INFO - Always on top set to True
+2025-06-13 11:45:49,669 - INFO - Application started. Copy a command, press 1 to process.
+2025-06-13 11:46:03,147 - INFO - Application shutdown completed
+2025-06-13 11:47:44,114 - INFO - Application started (F12 clipboard mode with GUI)
+2025-06-13 11:47:44,197 - INFO - F12 keyboard hook initialized
+2025-06-13 11:47:44,750 - INFO - Always on top set to True
+2025-06-13 11:47:44,750 - INFO - Application started. Copy a command, press 1 to process.
+2025-06-13 11:48:09,920 - INFO - Application shutdown completed
+2025-06-13 11:48:11,226 - INFO - Application started (F12 clipboard mode with GUI)
+2025-06-13 11:48:11,305 - INFO - F12 keyboard hook initialized
+2025-06-13 11:48:11,423 - INFO - Always on top set to True
+2025-06-13 11:48:11,423 - INFO - Application started. Copy a command, press 1 to process.
+2025-06-13 11:52:46,499 - INFO - Application shutdown completed
+2025-06-13 11:53:38,796 - INFO - Application started (F12 clipboard mode with GUI)
+2025-06-13 11:53:38,877 - INFO - F12 keyboard hook initialized
+2025-06-13 11:53:39,006 - INFO - Always on top set to True
+2025-06-13 11:53:39,006 - INFO - Application started. Copy a command, press 1 to process.
+2025-06-13 11:56:12,986 - INFO - Application shutdown completed
+2025-06-13 11:56:14,079 - INFO - Application started (F12 clipboard mode with GUI)
+2025-06-13 11:56:14,180 - INFO - F12 keyboard hook initialized
+2025-06-13 11:56:14,367 - INFO - Always on top set to True
+2025-06-13 11:56:14,367 - INFO - Application started. Copy a command, press 1 to process.
+2025-06-13 11:58:45,923 - INFO - Application shutdown completed
+2025-06-13 11:59:55,520 - INFO - Application started (F12 clipboard mode with GUI)
+2025-06-13 11:59:55,616 - INFO - F12 keyboard hook initialized
+2025-06-13 11:59:55,752 - INFO - Always on top set to True
+2025-06-13 11:59:55,752 - INFO - Application started. Copy a command, press 1 to process.
+2025-06-13 12:00:32,671 - INFO - Application started (F12 clipboard mode with GUI)
+2025-06-13 12:00:32,772 - INFO - F12 keyboard hook initialized
+2025-06-13 12:00:33,035 - INFO - Always on top set to True
+2025-06-13 12:00:33,035 - INFO - Application started. Copy a command, press 1 to process.
+2025-06-13 12:02:18,957 - INFO - Application shutdown completed
+2025-06-13 12:03:24,794 - INFO - Application started (F12 clipboard mode with GUI)
+2025-06-13 12:03:24,870 - INFO - F12 keyboard hook initialized
+2025-06-13 12:03:24,988 - INFO - Always on top set to True
+2025-06-13 12:03:24,988 - INFO - Application started. Copy a command, press 1 to process.
+2025-06-13 12:03:54,831 - INFO - Application shutdown completed
+2025-06-13 12:03:56,263 - INFO - Application started (F12 clipboard mode with GUI)
+2025-06-13 12:03:56,353 - INFO - F12 keyboard hook initialized
+2025-06-13 12:03:56,490 - INFO - Always on top set to True
+2025-06-13 12:03:56,490 - INFO - Application started. Copy a command, press 1 to process.
+2025-06-13 12:05:18,136 - INFO - Application started (F12 clipboard mode with GUI)
+2025-06-13 12:05:18,214 - INFO - F12 keyboard hook initialized
+2025-06-13 12:05:18,342 - INFO - Always on top set to True
+2025-06-13 12:05:18,342 - INFO - Application started. Copy a command, press 1 to process.
+2025-06-13 12:05:36,354 - INFO - Application shutdown completed
+2025-06-13 12:10:14,095 - INFO - Application started (F12 clipboard mode with GUI)
+2025-06-13 12:10:14,196 - INFO - F12 keyboard hook initialized
+2025-06-13 12:10:14,375 - INFO - Always on top set to True
+2025-06-13 12:10:14,375 - INFO - Application started. Copy a command, press 1 to process.
+2025-06-13 12:12:31,289 - INFO - Application shutdown completed
+2025-06-13 12:12:58,282 - INFO - Application started (F12 clipboard mode with GUI)
+2025-06-13 12:12:58,366 - INFO - F12 keyboard hook initialized
+2025-06-13 12:12:58,483 - INFO - Always on top set to True
+2025-06-13 12:12:58,483 - INFO - Application started. Copy a command, press 1 to process.
+2025-06-13 12:14:31,804 - INFO - Application shutdown completed

@@ -1,6 +1,6 @@
 import logging
 from src.command_processor import CommandProcessor
-from src.gui import CommandModifierGUI
+from src.gui_main import CommandModifierGUI
 
 def main():
     logging.basicConfig(
