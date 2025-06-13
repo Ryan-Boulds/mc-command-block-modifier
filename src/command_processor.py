@@ -1,3 +1,4 @@
+# Updated on 01:50 AM CDT, Friday, June 13, 2025
 import logging
 import re
 import pyperclip
@@ -121,9 +122,10 @@ class CommandProcessor:
             x = pos_values[0] if use_set else int(setblock_match.group(2)) + pos_offsets[0]
             y = pos_values[1] if use_set else int(setblock_match.group(4)) + pos_offsets[1]
             z = pos_values[2] if use_set else int(setblock_match.group(6)) + pos_offsets[2]
-            original_block_text = setblock_match.group(7)
+            original_block_text = setblock_match.group(8).strip()  # Extract block, remove extra spaces
             new_block_text = block_text.get().strip() if self.gui.notebook.tab(self.gui.notebook.select(), "text") == "Change Block" else original_block_text
-            result = f"{setblock_match.group(1)}{x}{setblock_match.group(3)}{y}{setblock_match.group(5)}{z} {new_block_text}"  # Added space before new_block_text
+            # Reconstruct with single space after coordinates
+            result = f"/setblock {x} {y} {z} {new_block_text}"
             logging.debug(f"Setblock command modified: {result}")
             return result, original_coords, original_block_text
 
