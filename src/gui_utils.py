@@ -1,4 +1,4 @@
-# Updated on 12:05 PM CDT, Friday, June 13, 2025
+# Updated on 03:05 PM CDT, Friday, June 13, 2025
 import tkinter as tk
 import pyperclip
 import re
@@ -56,7 +56,7 @@ def start_record_keybind(gui):
 def record_keybind(gui, event):
     if gui.is_recording_key:
         new_key = event.keysym if event.keysym else event.keycode
-        if new_key:
+        if new_key95:
             gui.root.unbind("<Key>")
             gui.root.unbind(gui.settings.get("key_bind", "F12"))
             gui.root.bind(new_key, lambda e: gui.process_clipboard())
@@ -70,7 +70,7 @@ def record_keybind(gui, event):
             update_keybind_notes(gui)
 
 def update_keybind_notes(gui):
-    for frame in [gui.command_frame, gui.change_block_frame, gui.generate_laser_frame, gui.generate_end_beam_frame, gui.main_frame]:
+    for frame in [gui.command_frame, gui.change_block_frame, gui.generate_laser_frame, gui.generate_end_beam_frame, gui.main_frame, gui.rename_tag_frame]:
         for widget in frame.winfo_children():
             if isinstance(widget, tk.Label) and "Press" in widget.cget("text"):
                 widget.config(text=f"Press set keybind to take coordinates from command and automatically update clipboard with result. Works with: setblock, summon, tp.")
@@ -135,39 +135,65 @@ def process_command(gui, command):
             else:
                 modified_command = command  # Fallback if command is malformed
 
-        # Handle block display summon command to replace block state
-        elif command.startswith('/summon minecraft:block_display') and 'block_state:' in command:
-            new_block = gui.block_text.get().strip().replace('"', r'\"')  # Escape quotes in new block name
-            # New regex to handle both quoted and unquoted block_state with nested Name
+        # Handle block display summon command to replace block state or tag
+        elif command.startswith('/summon minecraft:block_display') and ('block_state:' in command or 'Tags:' in command):
+            if active_tab == "Rename tag/group" and 'Tags:' in command:
+                new_tag = gui.tag_text.get().strip().replace('"', r'\"')  # Escape quotes in new tag name
+                modified_command = re.sub(
+                    r'Tags:\s*\["([^"]*)"\]',
+                    f'Tags:["{new_tag}"]',
+                    command,
+                    flags=re.DOTALL
+                )
+                match = re.search(r'Tags:\s*\["([^"]*)"\]', command, flags=re.DOTALL)
+                if match:
+                    original_block = match.group(1)  # Reuse original_block for tag name
+            else:
+                new_block = gui.block_text.get().strip().replace('"', r'\"')  # Escape quotes in new block name
+                modified_command = re.sub(
+                    r'block_state:\s*(?:{)?(?:\"{)?Name:"([^"]*)"(?:})?(?:\")?',
+                    f'block_state:{{Name:"{new_block}"}}',
+                    command,
+                    flags=re.DOTALL
+                )
+                match = re.search(r'block_state:\s*(?:{)?(?:\"{)?Name:"([^"]*)"(?:})?(?:\")?', command, flags=re.DOTALL)
+                if match:
+                    original_block = match.group(1)
+                gui.print_to_text(f"Debug: Using block text: {gui.block_text.get()}", "normal")  # Debug print
+
+        # Handle execute and tp commands to replace tag when in Rename tag/group tab
+        elif active_tab == "Rename tag/group" and (command.startswith('/execute') or command.startswith('/tp')):
+            new_tag = gui.tag_text.get().strip()
+            # Match tag in /execute as @e[tag=...] or /tp @e[tag=...,...]
             modified_command = re.sub(
-                r'block_state:(?:{)?(?:\"{)?Name:\"([^\"]*)\"(?:})?(?:\")?',
-                f'block_state:{{Name:"{new_block}"}}',
+                r'tag=([^,\s\]]+)',
+                f'tag={new_tag}',
                 command,
                 flags=re.DOTALL
             )
-
-            match = re.search(r'block_state:(?:{)?(?:\"{)?Name:\"([^\"]*)\"(?:})?(?:\")?', command, flags=re.DOTALL)
+            match = re.search(r'tag=([^,\s\]]+)', command, flags=re.DOTALL)
             if match:
                 original_block = match.group(1)
-            gui.print_to_text(f"Debug: Using block text: {gui.block_text.get()}", "normal")  # Debug print
 
         # Apply coordinate modifications for Command Modifier and Set Coordinates tabs
         if active_tab in ["Command Modifier", "Set Coordinates"]:
-            modified_command, original_coords, original_block = gui.command_processor.modify_coordinates(
+            modified_command, original_coords, original_block_from_coords = gui.command_processor.modify_coordinates(
                 modified_command, use_set, pos_x_var, pos_y_var, pos_z_var, target_x_var, target_y_var, target_z_var, gui.block_text
             )
+            if original_block_from_coords:
+                original_block = original_block_from_coords
 
         gui.print_to_text(f"Input Command: {command}", "command")
         if original_coords:
             gui.print_to_text(f"Original Coordinates: {original_coords}", "coord")
         if original_block:
-            gui.print_to_text(f"Original Block: {original_block}", "block_unchanged")
+            gui.print_to_text(f"Original Block/Tag: {original_block}", "block_unchanged")
         gui.print_to_text(f"Modified Command: {modified_command}", "command")
         if original_coords:
             new_coords = [int(x) for x in re.findall(r'-?\d+\b', modified_command) if x.lstrip('-').isdigit()]
             gui.print_to_text(f"New Coordinates: {new_coords}", "modified_coord")
-        if original_block and gui.block_text.get() != original_block:
-            gui.print_to_text(f"New Block: {gui.block_text.get()}", "block_changed")
+        if original_block and (gui.block_text.get() != original_block or gui.tag_text.get() != original_block):
+            gui.print_to_text(f"New Block/Tag: {gui.block_text.get() if active_tab == 'Change Block' else gui.tag_text.get()}", "block_changed")
 
         pyperclip.copy(modified_command.encode('utf-8').decode('utf-8'))  # Ensure UTF-8 encoding
         if active_tab == "Command Modifier":
@@ -179,6 +205,9 @@ def process_command(gui, command):
         elif active_tab == "Change Block":
             gui.change_block_frame.winfo_children()[0].winfo_children()[0].nametowidget(gui.change_block_cmd_text).delete("1.0", tk.END)
             gui.change_block_frame.winfo_children()[0].winfo_children()[0].nametowidget(gui.change_block_cmd_text).insert("1.0", modified_command)
+        elif active_tab == "Rename tag/group":
+            gui.rename_tag_frame.winfo_children()[0].winfo_children()[0].nametowidget(gui.rename_tag_cmd_text).delete("1.0", tk.END)
+            gui.rename_tag_frame.winfo_children()[0].winfo_children()[0].nametowidget(gui.rename_tag_cmd_text).insert("1.0", modified_command)
         gui.print_to_text("Command copied to clipboard.", "normal")
 
 def generate_laser_initial_commands(gui):

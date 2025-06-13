@@ -1,4 +1,4 @@
-# Updated on 11:27 AM CDT, Friday, June 13, 2025
+# Updated on 02:03 PM CDT, Friday, June 13, 2025
 import tkinter as tk
 from tkinter import ttk
 
@@ -202,9 +202,10 @@ def create_settings_gui(frame, gui):
     frame.rowconfigure(0, weight=1)
 
     tk.Checkbutton(scrollable_frame, text="Always Remains on Top", variable=gui.always_on_top, command=gui.toggle_always_on_top, bg='#f0f0f0', font=("Arial", 10)).grid(row=0, column=0, pady=5, sticky="w")
-    tk.Button(scrollable_frame, text="Press key to record keybind", command=gui.start_record_keybind, bg='#4CAF50', fg='#ffffff', font=("Arial", 10)).grid(row=1, column=0, pady=5, sticky="w")
-    tk.Button(scrollable_frame, text="Generate 3D Model, Work in Progress", command=gui.on_closing, state="disabled", bg='#cccccc', fg='#666666', font=("Arial", 10)).grid(row=2, column=0, pady=5, sticky="w")
-    tk.Button(scrollable_frame, text="Generate 2D Model, Work in Progress", command=gui.on_closing, state="disabled", bg='#cccccc', fg='#666666', font=("Arial", 10)).grid(row=3, column=0, pady=5, sticky="w")
+    # I'll work on this later
+    # tk.Button(scrollable_frame, text="Press key to record keybind", command=gui.start_record_keybind, bg='#4CAF50', fg='#ffffff', font=("Arial", 10)).grid(row=1, column=0, pady=5, sticky="w")
+    # tk.Button(scrollable_frame, text="Generate 3D Model, Work in Progress", command=gui.on_closing, state="disabled", bg='#cccccc', fg='#666666', font=("Arial", 10)).grid(row=2, column=0, pady=5, sticky="w")
+    # tk.Button(scrollable_frame, text="Generate 2D Model, Work in Progress", command=gui.on_closing, state="disabled", bg='#cccccc', fg='#666666', font=("Arial", 10)).grid(row=3, column=0, pady=5, sticky="w")
 
 def create_terminal_gui(frame, gui):
     if not hasattr(gui, 'terminal_text') or not gui.terminal_text.winfo_exists():
@@ -229,3 +230,34 @@ def create_terminal_gui(frame, gui):
     if not hasattr(gui, 'terminal_button') or not gui.terminal_button.winfo_exists():
         gui.terminal_button = tk.Button(frame, text="Show Terminal", command=gui.toggle_terminal, bg='#4CAF50', fg='#ffffff', font=("Arial", 10))
         gui.terminal_button.pack(pady=5)
+
+def create_rename_tag_gui(frame, gui):
+    canvas = tk.Canvas(frame)
+    scrollbar = ttk.Scrollbar(frame, orient="vertical", command=canvas.yview)
+    scrollable_frame = ttk.Frame(canvas)
+
+    scrollable_frame.bind(
+        "<Configure>",
+        lambda e: canvas.configure(scrollregion=canvas.bbox("all"))
+    )
+    canvas.create_window((0, 0), window=scrollable_frame, anchor="nw")
+    canvas.configure(yscrollcommand=scrollbar.set)
+
+    canvas.bind_all("<MouseWheel>", lambda e: canvas.yview_scroll(int(-1*(e.delta/120)), "units"))
+
+    canvas.grid(row=0, column=0, sticky="nsew")
+    scrollbar.grid(row=0, column=1, sticky="ns")
+
+    frame.columnconfigure(0, weight=1)
+    frame.rowconfigure(0, weight=1)
+
+    tk.Label(scrollable_frame, text="Rename tag/group Modifier", font=("Arial", 16, "bold"), bg='#f0f0f0', fg='#333333').grid(row=0, column=0, columnspan=3, pady=5, sticky="w")
+    tk.Label(scrollable_frame, text="New Tag Name:", font=("Arial", 12, "bold"), bg='#f0f0f0', fg='#333333').grid(row=1, column=0, pady=0, sticky="w")
+    tk.Entry(scrollable_frame, textvariable=gui.tag_text, width=30, bg='#ffffff', font=("Arial", 10)).grid(row=2, column=0, columnspan=2, pady=0, sticky="w")
+
+    tk.Button(scrollable_frame, text="Generate", command=lambda: gui.process_clipboard(), font=("Arial", 10), bg='#4CAF50', fg='#ffffff').grid(row=3, column=0, columnspan=3, pady=5, sticky="w")
+
+    gui.rename_tag_cmd_text = tk.Text(scrollable_frame, height=2, width=40)
+    gui.rename_tag_cmd_text.grid(row=4, column=0, columnspan=2, pady=2, sticky="w")
+    tk.Button(scrollable_frame, text="Copy", command=lambda: gui.copy_to_clipboard(gui.rename_tag_cmd_text.get("1.0", tk.END).strip()), font=("Arial", 10)).grid(row=4, column=2, pady=2, sticky="w")
+    tk.Label(scrollable_frame, text=f"Press set keybind to take coordinates from command and automatically update clipboard with result. Works with: setblock, summon, tp.", font=("Arial", 8), bg='#f0f0f0').grid(row=5, column=0, columnspan=3, pady=2, sticky="w")
