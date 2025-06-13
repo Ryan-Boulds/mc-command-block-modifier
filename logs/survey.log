@@ -758,3 +758,8 @@
 2025-06-13 14:59:54,567 - INFO - Always on top set to True
 2025-06-13 14:59:54,567 - INFO - Application started. Copy a command, press F11 to process.
 2025-06-13 15:00:24,303 - INFO - Application shutdown completed
+2025-06-13 15:06:00,262 - INFO - Application started (F12 clipboard mode with GUI)
+2025-06-13 15:06:00,364 - INFO - F12 keyboard hook initialized
+2025-06-13 15:06:00,518 - INFO - Always on top set to True
+2025-06-13 15:06:00,518 - INFO - Application started. Copy a command, press F11 to process.
+2025-06-13 15:36:49,407 - INFO - Application shutdown completed

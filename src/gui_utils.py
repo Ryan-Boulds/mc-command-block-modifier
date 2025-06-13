@@ -1,4 +1,4 @@
-# Updated on 03:05 PM CDT, Friday, June 13, 2025
+# Updated on 03:10 PM CDT, Friday, June 13, 2025
 import tkinter as tk
 import pyperclip
 import re
@@ -56,7 +56,7 @@ def start_record_keybind(gui):
 def record_keybind(gui, event):
     if gui.is_recording_key:
         new_key = event.keysym if event.keysym else event.keycode
-        if new_key95:
+        if new_key:  # Fixed typo: changed new_key95 to new_key
             gui.root.unbind("<Key>")
             gui.root.unbind(gui.settings.get("key_bind", "F12"))
             gui.root.bind(new_key, lambda e: gui.process_clipboard())
