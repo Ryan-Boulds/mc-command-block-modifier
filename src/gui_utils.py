@@ -1,4 +1,4 @@
-# Updated on 03:10 PM CDT, Friday, June 13, 2025
+# Updated on 06:10 PM CDT, Friday, June 13, 2025
 import tkinter as tk
 import pyperclip
 import re
@@ -9,16 +9,34 @@ def toggle_terminal(gui):
     if gui.terminal_visible:
         gui.terminal_text.pack_forget()
         gui.terminal_instruction.pack_forget()
-        v_scrollbar = [w for w in gui.main_frame.winfo_children() if isinstance(w, ttk.Scrollbar) and w['orient'] == 'vertical'][0]
-        v_scrollbar.pack_forget()
-        h_scrollbar = [w for w in gui.main_frame.winfo_children() if isinstance(w, ttk.Scrollbar) and w['orient'] == 'horizontal'][0]
-        h_scrollbar.pack_forget()
+        # Find and hide vertical scrollbar if it exists
+        v_scrollbars = [w for w in gui.main_frame.winfo_children() if isinstance(w, ttk.Scrollbar) and w['orient'] == 'vertical']
+        if v_scrollbars:
+            v_scrollbars[0].pack_forget()
+        # Find and hide horizontal scrollbar if it exists
+        h_scrollbars = [w for w in gui.main_frame.winfo_children() if isinstance(w, ttk.Scrollbar) and w['orient'] == 'horizontal']
+        if h_scrollbars:
+            h_scrollbars[0].pack_forget()
         gui.terminal_visible = False
     else:
         gui.terminal_text.pack(expand=True, fill="both", padx=10, pady=5)
-        v_scrollbar = [w for w in gui.main_frame.winfo_children() if isinstance(w, ttk.Scrollbar) and w['orient'] == 'vertical'][0]
+        # Ensure vertical scrollbar exists and pack it
+        v_scrollbars = [w for w in gui.main_frame.winfo_children() if isinstance(w, ttk.Scrollbar) and w['orient'] == 'vertical']
+        if not v_scrollbars:
+            v_scrollbar = ttk.Scrollbar(gui.main_frame, orient='vertical')
+            v_scrollbar.config(command=gui.terminal_text.yview)
+            gui.terminal_text.config(yscrollcommand=v_scrollbar.set)
+        else:
+            v_scrollbar = v_scrollbars[0]
         v_scrollbar.pack(side="right", fill="y")
-        h_scrollbar = [w for w in gui.main_frame.winfo_children() if isinstance(w, ttk.Scrollbar) and w['orient'] == 'horizontal'][0]
+        # Ensure horizontal scrollbar exists and pack it
+        h_scrollbars = [w for w in gui.main_frame.winfo_children() if isinstance(w, ttk.Scrollbar) and w['orient'] == 'horizontal']
+        if not h_scrollbars:
+            h_scrollbar = ttk.Scrollbar(gui.main_frame, orient='horizontal')
+            h_scrollbar.config(command=gui.terminal_text.xview)
+            gui.terminal_text.config(xscrollcommand=h_scrollbar.set)
+        else:
+            h_scrollbar = h_scrollbars[0]
         h_scrollbar.pack(fill="x")
         gui.terminal_instruction.pack(pady=10, fill="x", padx=10)
         gui.terminal_visible = True
