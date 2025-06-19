@@ -1,13 +1,10 @@
 import logging
 from src.command_processor import CommandProcessor
 from src.gui_main import CommandModifierGUI
+from src.utils import setup_logging, cleanup
 
 def main():
-    logging.basicConfig(
-        filename="C:/Users/ryant/IdeaProjects/MInecraft Command Block Modifiers/logs/survey.log",
-        level=logging.INFO,
-        format="%(asctime)s - %(levelname)s - %(message)s"
-    )
+    setup_logging()  # Use utils.py logging setup
     logging.info("Application started (F12 clipboard mode with GUI)")
 
     command_processor = CommandProcessor()
@@ -20,6 +17,7 @@ def main():
         logging.error(f"Application crashed: {str(e)}")
     finally:
         logging.info("Application shutdown completed")
+        cleanup()  # Clean up logging handlers
 
 if __name__ == "__main__":
     main()

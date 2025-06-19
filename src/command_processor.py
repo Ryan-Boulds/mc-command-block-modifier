@@ -68,6 +68,7 @@ class CommandProcessor:
             logging.warning("Invalid set values entered, using 0")
             return (0, 0, 0), (0, 0, 0)
 
+
     def modify_coordinates(self, command: str, use_set: bool, pos_x_var: tk.StringVar, pos_y_var: tk.StringVar, pos_z_var: tk.StringVar,
                            target_x_var: tk.StringVar, target_y_var: tk.StringVar, target_z_var: tk.StringVar,
                            block_text: tk.StringVar) -> Tuple[str, List[int], Optional[str]]:

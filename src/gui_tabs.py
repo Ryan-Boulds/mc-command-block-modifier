@@ -1,6 +1,7 @@
-# Updated on 02:03 PM CDT, Friday, June 13, 2025
+# Updated on 05:25 PM CDT, Monday, June 16, 2025
 import tkinter as tk
 from tkinter import ttk
+from src.command_modifier import set_laser_preset, set_lightbeam_preset
 
 def create_modifier_gui(frame, pos_vars, target_vars, title_prefix, gui):
     canvas = tk.Canvas(frame)
@@ -202,10 +203,9 @@ def create_settings_gui(frame, gui):
     frame.rowconfigure(0, weight=1)
 
     tk.Checkbutton(scrollable_frame, text="Always Remains on Top", variable=gui.always_on_top, command=gui.toggle_always_on_top, bg='#f0f0f0', font=("Arial", 10)).grid(row=0, column=0, pady=5, sticky="w")
-    # I'll work on this later
-    # tk.Button(scrollable_frame, text="Press key to record keybind", command=gui.start_record_keybind, bg='#4CAF50', fg='#ffffff', font=("Arial", 10)).grid(row=1, column=0, pady=5, sticky="w")
-    # tk.Button(scrollable_frame, text="Generate 3D Model, Work in Progress", command=gui.on_closing, state="disabled", bg='#cccccc', fg='#666666', font=("Arial", 10)).grid(row=2, column=0, pady=5, sticky="w")
-    # tk.Button(scrollable_frame, text="Generate 2D Model, Work in Progress", command=gui.on_closing, state="disabled", bg='#cccccc', fg='#666666', font=("Arial", 10)).grid(row=3, column=0, pady=5, sticky="w")
+    tk.Button(scrollable_frame, text="Press key to record keybind", command=gui.start_record_keybind, bg='#4CAF50', fg='#ffffff', font=("Arial", 10)).grid(row=1, column=0, pady=5, sticky="w")
+    tk.Button(scrollable_frame, text="Generate 3D Model, Work in Progress", command=gui.on_closing, state="disabled", bg='#cccccc', fg='#666666', font=("Arial", 10)).grid(row=2, column=0, pady=5, sticky="w")
+    tk.Button(scrollable_frame, text="Generate 2D Model, Work in Progress", command=gui.on_closing, state="disabled", bg='#cccccc', fg='#666666', font=("Arial", 10)).grid(row=3, column=0, pady=5, sticky="w")
 
 def create_terminal_gui(frame, gui):
     if not hasattr(gui, 'terminal_text') or not gui.terminal_text.winfo_exists():
@@ -251,13 +251,64 @@ def create_rename_tag_gui(frame, gui):
     frame.columnconfigure(0, weight=1)
     frame.rowconfigure(0, weight=1)
 
-    tk.Label(scrollable_frame, text="Rename tag/group Modifier", font=("Arial", 16, "bold"), bg='#f0f0f0', fg='#333333').grid(row=0, column=0, columnspan=3, pady=5, sticky="w")
-    tk.Label(scrollable_frame, text="New Tag Name:", font=("Arial", 12, "bold"), bg='#f0f0f0', fg='#333333').grid(row=1, column=0, pady=0, sticky="w")
-    tk.Entry(scrollable_frame, textvariable=gui.tag_text, width=30, bg='#ffffff', font=("Arial", 10)).grid(row=2, column=0, columnspan=2, pady=0, sticky="w")
+    # Initialize variables
+    gui.modify_coords = tk.BooleanVar(value=True)
+    gui.modify_translation = tk.BooleanVar(value=True)
+    gui.modify_scale = tk.BooleanVar(value=True)
+    gui.laser_mode = tk.StringVar(value="")
+    gui.pos_x_set = tk.StringVar(value="0.0")
+    gui.pos_y_set = tk.StringVar(value="0.5")
+    gui.pos_z_set = tk.StringVar(value="0.999999")
+    gui.trans_x = tk.StringVar(value="0.5")
+    gui.trans_y = tk.StringVar(value="0.0")
+    gui.trans_z = tk.StringVar(value="0.0")
+    gui.beam_scale = tk.StringVar(value="-150.0")
+    gui.centering_x = tk.StringVar(value="0.0")
+    gui.centering_y = tk.StringVar(value="0.5")
+    gui.centering_z = tk.StringVar(value="0.999999")
 
-    tk.Button(scrollable_frame, text="Generate", command=lambda: gui.process_clipboard(), font=("Arial", 10), bg='#4CAF50', fg='#ffffff').grid(row=3, column=0, columnspan=3, pady=5, sticky="w")
+    tk.Label(scrollable_frame, text="Rename Tag/Group Modifier", font=("Arial", 16, "bold"), bg='#f0f0f0', fg='#333333').grid(row=0, column=0, columnspan=3, pady=5, sticky="w")
+
+    # Coordinate Modification
+    tk.Checkbutton(scrollable_frame, text="Modify Coordinates", variable=gui.modify_coords).grid(row=1, column=0, pady=2, sticky="w")
+    tk.Label(scrollable_frame, text="X:", font=("Arial", 10), bg='#f0f0f0').grid(row=2, column=0, pady=0, sticky="w")
+    tk.Entry(scrollable_frame, textvariable=gui.pos_x_set, width=10, bg='#ffffff', font=("Arial", 10)).grid(row=2, column=1, pady=0, sticky="w")
+    tk.Label(scrollable_frame, text="Y:", font=("Arial", 10), bg='#f0f0f0').grid(row=3, column=0, pady=0, sticky="w")
+    tk.Entry(scrollable_frame, textvariable=gui.pos_y_set, width=10, bg='#ffffff', font=("Arial", 10)).grid(row=3, column=1, pady=0, sticky="w")
+    tk.Label(scrollable_frame, text="Z:", font=("Arial", 10), bg='#f0f0f0').grid(row=4, column=0, pady=0, sticky="w")
+    tk.Entry(scrollable_frame, textvariable=gui.pos_z_set, width=10, bg='#ffffff', font=("Arial", 10)).grid(row=4, column=1, pady=0, sticky="w")
+    tk.Button(scrollable_frame, text="Autofill from Clipboard", command=lambda: gui.autofill_coordinates([gui.pos_x_set, gui.pos_y_set, gui.pos_z_set])).grid(row=5, column=0, columnspan=2, pady=2, sticky="w")
+
+    # Translation Modification
+    tk.Checkbutton(scrollable_frame, text="Modify Translation", variable=gui.modify_translation).grid(row=6, column=0, pady=2, sticky="w")
+    tk.Label(scrollable_frame, text="Trans X:", font=("Arial", 10), bg='#f0f0f0').grid(row=7, column=0, pady=0, sticky="w")
+    tk.Entry(scrollable_frame, textvariable=gui.trans_x, width=10, bg='#ffffff', font=("Arial", 10)).grid(row=7, column=1, pady=0, sticky="w")
+    tk.Label(scrollable_frame, text="Trans Y:", font=("Arial", 10), bg='#f0f0f0').grid(row=8, column=0, pady=0, sticky="w")
+    tk.Entry(scrollable_frame, textvariable=gui.trans_y, width=10, bg='#ffffff', font=("Arial", 10)).grid(row=8, column=1, pady=0, sticky="w")
+    tk.Label(scrollable_frame, text="Trans Z:", font=("Arial", 10), bg='#f0f0f0').grid(row=9, column=0, pady=0, sticky="w")
+    tk.Entry(scrollable_frame, textvariable=gui.trans_z, width=10, bg='#ffffff', font=("Arial", 10)).grid(row=9, column=1, pady=0, sticky="w")
+
+    # Beam Scale Modification
+    tk.Checkbutton(scrollable_frame, text="Modify Scale", variable=gui.modify_scale).grid(row=10, column=0, pady=2, sticky="w")
+    tk.Label(scrollable_frame, text="Beam Scale:", font=("Arial", 10), bg='#f0f0f0').grid(row=11, column=0, pady=0, sticky="w")
+    tk.Entry(scrollable_frame, textvariable=gui.beam_scale, width=10, bg='#ffffff', font=("Arial", 10)).grid(row=11, column=1, pady=0, sticky="w")
+
+    # Laser/Lightbeam Buttons with Processing
+    tk.Button(scrollable_frame, text="Laser", command=lambda: [set_laser_preset(gui), gui.process_clipboard()], font=("Arial", 10), bg='#4CAF50', fg='#ffffff').grid(row=12, column=0, pady=2, sticky="w")
+    tk.Button(scrollable_frame, text="Lightbeam", command=lambda: [set_lightbeam_preset(gui), gui.process_clipboard()], font=("Arial", 10), bg='#4CAF50', fg='#ffffff').grid(row=12, column=1, pady=2, sticky="w")
+
+    # Centering Modifiers
+    tk.Label(scrollable_frame, text="Centering Modifiers:", font=("Arial", 12, "bold"), bg='#f0f0f0', fg='#333333').grid(row=13, column=0, columnspan=2, pady=2, sticky="w")
+    tk.Label(scrollable_frame, text="X:", font=("Arial", 10), bg='#f0f0f0').grid(row=14, column=0, pady=0, sticky="w")
+    tk.Entry(scrollable_frame, textvariable=gui.centering_x, width=10, bg='#ffffff', font=("Arial", 10)).grid(row=14, column=1, pady=0, sticky="w")
+    tk.Label(scrollable_frame, text="Y:", font=("Arial", 10), bg='#f0f0f0').grid(row=15, column=0, pady=0, sticky="w")
+    tk.Entry(scrollable_frame, textvariable=gui.centering_y, width=10, bg='#ffffff', font=("Arial", 10)).grid(row=15, column=1, pady=0, sticky="w")
+    tk.Label(scrollable_frame, text="Z:", font=("Arial", 10), bg='#f0f0f0').grid(row=16, column=0, pady=0, sticky="w")
+    tk.Entry(scrollable_frame, textvariable=gui.centering_z, width=10, bg='#ffffff', font=("Arial", 10)).grid(row=16, column=1, pady=0, sticky="w")
+
+    tk.Button(scrollable_frame, text="Generate", command=lambda: gui.process_clipboard(), font=("Arial", 10), bg='#4CAF50', fg='#ffffff').grid(row=17, column=0, columnspan=2, pady=5, sticky="w")
 
     gui.rename_tag_cmd_text = tk.Text(scrollable_frame, height=2, width=40)
-    gui.rename_tag_cmd_text.grid(row=4, column=0, columnspan=2, pady=2, sticky="w")
-    tk.Button(scrollable_frame, text="Copy", command=lambda: gui.copy_to_clipboard(gui.rename_tag_cmd_text.get("1.0", tk.END).strip()), font=("Arial", 10)).grid(row=4, column=2, pady=2, sticky="w")
-    tk.Label(scrollable_frame, text=f"Press set keybind to take coordinates from command and automatically update clipboard with result. Works with: setblock, summon, tp.", font=("Arial", 8), bg='#f0f0f0').grid(row=5, column=0, columnspan=3, pady=2, sticky="w")
+    gui.rename_tag_cmd_text.grid(row=18, column=0, columnspan=2, pady=2, sticky="w")
+    tk.Button(scrollable_frame, text="Copy", command=lambda: gui.copy_to_clipboard(gui.rename_tag_cmd_text.get("1.0", tk.END).strip()), font=("Arial", 10)).grid(row=18, column=2, pady=2, sticky="w")
+    tk.Label(scrollable_frame, text=f"Press set keybind to take coordinates from command and automatically update clipboard with result. Works with: setblock, summon, tp.", font=("Arial", 8), bg='#f0f0f0').grid(row=19, column=0, columnspan=3, pady=2, sticky="w")
