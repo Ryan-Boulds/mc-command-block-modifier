@@ -1584,3 +1584,222 @@
 2025-06-19 15:18:02,393 - INFO - F12 keyboard hook initialized
 2025-06-19 15:18:02,951 - INFO - Always on top set to True
 2025-06-19 15:18:02,951 - INFO - Application started. Copy a command, press F11 to process.
+2025-06-19 15:18:46,553 - DEBUG - Laser preset applied
+2025-06-19 15:18:46,553 - DEBUG - Active tab: Rename tag/group
+2025-06-19 15:18:47,141 - DEBUG - Lightbeam preset applied
+2025-06-19 15:18:47,142 - DEBUG - Active tab: Rename tag/group
+2025-06-19 15:18:47,989 - DEBUG - Laser preset applied
+2025-06-19 15:18:47,989 - DEBUG - Active tab: Rename tag/group
+2025-06-19 15:18:48,548 - DEBUG - Lightbeam preset applied
+2025-06-19 15:18:48,549 - DEBUG - Active tab: Rename tag/group
+2025-06-19 15:18:49,215 - DEBUG - Laser preset applied
+2025-06-19 15:18:49,215 - DEBUG - Active tab: Rename tag/group
+2025-06-19 15:18:50,979 - DEBUG - Lightbeam preset applied
+2025-06-19 15:18:50,979 - DEBUG - Active tab: Rename tag/group
+2025-06-19 15:18:52,092 - DEBUG - Laser preset applied
+2025-06-19 15:18:52,093 - DEBUG - Active tab: Rename tag/group
+2025-06-19 15:18:52,956 - DEBUG - Lightbeam preset applied
+2025-06-19 15:18:52,956 - DEBUG - Active tab: Rename tag/group
+2025-06-19 15:18:53,932 - DEBUG - Laser preset applied
+2025-06-19 15:18:53,933 - DEBUG - Active tab: Rename tag/group
+2025-06-19 15:18:54,503 - DEBUG - Lightbeam preset applied
+2025-06-19 15:18:54,503 - DEBUG - Active tab: Rename tag/group
+2025-06-19 15:18:55,682 - DEBUG - Laser preset applied
+2025-06-19 15:18:55,683 - DEBUG - Active tab: Rename tag/group
+2025-06-19 15:18:56,459 - DEBUG - Lightbeam preset applied
+2025-06-19 15:18:56,459 - DEBUG - Active tab: Rename tag/group
+2025-06-19 15:18:57,343 - DEBUG - Laser preset applied
+2025-06-19 15:18:57,344 - DEBUG - Active tab: Rename tag/group
+2025-06-19 15:18:57,895 - DEBUG - Lightbeam preset applied
+2025-06-19 15:18:57,896 - DEBUG - Active tab: Rename tag/group
+2025-06-19 15:18:58,726 - DEBUG - Laser preset applied
+2025-06-19 15:18:58,727 - DEBUG - Active tab: Rename tag/group
+2025-06-19 15:18:59,307 - DEBUG - Lightbeam preset applied
+2025-06-19 15:18:59,307 - DEBUG - Active tab: Rename tag/group
+2025-06-19 15:19:00,183 - DEBUG - Laser preset applied
+2025-06-19 15:19:00,183 - DEBUG - Active tab: Rename tag/group
+2025-06-19 15:19:01,135 - DEBUG - Lightbeam preset applied
+2025-06-19 15:19:01,135 - DEBUG - Active tab: Rename tag/group
+2025-06-19 15:19:02,736 - DEBUG - Laser preset applied
+2025-06-19 15:19:02,737 - DEBUG - Active tab: Rename tag/group
+2025-06-19 15:19:03,703 - DEBUG - Lightbeam preset applied
+2025-06-19 15:19:03,704 - DEBUG - Active tab: Rename tag/group
+2025-06-19 15:19:04,501 - DEBUG - Laser preset applied
+2025-06-19 15:19:04,502 - DEBUG - Active tab: Rename tag/group
+2025-06-19 15:19:06,594 - DEBUG - Lightbeam preset applied
+2025-06-19 15:19:06,595 - DEBUG - Active tab: Rename tag/group
+2025-06-19 15:19:08,084 - DEBUG - Laser preset applied
+2025-06-19 15:19:08,085 - DEBUG - Active tab: Rename tag/group
+2025-06-19 15:19:08,819 - DEBUG - Lightbeam preset applied
+2025-06-19 15:19:08,819 - DEBUG - Active tab: Rename tag/group
+2025-06-19 15:19:15,244 - DEBUG - Lightbeam preset applied
+2025-06-19 15:19:15,244 - DEBUG - Active tab: Rename tag/group
+2025-06-19 15:19:19,008 - DEBUG - Laser preset applied
+2025-06-19 15:19:19,008 - DEBUG - Active tab: Rename tag/group
+2025-06-19 15:19:20,419 - DEBUG - Active tab: Rename tag/group
+2025-06-19 15:19:24,298 - DEBUG - Active tab: Rename tag/group
+2025-06-19 15:20:27,851 - DEBUG - Autofilled coordinates from clipboard: /summon minecraft:block_display 0.5 0.5 0.5 { block_state:{Name:"minecraft:lime_concrete"}, transformation:{ translation:[0.0f,0.0f,0.0f], scale:[0.1f, 0.1f, -100.0f], left_rotation:[0.0f,0.0f,0.0f,1.0f], right_rotation:[0.0f,0.0f,0.0f,1.0f] }, brightness:15728880, shadow:false, billboard:"fixed", Tags:["beam1"]}
+2025-06-19 15:20:30,468 - DEBUG - Active tab: Rename tag/group
+2025-06-19 15:20:30,469 - DEBUG - Extracted coordinates: [0.5, 0.5, 0.5]
+2025-06-19 15:20:30,469 - DEBUG - Input Command: /summon minecraft:block_display 0.5 0.5 0.5 { block_state:{Name:"minecraft:lime_concrete"}, transformation:{ translation:[0.0f,0.0f,0.0f], scale:[0.1f, 0.1f, -100.0f], left_rotation:[0.0f,0.0f,0.0f,1.0f], right_rotation:[0.0f,0.0f,0.0f,1.0f] }, brightness:15728880, shadow:false, billboard:"fixed", Tags:["beam1"]}
+2025-06-19 15:20:30,469 - DEBUG - Original Coordinates: [0.5, 0.5, 0.5]
+2025-06-19 15:20:30,469 - DEBUG - Original Tag: beam1
+2025-06-19 15:20:30,470 - DEBUG - Original Translation: ['0.0f', '0.0f', '0.0f']
+2025-06-19 15:20:30,470 - DEBUG - Original Scale: ['0.1f', '0.1f', '-100.0f']
+2025-06-19 15:20:30,470 - DEBUG - Modified Command: /summon minecraft:block_display 0.5 0.5 0.5 { block_state:{Name:"minecraft:lime_concrete"}, transformation:{ translation:[0.5f,0.0f,0.0f], scale:[0.1f, 0.1f, -150.0f], left_rotation:[0.0f,0.0f,0.0f,1.0f], right_rotation:[0.0f,0.0f,0.0f,1.0f] }, brightness:15728880, shadow:false, billboard:"fixed", Tags:["beam1"]}
+2025-06-19 15:20:30,470 - DEBUG - New Coordinates: [0.5, 0.5, 0.5]
+2025-06-19 15:20:38,251 - DEBUG - Active tab: Rename tag/group
+2025-06-19 15:20:38,252 - DEBUG - Extracted coordinates: [0.5, 0.5, 0.5]
+2025-06-19 15:20:38,252 - DEBUG - Input Command: /summon minecraft:block_display 0.5 0.5 0.5 { block_state:{Name:"minecraft:lime_concrete"}, transformation:{ translation:[0.5f,0.0f,0.0f], scale:[0.1f, 0.1f, -150.0f], left_rotation:[0.0f,0.0f,0.0f,1.0f], right_rotation:[0.0f,0.0f,0.0f,1.0f] }, brightness:15728880, shadow:false, billboard:"fixed", Tags:["beam1"]}
+2025-06-19 15:20:38,252 - DEBUG - Original Coordinates: [0.5, 0.5, 0.5]
+2025-06-19 15:20:38,252 - DEBUG - Original Tag: beam1
+2025-06-19 15:20:38,252 - DEBUG - Original Translation: ['0.5f', '0.0f', '0.0f']
+2025-06-19 15:20:38,253 - DEBUG - Original Scale: ['0.1f', '0.1f', '-150.0f']
+2025-06-19 15:20:38,253 - DEBUG - Modified Command: /summon minecraft:block_display 0.5 0.5 0.5 { block_state:{Name:"minecraft:lime_concrete"}, transformation:{ translation:[0.5f,0.0f,0.0f], scale:[0.1f, 0.1f, -150.0f], left_rotation:[0.0f,0.0f,0.0f,1.0f], right_rotation:[0.0f,0.0f,0.0f,1.0f] }, brightness:15728880, shadow:false, billboard:"fixed", Tags:["beam1"]}
+2025-06-19 15:20:38,253 - DEBUG - New Coordinates: [0.5, 0.5, 0.5]
+2025-06-19 15:20:40,468 - DEBUG - Laser preset applied
+2025-06-19 15:20:40,468 - DEBUG - Active tab: Rename tag/group
+2025-06-19 15:20:40,468 - DEBUG - Extracted coordinates: [0.5, 0.5, 0.5]
+2025-06-19 15:20:40,469 - DEBUG - Input Command: /summon minecraft:block_display 0.5 0.5 0.5 { block_state:{Name:"minecraft:lime_concrete"}, transformation:{ translation:[0.5f,0.0f,0.0f], scale:[0.1f, 0.1f, -150.0f], left_rotation:[0.0f,0.0f,0.0f,1.0f], right_rotation:[0.0f,0.0f,0.0f,1.0f] }, brightness:15728880, shadow:false, billboard:"fixed", Tags:["beam1"]}
+2025-06-19 15:20:40,469 - DEBUG - Original Coordinates: [0.5, 0.5, 0.5]
+2025-06-19 15:20:40,469 - DEBUG - Original Tag: beam1
+2025-06-19 15:20:40,469 - DEBUG - Original Translation: ['0.5f', '0.0f', '0.0f']
+2025-06-19 15:20:40,469 - DEBUG - Original Scale: ['0.1f', '0.1f', '-150.0f']
+2025-06-19 15:20:40,470 - DEBUG - Modified Command: /summon minecraft:block_display 0.0 0.5 0.999999 { block_state:{Name:"minecraft:lime_concrete"}, transformation:{ translation:[0.5f,0.0f,0.0f], scale:[0.1f, 0.1f, -150.0f], left_rotation:[0.0f,0.0f,0.0f,1.0f], right_rotation:[0.0f,0.0f,0.0f,1.0f] }, brightness:15728880, shadow:false, billboard:"fixed", Tags:["beam1"]}
+2025-06-19 15:20:40,470 - DEBUG - New Coordinates: [0.0, 0.5, 0.999999]
+2025-06-19 15:20:45,294 - DEBUG - Active tab: Rename tag/group
+2025-06-19 15:20:45,294 - DEBUG - Extracted coordinates: [0.0, 0.5, 0.999999]
+2025-06-19 15:20:45,295 - DEBUG - Input Command: /summon minecraft:block_display 0.0 0.5 0.999999 { block_state:{Name:"minecraft:lime_concrete"}, transformation:{ translation:[0.5f,0.0f,0.0f], scale:[0.1f, 0.1f, -150.0f], left_rotation:[0.0f,0.0f,0.0f,1.0f], right_rotation:[0.0f,0.0f,0.0f,1.0f] }, brightness:15728880, shadow:false, billboard:"fixed", Tags:["beam1"]}
+2025-06-19 15:20:45,295 - DEBUG - Original Coordinates: [0.0, 0.5, 0.999999]
+2025-06-19 15:20:45,295 - DEBUG - Original Tag: beam1
+2025-06-19 15:20:45,295 - DEBUG - Original Translation: ['0.5f', '0.0f', '0.0f']
+2025-06-19 15:20:45,296 - DEBUG - Original Scale: ['0.1f', '0.1f', '-150.0f']
+2025-06-19 15:20:45,296 - DEBUG - Modified Command: /summon minecraft:block_display 0.0 0.5 0.999999 { block_state:{Name:"minecraft:lime_concrete"}, transformation:{ translation:[0.5f,0.0f,0.0f], scale:[0.1f, 0.1f, -150.0f], left_rotation:[0.0f,0.0f,0.0f,1.0f], right_rotation:[0.0f,0.0f,0.0f,1.0f] }, brightness:15728880, shadow:false, billboard:"fixed", Tags:["beam1"]}
+2025-06-19 15:20:45,296 - DEBUG - New Coordinates: [0.0, 0.5, 0.999999]
+2025-06-19 15:20:48,462 - DEBUG - Active tab: Rename tag/group
+2025-06-19 15:20:48,463 - DEBUG - Extracted coordinates: [0.0, 0.5, 0.999999]
+2025-06-19 15:20:48,463 - DEBUG - Input Command: /summon minecraft:block_display 0.0 0.5 0.999999 { block_state:{Name:"minecraft:lime_concrete"}, transformation:{ translation:[0.5f,0.0f,0.0f], scale:[0.1f, 0.1f, -150.0f], left_rotation:[0.0f,0.0f,0.0f,1.0f], right_rotation:[0.0f,0.0f,0.0f,1.0f] }, brightness:15728880, shadow:false, billboard:"fixed", Tags:["beam1"]}
+2025-06-19 15:20:48,463 - DEBUG - Original Coordinates: [0.0, 0.5, 0.999999]
+2025-06-19 15:20:48,463 - DEBUG - Original Tag: beam1
+2025-06-19 15:20:48,464 - DEBUG - Original Translation: ['0.5f', '0.0f', '0.0f']
+2025-06-19 15:20:48,464 - DEBUG - Original Scale: ['0.1f', '0.1f', '-150.0f']
+2025-06-19 15:20:48,464 - DEBUG - Modified Command: /summon minecraft:block_display 0.0 0.5 0.999999 { block_state:{Name:"minecraft:lime_concrete"}, transformation:{ translation:[0.5f,0.0f,0.0f], scale:[0.1f, 0.1f, -150.0f], left_rotation:[0.0f,0.0f,0.0f,1.0f], right_rotation:[0.0f,0.0f,0.0f,1.0f] }, brightness:15728880, shadow:false, billboard:"fixed", Tags:["beam1"]}
+2025-06-19 15:20:48,464 - DEBUG - New Coordinates: [0.0, 0.5, 0.999999]
+2025-06-19 15:20:50,057 - DEBUG - Lightbeam preset applied
+2025-06-19 15:20:50,057 - DEBUG - Active tab: Rename tag/group
+2025-06-19 15:20:50,058 - DEBUG - Extracted coordinates: [0.0, 0.5, 0.999999]
+2025-06-19 15:20:50,058 - DEBUG - Input Command: /summon minecraft:block_display 0.0 0.5 0.999999 { block_state:{Name:"minecraft:lime_concrete"}, transformation:{ translation:[0.5f,0.0f,0.0f], scale:[0.1f, 0.1f, -150.0f], left_rotation:[0.0f,0.0f,0.0f,1.0f], right_rotation:[0.0f,0.0f,0.0f,1.0f] }, brightness:15728880, shadow:false, billboard:"fixed", Tags:["beam1"]}
+2025-06-19 15:20:50,058 - DEBUG - Original Coordinates: [0.0, 0.5, 0.999999]
+2025-06-19 15:20:50,058 - DEBUG - Original Tag: beam1
+2025-06-19 15:20:50,058 - DEBUG - Original Translation: ['0.5f', '0.0f', '0.0f']
+2025-06-19 15:20:50,059 - DEBUG - Original Scale: ['0.1f', '0.1f', '-150.0f']
+2025-06-19 15:20:50,059 - DEBUG - Modified Command: /summon minecraft:block_display 64.125 108.25 30.999999 { block_state:{Name:"minecraft:lime_concrete"}, transformation:{ translation:[0.0f,0.0f,0.0f], scale:[0.1f, 0.1f, -75.0f], left_rotation:[0.0f,0.0f,0.0f,1.0f], right_rotation:[0.0f,0.0f,0.0f,1.0f] }, brightness:15728880, shadow:false, billboard:"fixed", Tags:["beam1"]}
+2025-06-19 15:20:50,059 - DEBUG - New Coordinates: [64.125, 108.25, 30.999999]
+2025-06-19 15:20:51,503 - DEBUG - Laser preset applied
+2025-06-19 15:20:51,504 - DEBUG - Active tab: Rename tag/group
+2025-06-19 15:20:51,504 - DEBUG - Extracted coordinates: [64.125, 108.25, 30.999999]
+2025-06-19 15:20:51,504 - DEBUG - Input Command: /summon minecraft:block_display 64.125 108.25 30.999999 { block_state:{Name:"minecraft:lime_concrete"}, transformation:{ translation:[0.0f,0.0f,0.0f], scale:[0.1f, 0.1f, -75.0f], left_rotation:[0.0f,0.0f,0.0f,1.0f], right_rotation:[0.0f,0.0f,0.0f,1.0f] }, brightness:15728880, shadow:false, billboard:"fixed", Tags:["beam1"]}
+2025-06-19 15:20:51,504 - DEBUG - Original Coordinates: [64.125, 108.25, 30.999999]
+2025-06-19 15:20:51,505 - DEBUG - Original Tag: beam1
+2025-06-19 15:20:51,505 - DEBUG - Original Translation: ['0.0f', '0.0f', '0.0f']
+2025-06-19 15:20:51,505 - DEBUG - Original Scale: ['0.1f', '0.1f', '-75.0f']
+2025-06-19 15:20:51,505 - DEBUG - Modified Command: /summon minecraft:block_display 0.0 0.5 0.999999 { block_state:{Name:"minecraft:lime_concrete"}, transformation:{ translation:[0.5f,0.0f,0.0f], scale:[0.1f, 0.1f, -150.0f], left_rotation:[0.0f,0.0f,0.0f,1.0f], right_rotation:[0.0f,0.0f,0.0f,1.0f] }, brightness:15728880, shadow:false, billboard:"fixed", Tags:["beam1"]}
+2025-06-19 15:20:51,505 - DEBUG - New Coordinates: [0.0, 0.5, 0.999999]
+2025-06-19 15:23:52,008 - INFO - Application shutdown completed
+2025-06-19 15:23:52,009 - INFO - Cleaning up logging handlers
+2025-06-19 15:27:43,383 - INFO - Application started (F12 clipboard mode with GUI)
+2025-06-19 15:27:43,467 - INFO - F12 keyboard hook initialized
+2025-06-19 15:27:43,601 - INFO - Always on top set to True
+2025-06-19 15:27:43,601 - INFO - Application started. Copy a command, press F11 to process.
+2025-06-19 15:27:52,318 - DEBUG - Laser preset applied
+2025-06-19 15:27:53,056 - DEBUG - Lightbeam preset applied
+2025-06-19 15:27:53,920 - DEBUG - Laser preset applied
+2025-06-19 15:27:54,409 - DEBUG - Lightbeam preset applied
+2025-06-19 15:27:55,057 - DEBUG - Laser preset applied
+2025-06-19 15:27:55,563 - DEBUG - Lightbeam preset applied
+2025-06-19 15:27:56,550 - DEBUG - Laser preset applied
+2025-06-19 15:27:57,364 - DEBUG - Lightbeam preset applied
+2025-06-19 15:27:58,549 - DEBUG - Laser preset applied
+2025-06-19 15:28:02,668 - DEBUG - Laser preset applied
+2025-06-19 15:28:04,017 - DEBUG - Lightbeam preset applied
+2025-06-19 15:28:04,862 - DEBUG - Laser preset applied
+2025-06-19 15:28:11,724 - DEBUG - Active tab: Rename tag/group
+2025-06-19 15:28:11,725 - DEBUG - Extracted coordinates: [0.0, 0.0, 0.0]
+2025-06-19 15:28:11,727 - DEBUG - Input Command: /summon minecraft:block_display 0.0 0.0 0.0 { block_state:{Name:"minecraft:lime_concrete"}, transformation:{ translation:[0.0f,0.0f,0.0f], scale:[0.1f, 0.1f, -100.0f], left_rotation:[0.0f,0.0f,0.0f,1.0f], right_rotation:[0.0f,0.0f,0.0f,1.0f] }, brightness:15728880, shadow:false, billboard:"fixed", Tags:["beam1"]}
+2025-06-19 15:28:11,728 - DEBUG - Original Coordinates: [0.0, 0.0, 0.0]
+2025-06-19 15:28:11,729 - DEBUG - Original Tag: beam1
+2025-06-19 15:28:11,729 - DEBUG - Original Translation: ['0.0f', '0.0f', '0.0f']
+2025-06-19 15:28:11,729 - DEBUG - Original Scale: ['0.1f', '0.1f', '-100.0f']
+2025-06-19 15:28:11,730 - DEBUG - Modified Command: /summon minecraft:block_display 0.000000 1.000000 1.999998 { block_state:{Name:"minecraft:lime_concrete"}, transformation:{ translation:[0.500000f,0.000000f,0.000000f], scale:[0.1f, 0.1f, -150.000000f], left_rotation:[0.0f,0.0f,0.0f,1.0f], right_rotation:[0.0f,0.0f,0.0f,1.0f] }, brightness:15728880, shadow:false, billboard:"fixed", Tags:["beam1"]}
+2025-06-19 15:28:11,730 - DEBUG - New Coordinates: [0.0, 1.0, 1.999998]
+2025-06-19 15:28:12,859 - DEBUG - Laser preset applied
+2025-06-19 15:28:13,738 - DEBUG - Active tab: Rename tag/group
+2025-06-19 15:28:13,739 - DEBUG - Extracted coordinates: [0.0, 1.0, 1.999998]
+2025-06-19 15:28:13,739 - DEBUG - Input Command: /summon minecraft:block_display 0.000000 1.000000 1.999998 { block_state:{Name:"minecraft:lime_concrete"}, transformation:{ translation:[0.500000f,0.000000f,0.000000f], scale:[0.1f, 0.1f, -150.000000f], left_rotation:[0.0f,0.0f,0.0f,1.0f], right_rotation:[0.0f,0.0f,0.0f,1.0f] }, brightness:15728880, shadow:false, billboard:"fixed", Tags:["beam1"]}
+2025-06-19 15:28:13,739 - DEBUG - Original Coordinates: [0.0, 1.0, 1.999998]
+2025-06-19 15:28:13,740 - DEBUG - Original Tag: beam1
+2025-06-19 15:28:13,740 - DEBUG - Original Translation: ['0.500000f', '0.000000f', '0.000000f']
+2025-06-19 15:28:13,740 - DEBUG - Original Scale: ['0.1f', '0.1f', '-150.000000f']
+2025-06-19 15:28:13,740 - DEBUG - Modified Command: /summon minecraft:block_display 0.000000 1.000000 1.999998 { block_state:{Name:"minecraft:lime_concrete"}, transformation:{ translation:[0.500000f,0.000000f,0.000000f], scale:[0.1f, 0.1f, -150.000000f], left_rotation:[0.0f,0.0f,0.0f,1.0f], right_rotation:[0.0f,0.0f,0.0f,1.0f] }, brightness:15728880, shadow:false, billboard:"fixed", Tags:["beam1"]}
+2025-06-19 15:28:13,740 - DEBUG - New Coordinates: [0.0, 1.0, 1.999998]
+2025-06-19 15:28:14,319 - DEBUG - Lightbeam preset applied
+2025-06-19 15:28:14,855 - DEBUG - Active tab: Rename tag/group
+2025-06-19 15:28:14,856 - DEBUG - Extracted coordinates: [0.0, 1.0, 1.999998]
+2025-06-19 15:28:14,856 - DEBUG - Input Command: /summon minecraft:block_display 0.000000 1.000000 1.999998 { block_state:{Name:"minecraft:lime_concrete"}, transformation:{ translation:[0.500000f,0.000000f,0.000000f], scale:[0.1f, 0.1f, -150.000000f], left_rotation:[0.0f,0.0f,0.0f,1.0f], right_rotation:[0.0f,0.0f,0.0f,1.0f] }, brightness:15728880, shadow:false, billboard:"fixed", Tags:["beam1"]}
+2025-06-19 15:28:14,856 - DEBUG - Original Coordinates: [0.0, 1.0, 1.999998]
+2025-06-19 15:28:14,857 - DEBUG - Original Tag: beam1
+2025-06-19 15:28:14,857 - DEBUG - Original Translation: ['0.500000f', '0.000000f', '0.000000f']
+2025-06-19 15:28:14,857 - DEBUG - Original Scale: ['0.1f', '0.1f', '-150.000000f']
+2025-06-19 15:28:14,857 - DEBUG - Modified Command: /summon minecraft:block_display 64.250000 108.500000 31.999998 { block_state:{Name:"minecraft:lime_concrete"}, transformation:{ translation:[0.000000f,0.000000f,0.000000f], scale:[0.1f, 0.1f, -75.000000f], left_rotation:[0.0f,0.0f,0.0f,1.0f], right_rotation:[0.0f,0.0f,0.0f,1.0f] }, brightness:15728880, shadow:false, billboard:"fixed", Tags:["beam1"]}
+2025-06-19 15:28:14,857 - DEBUG - New Coordinates: [64.25, 108.5, 31.999998]
+2025-06-19 15:28:16,568 - DEBUG - Laser preset applied
+2025-06-19 15:29:40,726 - DEBUG - Active tab: Rename tag/group
+2025-06-19 15:29:40,726 - DEBUG - Extracted coordinates: [64.25, 108.5, 31.999998]
+2025-06-19 15:29:40,727 - DEBUG - Input Command: /summon minecraft:block_display 64.250000 108.500000 31.999998 { block_state:{Name:"minecraft:lime_concrete"}, transformation:{ translation:[0.000000f,0.000000f,0.000000f], scale:[0.1f, 0.1f, -75.000000f], left_rotation:[0.0f,0.0f,0.0f,1.0f], right_rotation:[0.0f,0.0f,0.0f,1.0f] }, brightness:15728880, shadow:false, billboard:"fixed", Tags:["beam1"]}
+2025-06-19 15:29:40,727 - DEBUG - Original Coordinates: [64.25, 108.5, 31.999998]
+2025-06-19 15:29:40,727 - DEBUG - Original Tag: beam1
+2025-06-19 15:29:40,727 - DEBUG - Original Translation: ['0.000000f', '0.000000f', '0.000000f']
+2025-06-19 15:29:40,728 - DEBUG - Original Scale: ['0.1f', '0.1f', '-75.000000f']
+2025-06-19 15:29:40,728 - DEBUG - Modified Command: /summon minecraft:block_display 1.000000 2.000000 2.999998 { block_state:{Name:"minecraft:lime_concrete"}, transformation:{ translation:[0.500000f,0.000000f,0.000000f], scale:[0.1f, 0.1f, -150.000000f], left_rotation:[0.0f,0.0f,0.0f,1.0f], right_rotation:[0.0f,0.0f,0.0f,1.0f] }, brightness:15728880, shadow:false, billboard:"fixed", Tags:["beam1"]}
+2025-06-19 15:29:40,728 - DEBUG - New Coordinates: [1.0, 2.0, 2.999998]
+2025-06-19 15:29:54,629 - DEBUG - Active tab: Rename tag/group
+2025-06-19 15:29:54,629 - DEBUG - Extracted coordinates: [1.0, 2.0, 2.999998]
+2025-06-19 15:29:54,629 - DEBUG - Input Command: /summon minecraft:block_display 1.000000 2.000000 2.999998 { block_state:{Name:"minecraft:lime_concrete"}, transformation:{ translation:[0.500000f,0.000000f,0.000000f], scale:[0.1f, 0.1f, -150.000000f], left_rotation:[0.0f,0.0f,0.0f,1.0f], right_rotation:[0.0f,0.0f,0.0f,1.0f] }, brightness:15728880, shadow:false, billboard:"fixed", Tags:["beam1"]}
+2025-06-19 15:29:54,629 - DEBUG - Original Coordinates: [1.0, 2.0, 2.999998]
+2025-06-19 15:29:54,630 - DEBUG - Original Tag: beam1
+2025-06-19 15:29:54,630 - DEBUG - Original Translation: ['0.500000f', '0.000000f', '0.000000f']
+2025-06-19 15:29:54,630 - DEBUG - Original Scale: ['0.1f', '0.1f', '-150.000000f']
+2025-06-19 15:29:54,630 - DEBUG - Modified Command: /summon minecraft:block_display 1.000000 1.500000 1.999999 { block_state:{Name:"minecraft:lime_concrete"}, transformation:{ translation:[0.500000f,0.000000f,0.000000f], scale:[0.1f, 0.1f, -150.000000f], left_rotation:[0.0f,0.0f,0.0f,1.0f], right_rotation:[0.0f,0.0f,0.0f,1.0f] }, brightness:15728880, shadow:false, billboard:"fixed", Tags:["beam1"]}
+2025-06-19 15:29:54,630 - DEBUG - New Coordinates: [1.0, 1.5, 1.999999]
+2025-06-19 15:33:32,149 - INFO - Application shutdown completed
+2025-06-19 15:33:32,149 - INFO - Cleaning up logging handlers
+2025-06-19 15:35:14,298 - INFO - Application started (F12 clipboard mode with GUI)
+2025-06-19 15:35:14,380 - INFO - F12 keyboard hook initialized
+2025-06-19 15:35:14,509 - INFO - Always on top set to True
+2025-06-19 15:35:14,509 - INFO - Application started. Copy a command, press F11 to process.
+2025-06-19 15:35:18,370 - DEBUG - Error: Invalid coordinate format in clipboard. Ensure the command starts with '/summon minecraft:block_display' followed by three numbers.
+2025-06-19 15:35:24,228 - DEBUG - Laser preset applied
+2025-06-19 15:35:24,832 - DEBUG - Lightbeam preset applied
+2025-06-19 15:35:26,175 - DEBUG - Laser preset applied
+2025-06-19 15:35:27,013 - DEBUG - Lightbeam preset applied
+2025-06-19 15:35:27,640 - DEBUG - Laser preset applied
+2025-06-19 15:35:28,162 - DEBUG - Lightbeam preset applied
+2025-06-19 15:35:29,457 - DEBUG - Laser preset applied
+2025-06-19 15:35:29,950 - DEBUG - Lightbeam preset applied
+2025-06-19 15:35:30,676 - DEBUG - Laser preset applied
+2025-06-19 15:35:31,884 - DEBUG - Lightbeam preset applied
+2025-06-19 15:35:33,101 - DEBUG - Active tab: Rename tag/group
+2025-06-19 15:35:33,101 - DEBUG - Extracted coordinates: [0.0, 0.0, 0.0]
+2025-06-19 15:35:33,103 - DEBUG - Input Command: /summon minecraft:block_display 0.0 0.0 0.0 { block_state:{Name:"minecraft:lime_concrete"}, transformation:{ translation:[0.0f,0.0f,0.0f], scale:[0.1f, 0.1f, -100.0f], left_rotation:[0.0f,0.0f,0.0f,1.0f], right_rotation:[0.0f,0.0f,0.0f,1.0f] }, brightness:15728880, shadow:false, billboard:"fixed", Tags:["beam1"]}
+2025-06-19 15:35:33,103 - DEBUG - Original Coordinates: [0.0, 0.0, 0.0]
+2025-06-19 15:35:33,103 - DEBUG - Original Tag: beam1
+2025-06-19 15:35:33,103 - DEBUG - Original Translation: ['0.0f', '0.0f', '0.0f']
+2025-06-19 15:35:33,103 - DEBUG - Original Scale: ['0.1f', '0.1f', '-100.0f']
+2025-06-19 15:35:33,104 - DEBUG - Modified Command: /summon minecraft:block_display 0.125000 0.750000 1.999998 { block_state:{Name:"minecraft:lime_concrete"}, transformation:{ translation:[0.000000f,0.000000f,0.000000f], scale:[0.1f, 0.1f, -75.000000f], left_rotation:[0.0f,0.0f,0.0f,1.0f], right_rotation:[0.0f,0.0f,0.0f,1.0f] }, brightness:15728880, shadow:false, billboard:"fixed", Tags:["beam1"]}
+2025-06-19 15:35:33,104 - DEBUG - New Coordinates: [0.125, 0.75, 1.999998]
+2025-06-19 15:35:34,046 - DEBUG - Lightbeam preset applied
+2025-06-19 15:35:35,217 - DEBUG - Laser preset applied
+2025-06-19 15:35:36,374 - DEBUG - Lightbeam preset applied
+2025-06-19 15:35:36,970 - DEBUG - Laser preset applied
+2025-06-19 15:35:50,288 - INFO - Application shutdown completed
+2025-06-19 15:35:50,288 - INFO - Cleaning up logging handlers
