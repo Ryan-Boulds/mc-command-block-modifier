@@ -1,161 +1,150 @@
-# Updated on 02:14 PM CDT, Friday, June 13, 2025
-import logging
+# Updated on 09:40 PM CDT, Monday, July 07, 2025
 import tkinter as tk
 from tkinter import ttk
+import logging
 from src.gui_tabs import create_modifier_gui, create_change_block_gui, create_generate_laser_gui, create_generate_end_beam_gui, create_settings_gui, create_terminal_gui, create_rename_tag_gui
-from src.gui_utils import adjust_offset, toggle_always_on_top, start_record_keybind, record_keybind, update_keybind_notes, process_clipboard, process_command, generate_laser_initial_commands, generate_laser_rotation_commands, generate_end_beam_commands, autofill_coordinates, toggle_terminal, print_to_text, on_closing, show_window, show_settings, copy_to_clipboard
-from src.command_processor import CommandProcessor
+from src.gui_utils import adjust_offset, toggle_always_on_top, start_record_keybind, record_keybind, process_clipboard, toggle_terminal, print_to_text, on_closing, show_window, show_settings, copy_to_clipboard
+from src.clipboard_parser import ClipboardCoordinateParser
+from src.command_modifier import process_command, set_laser_preset, set_lightbeam_preset
 from src.settings import load_settings, save_settings
 
 class CommandModifierGUI:
-    def __init__(self, command_processor: CommandProcessor):
-        self.root = tk.Tk()
+    def __init__(self, root):
+        self.root = root
         self.root.title("Minecraft Command Modifier")
-        self.root.configure(bg='#f0f0f0')
-        self.root.geometry("700x700")
-        self.root.resizable(True, True)
-        self.root.protocol("WM_DELETE_WINDOW", self.on_closing)
-        self.command_processor = command_processor
-        self.settings = load_settings()
-        self.always_on_top = tk.BooleanVar(value=self.settings.get("always_on_top", False))
-        self.key_bind = tk.StringVar(value=self.settings.get("key_bind", "F12"))
-        self.is_recording_key = False
+        self.root.geometry("600x400")
         self.is_destroyed = False
-        self.terminal_visible = False  # Hidden by default
-        self.setup_gui()
-        self.toggle_always_on_top()
-        self.root.bind(self.key_bind.get(), lambda e: self.process_clipboard())
-        logging.info("Application started. Copy a command, press %s to process.", self.key_bind.get())
-        self.print_to_text(f"Application started. Copy a command, press {self.key_bind.get()} to process.\n")
+        self.is_recording_key = False
+        self.terminal_visible = False
+        self.settings = load_settings()
 
-    def setup_gui(self):
-        self.main_frame = ttk.Frame(self.root)
-        self.main_frame.pack(expand=True, fill="both")
-        self.notebook = ttk.Notebook(self.main_frame)
-        self.notebook.pack(expand=True, fill="both")
-        self.notebook.bind("<<NotebookTabChanged>>", self.on_tab_change)
-
-        self.set_coord_frame = ttk.Frame(self.notebook)
-        self.command_frame = ttk.Frame(self.notebook)
-        self.change_block_frame = ttk.Frame(self.notebook)
-        self.generate_laser_frame = ttk.Frame(self.notebook)
-        self.rename_tag_frame = ttk.Frame(self.notebook)
-        self.generate_end_beam_frame = ttk.Frame(self.notebook)
-        self.settings_frame = ttk.Frame(self.notebook)
-        self.notebook.add(self.set_coord_frame, text="Set Coordinates")
-        self.notebook.add(self.command_frame, text="Command Modifier")
-        self.notebook.add(self.change_block_frame, text="Change Block")
-        self.notebook.add(self.generate_laser_frame, text="Generate Laser")
-        self.notebook.add(self.rename_tag_frame, text="Rename tag/group")
-        self.notebook.add(self.generate_end_beam_frame, text="Generate End Beam")
-        self.notebook.add(self.settings_frame, text="Settings")
-
-        self.pos_x_offset = tk.StringVar(value="0")
-        self.pos_y_offset = tk.StringVar(value="0")
-        self.pos_z_offset = tk.StringVar(value="0")
-        self.target_x_offset = tk.StringVar(value="0")
-        self.target_y_offset = tk.StringVar(value="0")
-        self.target_z_offset = tk.StringVar(value="0")
-        self.pos_x_set = tk.StringVar(value="0")
-        self.pos_y_set = tk.StringVar(value="0")
-        self.pos_z_set = tk.StringVar(value="0")
-        self.target_x_set = tk.StringVar(value="0")
-        self.target_y_set = tk.StringVar(value="0")
-        self.target_z_set = tk.StringVar(value="0")
-        self.block_text = tk.StringVar(value="minecraft:lime_concrete")  # Default value
-        self.tag_text = tk.StringVar(value="beam1")  # Default value for new tag
-        self.origin_x = tk.StringVar(value="0")  # Autofilled with 0
-        self.origin_y = tk.StringVar(value="0")  # Autofilled with 0
-        self.origin_z = tk.StringVar(value="0")  # Autofilled with 0
-        self.target_x = tk.StringVar(value="0")  # Autofilled with 0
-        self.target_y = tk.StringVar(value="0")  # Autofilled with 0
-        self.target_z = tk.StringVar(value="0")  # Autofilled with 0
+        # Initialize variables
+        self.pos_vars = [tk.StringVar(value="0") for _ in range(3)]
+        self.target_vars = [tk.StringVar(value="0") for _ in range(3)]
         self.laser_x = tk.StringVar(value="0")
         self.laser_y = tk.StringVar(value="0")
         self.laser_z = tk.StringVar(value="0")
         self.laser_tag = tk.StringVar(value="beam1")
-        self.laser_block = tk.StringVar(value="minecraft:lime_concrete")  # Updated to match default
-        self.laser_length = tk.StringVar(value="-100")  # Renamed from Z-Scale
+        self.laser_block = tk.StringVar(value="minecraft:lime_concrete")
+        self.laser_length = tk.StringVar(value="-150.0")
         self.laser_rot_x = tk.StringVar(value="0")
         self.laser_rot_y = tk.StringVar(value="1")
+        self.origin_x = tk.StringVar(value="0")
+        self.origin_y = tk.StringVar(value="0")
+        self.origin_z = tk.StringVar(value="0")
+        self.target_x = tk.StringVar(value="0")
+        self.target_y = tk.StringVar(value="0")
+        self.target_z = tk.StringVar(value="0")
+        self.always_on_top = tk.BooleanVar(value=self.settings.get("always_on_top", False))
+        self.key_bind = tk.StringVar(value=self.settings.get("key_bind", ""))
+        self.block_text = tk.StringVar(value="minecraft:lime_concrete")
+        self.modify_coords = tk.BooleanVar(value=True)
+        self.modify_translation = tk.BooleanVar(value=True)
+        self.modify_scale = tk.BooleanVar(value=True)
+        self.modify_centering = tk.BooleanVar(value=True)
+        self.laser_mode = tk.StringVar(value="")
+        self.pos_x_set = tk.StringVar(value="0.0")
+        self.pos_y_set = tk.StringVar(value="0.5")
+        self.pos_z_set = tk.StringVar(value="0.999999")
+        self.trans_x = tk.StringVar(value="0.5")
+        self.trans_y = tk.StringVar(value="0.0")
+        self.trans_z = tk.StringVar(value="0.0")
+        self.beam_scale = tk.StringVar(value="-150.0")
+        self.centering_x = tk.StringVar(value="0.0")
+        self.centering_y = tk.StringVar(value="0.0")
+        self.centering_z = tk.StringVar(value="0.0")
+        self.tag_text = tk.StringVar(value="beam1")
 
-        create_modifier_gui(self.command_frame, [self.pos_x_offset, self.pos_y_offset, self.pos_z_offset], [self.target_x_offset, self.target_y_offset, self.target_z_offset], "Command", self)
-        create_modifier_gui(self.set_coord_frame, [self.pos_x_set, self.pos_y_set, self.pos_z_set], [self.target_x_set, self.target_y_set, self.target_z_set], "Set", self)
+        # Create notebook
+        self.notebook = ttk.Notebook(self.root)
+        self.notebook.pack(fill="both", expand=True)
+
+        # Create frames
+        self.command_frame = ttk.Frame(self.notebook)
+        self.set_frame = ttk.Frame(self.notebook)
+        self.change_block_frame = ttk.Frame(self.notebook)
+        self.generate_laser_frame = ttk.Frame(self.notebook)
+        self.generate_end_beam_frame = ttk.Frame(self.notebook)
+        self.rename_tag_frame = ttk.Frame(self.notebook)
+        self.settings_frame = ttk.Frame(self.notebook)
+        self.terminal_frame = ttk.Frame(self.root)
+
+        # Add tabs
+        self.notebook.add(self.command_frame, text="Modify Laser")
+        self.notebook.add(self.set_frame, text="Set Coordinates")
+        self.notebook.add(self.change_block_frame, text="Change Block")
+        self.notebook.add(self.generate_laser_frame, text="Generate Laser")
+        self.notebook.add(self.generate_end_beam_frame, text="Generate End Beam")
+        self.notebook.add(self.rename_tag_frame, text="Rename Tag/Group")
+        self.notebook.add(self.settings_frame, text="Settings")
+
+        # Create GUIs
+        create_modifier_gui(self.command_frame, self.pos_vars, self.target_vars, "Command", self)
+        create_modifier_gui(self.set_frame, self.pos_vars, self.target_vars, "Set", self)
         create_change_block_gui(self.change_block_frame, self)
         create_generate_laser_gui(self.generate_laser_frame, self)
-        create_rename_tag_gui(self.rename_tag_frame, self)
         create_generate_end_beam_gui(self.generate_end_beam_frame, self)
+        create_rename_tag_gui(self.rename_tag_frame, self)
         create_settings_gui(self.settings_frame, self)
-        create_terminal_gui(self.main_frame, self)
+        create_terminal_gui(self.terminal_frame, self)
 
-    def on_tab_change(self, event):
-        active_tab = self.notebook.tab(self.notebook.select(), "text")
-        if active_tab == "Command Modifier":
-            self.terminal_text.config(height=3)
-        elif active_tab == "Set Coordinates":
-            self.terminal_text.config(height=3)
-        elif active_tab == "Change Block":
-            self.terminal_text.config(height=3)
-        elif active_tab == "Generate Laser":
-            self.terminal_text.config(height=2)
-        elif active_tab == "Generate End Beam":
-            self.terminal_text.config(height=2)
-        elif active_tab == "Settings":
-            self.terminal_text.config(height=4)
-        # Add case for Rename tag/group if needed
-        elif active_tab == "Rename tag/group":
-            self.terminal_text.config(height=3)
+        # Initialize clipboard parser after GUI setup
+        self.clipboard_parser = ClipboardCoordinateParser(self)
+
+        # Bind closing event
+        self.root.protocol("WM_DELETE_WINDOW", lambda: on_closing(self))
+
+        # Apply always on top setting
+        toggle_always_on_top(self)
+
+        # Bind key if exists
+        if self.key_bind.get():
+            self.root.bind(self.key_bind.get(), lambda e: process_clipboard(self))
 
     def adjust_offset(self, offset_var, change):
-        return adjust_offset(offset_var, change)
+        adjust_offset(offset_var, change)
 
     def toggle_always_on_top(self):
-        return toggle_always_on_top(self)
+        toggle_always_on_top(self)
 
     def start_record_keybind(self):
-        return start_record_keybind(self)
+        start_record_keybind(self)
 
     def record_keybind(self, event):
-        return record_keybind(self, event)
-
-    def update_keybind_notes(self):
-        return update_keybind_notes(self)
-
-    def on_closing(self):
-        return on_closing(self)
-
-    def show_window(self):
-        return show_window(self)
-
-    def show_settings(self):
-        return show_settings(self)
-
-    def copy_to_clipboard(self, command):
-        return copy_to_clipboard(self, command)
+        record_keybind(self, event)
 
     def process_clipboard(self):
-        return process_clipboard(self)
-
-    def process_command(self, command):
-        return process_command(self, command)
+        process_clipboard(self)
 
     def generate_laser_initial_commands(self):
-        return generate_laser_initial_commands(self)
+        from src.gui_utils import generate_laser_initial_commands
+        generate_laser_initial_commands(self)
 
     def generate_laser_rotation_commands(self):
-        return generate_laser_rotation_commands(self)
+        from src.gui_utils import generate_laser_rotation_commands
+        generate_laser_rotation_commands(self)
 
     def generate_end_beam_commands(self):
-        return generate_end_beam_commands(self)
-
-    def autofill_coordinates(self, vars_list):
-        return autofill_coordinates(self, vars_list)
+        from src.gui_utils import generate_end_beam_commands
+        generate_end_beam_commands(self)
 
     def toggle_terminal(self):
-        return toggle_terminal(self)
+        toggle_terminal(self)
 
     def print_to_text(self, message, tags="normal"):
-        return print_to_text(self, message, tags)
+        print_to_text(self, message, tags)
 
-    def run(self):
-        self.root.mainloop()
+    def copy_to_clipboard(self, command):
+        copy_to_clipboard(self, command)
+
+    def process_command(self, command):
+        return process_command(self, command)  # Call process_command from command_modifier.py
+
+    def on_closing(self):
+        on_closing(self)
+
+    def show_window(self):
+        show_window(self)
+
+    def show_settings(self):
+        show_settings(self)

@@ -1,7 +1,8 @@
-# Updated on 03:30 PM CDT, Thursday, June 19, 2025
+# Updated on 09:40 PM CDT, Monday, July 07, 2025
 import tkinter as tk
 from tkinter import ttk
 from src.command_modifier import set_laser_preset, set_lightbeam_preset
+from src.clipboard_parser import ClipboardCoordinateParser
 
 def create_modifier_gui(frame, pos_vars, target_vars, title_prefix, gui):
     canvas = tk.Canvas(frame)
@@ -30,15 +31,16 @@ def create_modifier_gui(frame, pos_vars, target_vars, title_prefix, gui):
         tk.Entry(scrollable_frame, textvariable=var, width=10, bg='#ffffff', font=("Arial", 10)).grid(row=i+2, column=1, pady=0, sticky="w")
         tk.Button(scrollable_frame, text="▲", command=lambda v=var: gui.adjust_offset(v, 1), font=("Arial", 8), width=2).grid(row=i+2, column=2, pady=0, sticky="w")
         tk.Button(scrollable_frame, text="▼", command=lambda v=var: gui.adjust_offset(v, -1), font=("Arial", 8), width=2).grid(row=i+2, column=3, pady=0, sticky="w")
-    tk.Button(scrollable_frame, text="Autofill from Clipboard", command=lambda: gui.autofill_coordinates([target_vars[0], target_vars[1], target_vars[2]]), font=("Arial", 8)).grid(row=5, column=0, columnspan=5, pady=2, sticky="w")
+    tk.Button(scrollable_frame, text="Autofill from Clipboard", command=lambda: gui.clipboard_parser.autofill_coordinates([target_vars[0], target_vars[1], target_vars[2]]), font=("Arial", 8)).grid(row=5, column=0, columnspan=5, pady=2, sticky="w")
 
     tk.Label(scrollable_frame, text="BeamTarget Mover (summon only)", font=("Arial", 12, "bold"), bg='#f0f0f0', fg='#333333').grid(row=6, column=0, columnspan=5, pady=2, sticky="w")
+
     for i, (label, var) in enumerate([("X:", target_vars[0]), ("Y:", target_vars[1]), ("Z:", target_vars[2])]):
         tk.Label(scrollable_frame, text=label, font=("Arial", 10), bg='#f0f0f0').grid(row=i+7, column=0, pady=0, sticky="w")
         tk.Entry(scrollable_frame, textvariable=var, width=10, bg='#ffffff', font=("Arial", 10)).grid(row=i+7, column=1, pady=0, sticky="w")
         tk.Button(scrollable_frame, text="▲", command=lambda v=var: gui.adjust_offset(v, 1), font=("Arial", 8), width=2).grid(row=i+7, column=2, pady=0, sticky="w")
         tk.Button(scrollable_frame, text="▼", command=lambda v=var: gui.adjust_offset(v, -1), font=("Arial", 8), width=2).grid(row=i+7, column=3, pady=0, sticky="w")
-    tk.Button(scrollable_frame, text="Autofill from Clipboard", command=lambda: gui.autofill_coordinates([target_vars[0], target_vars[1], target_vars[2]]), font=("Arial", 8)).grid(row=10, column=0, columnspan=5, pady=2, sticky="w")
+    tk.Button(scrollable_frame, text="Autofill from Clipboard", command=lambda: gui.clipboard_parser.autofill_coordinates([target_vars[0], target_vars[1], target_vars[2]]), font=("Arial", 8)).grid(row=10, column=0, columnspan=5, pady=2, sticky="w")
 
     if title_prefix == "Command":
         gui.cmd_text_cmd = tk.Text(scrollable_frame, height=2, width=40)
@@ -106,34 +108,25 @@ def create_generate_laser_gui(frame, gui):
     for i, (label, var) in enumerate([("X Coordinate:", gui.laser_x), ("Y Coordinate:", gui.laser_y), ("Z Coordinate:", gui.laser_z), ("Tag/Group Name:", gui.laser_tag), ("Block Type:", gui.laser_block), ("Length:", gui.laser_length)]):
         tk.Label(scrollable_frame, text=label, font=("Arial", 10), bg='#f0f0f0').grid(row=i+1, column=0, pady=0, sticky="w")
         tk.Entry(scrollable_frame, textvariable=var, width=20 if i == 4 else 10, bg='#ffffff', font=("Arial", 10)).grid(row=i+1, column=1, pady=0, sticky="w")
-    tk.Button(scrollable_frame, text="Autofill from Clipboard", command=lambda: gui.autofill_coordinates([gui.laser_x, gui.laser_y, gui.laser_z]), font=("Arial", 8)).grid(row=7, column=0, columnspan=3, pady=2, sticky="w")
+    tk.Button(scrollable_frame, text="Autofill Integers from Clipboard", command=lambda: gui.clipboard_parser.autofill_integer_coordinates([gui.laser_x, gui.laser_y, gui.laser_z]), font=("Arial", 8)).grid(row=7, column=0, columnspan=3, pady=2, sticky="w")
     tk.Button(scrollable_frame, text="Generate", command=gui.generate_laser_initial_commands, font=("Arial", 10), bg='#4CAF50', fg='#ffffff').grid(row=8, column=0, columnspan=3, pady=5, sticky="w")
 
     tk.Label(scrollable_frame, text="Spawn Command:", font=("Arial", 10), bg='#f0f0f0').grid(row=9, column=0, pady=0, sticky="w")
-    gui.cmd1_text = tk.Text(scrollable_frame, height=2, width=40)
-    gui.cmd1_text.grid(row=10, column=0, columnspan=2, pady=0, sticky="w")
-    tk.Button(scrollable_frame, text="Copy", command=lambda: gui.copy_to_clipboard(gui.cmd1_text.get("1.0", tk.END).strip()), font=("Arial", 10)).grid(row=10, column=2, pady=0, sticky="w")
+    gui.laser_cmd_text = tk.Text(scrollable_frame, height=2, width=40)
+    gui.laser_cmd_text.grid(row=10, column=0, columnspan=2, pady=0, sticky="w")
+    tk.Button(scrollable_frame, text="Copy", command=lambda: gui.copy_to_clipboard(gui.laser_cmd_text.get("1.0", tk.END).strip()), font=("Arial", 10)).grid(row=10, column=2, pady=0, sticky="w")
 
-    tk.Label(scrollable_frame, text="Modify Position:", font=("Arial", 10), bg='#f0f0f0').grid(row=11, column=0, pady=0, sticky="w")
-    gui.cmd2_text = tk.Text(scrollable_frame, height=2, width=40)
-    gui.cmd2_text.grid(row=12, column=0, columnspan=2, pady=0, sticky="w")
-    tk.Button(scrollable_frame, text="Copy", command=lambda: gui.copy_to_clipboard(gui.cmd2_text.get("1.0", tk.END).strip()), font=("Arial", 10)).grid(row=12, column=2, pady=0, sticky="w")
-
-    gui.cmd3_text = tk.Text(scrollable_frame, height=2, width=40)
-    gui.cmd3_text.grid(row=13, column=0, columnspan=2, pady=0, sticky="w")
-    tk.Button(scrollable_frame, text="Copy", command=lambda: gui.copy_to_clipboard(gui.cmd3_text.get("1.0", tk.END).strip()), font=("Arial", 10)).grid(row=13, column=2, pady=0, sticky="w")
-
-    tk.Label(scrollable_frame, text="Laser Rotation:", font=("Arial", 12, "bold"), bg='#f0f0f0', fg='#333333').grid(row=14, column=0, columnspan=3, pady=2, sticky="w")
+    tk.Label(scrollable_frame, text="Laser Rotation:", font=("Arial", 12, "bold"), bg='#f0f0f0', fg='#333333').grid(row=11, column=0, columnspan=3, pady=2, sticky="w")
     for i, (label, var) in enumerate([("X Rotation:", gui.laser_rot_x), ("Y Rotation:", gui.laser_rot_y)]):
-        tk.Label(scrollable_frame, text=label, font=("Arial", 10), bg='#f0f0f0').grid(row=i+15, column=0, pady=0, sticky="w")
-        tk.Entry(scrollable_frame, textvariable=var, width=10, bg='#ffffff', font=("Arial", 10)).grid(row=i+15, column=1, pady=0, sticky="w")
-    tk.Button(scrollable_frame, text="Generate", command=gui.generate_laser_rotation_commands, font=("Arial", 10), bg='#4CAF50', fg='#ffffff').grid(row=17, column=0, columnspan=3, pady=5, sticky="w")
+        tk.Label(scrollable_frame, text=label, font=("Arial", 10), bg='#f0f0f0').grid(row=i+12, column=0, pady=0, sticky="w")
+        tk.Entry(scrollable_frame, textvariable=var, width=10, bg='#ffffff', font=("Arial", 10)).grid(row=i+12, column=1, pady=0, sticky="w")
+    tk.Button(scrollable_frame, text="Generate", command=gui.generate_laser_rotation_commands, font=("Arial", 10), bg='#4CAF50', fg='#ffffff').grid(row=14, column=0, columnspan=3, pady=5, sticky="w")
 
-    gui.cmd4_text = tk.Text(scrollable_frame, height=2, width=40)
-    gui.cmd4_text.grid(row=18, column=0, columnspan=2, pady=0, sticky="w")
-    tk.Button(scrollable_frame, text="Copy", command=lambda: gui.copy_to_clipboard(gui.cmd4_text.get("1.0", tk.END).strip()), font=("Arial", 10)).grid(row=18, column=2, pady=0, sticky="w")
+    gui.laser_rot_cmd_text = tk.Text(scrollable_frame, height=2, width=40)
+    gui.laser_rot_cmd_text.grid(row=15, column=0, columnspan=2, pady=0, sticky="w")
+    tk.Button(scrollable_frame, text="Copy", command=lambda: gui.copy_to_clipboard(gui.laser_rot_cmd_text.get("1.0", tk.END).strip()), font=("Arial", 10)).grid(row=15, column=2, pady=0, sticky="w")
 
-    tk.Label(scrollable_frame, text=f"Press set keybind to take coordinates from command and automatically update clipboard with result. Works with: setblock, summon, tp.", font=("Arial", 8), bg='#f0f0f0').grid(row=19, column=0, columnspan=3, pady=2, sticky="w")
+    tk.Label(scrollable_frame, text=f"Press set keybind to take coordinates from command and automatically update clipboard with result. Works with: setblock, summon, tp.", font=("Arial", 8), bg='#f0f0f0').grid(row=16, column=0, columnspan=3, pady=2, sticky="w")
 
 def create_generate_end_beam_gui(frame, gui):
     canvas = tk.Canvas(frame)
@@ -160,13 +153,13 @@ def create_generate_end_beam_gui(frame, gui):
     for i, (label, var) in enumerate([("X:", gui.origin_x), ("Y:", gui.origin_y), ("Z:", gui.origin_z)]):
         tk.Label(scrollable_frame, text=label, font=("Arial", 10), bg='#f0f0f0').grid(row=i+2, column=0, pady=0, sticky="w")
         tk.Entry(scrollable_frame, textvariable=var, width=10, bg='#ffffff', font=("Arial", 10)).grid(row=i+2, column=1, pady=0, sticky="w")
-    tk.Button(scrollable_frame, text="Autofill from Clipboard", command=lambda: gui.autofill_coordinates([gui.origin_x, gui.origin_y, gui.origin_z]), font=("Arial", 8)).grid(row=5, column=0, columnspan=2, pady=2, sticky="w")
+    tk.Button(scrollable_frame, text="Autofill from Clipboard", command=lambda: gui.clipboard_parser.autofill_coordinates([gui.origin_x, gui.origin_y, gui.origin_z]), font=("Arial", 8)).grid(row=5, column=0, columnspan=2, pady=2, sticky="w")
 
     tk.Label(scrollable_frame, text="Target:", font=("Arial", 12, "bold"), bg='#f0f0f0', fg='#333333').grid(row=6, column=0, columnspan=2, pady=2, sticky="w")
     for i, (label, var) in enumerate([("X:", gui.target_x), ("Y:", gui.target_y), ("Z:", gui.target_z)]):
         tk.Label(scrollable_frame, text=label, font=("Arial", 10), bg='#f0f0f0').grid(row=i+7, column=0, pady=0, sticky="w")
         tk.Entry(scrollable_frame, textvariable=var, width=10, bg='#ffffff', font=("Arial", 10)).grid(row=i+7, column=1, pady=0, sticky="w")
-    tk.Button(scrollable_frame, text="Autofill from Clipboard", command=lambda: gui.autofill_coordinates([gui.target_x, gui.target_y, gui.target_z]), font=("Arial", 8)).grid(row=10, column=0, columnspan=2, pady=2, sticky="w")
+    tk.Button(scrollable_frame, text="Autofill from Clipboard", command=lambda: gui.clipboard_parser.autofill_coordinates([gui.target_x, gui.target_y, gui.target_z]), font=("Arial", 8)).grid(row=10, column=0, columnspan=2, pady=2, sticky="w")
 
     tk.Button(scrollable_frame, text="Generate", command=gui.generate_end_beam_commands, font=("Arial", 10), bg='#4CAF50', fg='#ffffff').grid(row=11, column=0, columnspan=3, pady=5, sticky="w")
 
@@ -255,6 +248,7 @@ def create_rename_tag_gui(frame, gui):
     gui.modify_coords = tk.BooleanVar(value=True)
     gui.modify_translation = tk.BooleanVar(value=True)
     gui.modify_scale = tk.BooleanVar(value=True)
+    gui.modify_centering = tk.BooleanVar(value=True)
     gui.laser_mode = tk.StringVar(value="")
     gui.pos_x_set = tk.StringVar(value="0.0")
     gui.pos_y_set = tk.StringVar(value="0.5")
@@ -279,46 +273,48 @@ def create_rename_tag_gui(frame, gui):
     tk.Entry(scrollable_frame, textvariable=gui.pos_y_set, width=10, bg='#ffffff', font=("Arial", 10)).grid(row=3, column=1, pady=0, sticky="w")
     tk.Label(scrollable_frame, text="Z:", font=("Arial", 10), bg='#f0f0f0').grid(row=4, column=0, pady=0, sticky="w")
     tk.Entry(scrollable_frame, textvariable=gui.pos_z_set, width=10, bg='#ffffff', font=("Arial", 10)).grid(row=4, column=1, pady=0, sticky="w")
+    tk.Button(scrollable_frame, text="Autofill Integers from Clipboard", command=lambda: gui.clipboard_parser.autofill_integer_coordinates([gui.pos_x_set, gui.pos_y_set, gui.pos_z_set]), font=("Arial", 8)).grid(row=5, column=0, columnspan=2, pady=2, sticky="w")
 
     # Translation Modification
-    tk.Checkbutton(scrollable_frame, text="Modify Translation", variable=gui.modify_translation).grid(row=5, column=0, pady=2, sticky="w")
-    tk.Label(scrollable_frame, text="Trans X:", font=("Arial", 10), bg='#f0f0f0').grid(row=6, column=0, pady=0, sticky="w")
-    tk.Entry(scrollable_frame, textvariable=gui.trans_x, width=10, bg='#ffffff', font=("Arial", 10)).grid(row=6, column=1, pady=0, sticky="w")
-    tk.Label(scrollable_frame, text="Trans Y:", font=("Arial", 10), bg='#f0f0f0').grid(row=7, column=0, pady=0, sticky="w")
-    tk.Entry(scrollable_frame, textvariable=gui.trans_y, width=10, bg='#ffffff', font=("Arial", 10)).grid(row=7, column=1, pady=0, sticky="w")
-    tk.Label(scrollable_frame, text="Trans Z:", font=("Arial", 10), bg='#f0f0f0').grid(row=8, column=0, pady=0, sticky="w")
-    tk.Entry(scrollable_frame, textvariable=gui.trans_z, width=10, bg='#ffffff', font=("Arial", 10)).grid(row=8, column=1, pady=0, sticky="w")
+    tk.Checkbutton(scrollable_frame, text="Modify Translation", variable=gui.modify_translation).grid(row=6, column=0, pady=2, sticky="w")
+    tk.Label(scrollable_frame, text="Trans X:", font=("Arial", 10), bg='#f0f0f0').grid(row=7, column=0, pady=0, sticky="w")
+    tk.Entry(scrollable_frame, textvariable=gui.trans_x, width=10, bg='#ffffff', font=("Arial", 10)).grid(row=7, column=1, pady=0, sticky="w")
+    tk.Label(scrollable_frame, text="Trans Y:", font=("Arial", 10), bg='#f0f0f0').grid(row=8, column=0, pady=0, sticky="w")
+    tk.Entry(scrollable_frame, textvariable=gui.trans_y, width=10, bg='#ffffff', font=("Arial", 10)).grid(row=8, column=1, pady=0, sticky="w")
+    tk.Label(scrollable_frame, text="Trans Z:", font=("Arial", 10), bg='#f0f0f0').grid(row=9, column=0, pady=0, sticky="w")
+    tk.Entry(scrollable_frame, textvariable=gui.trans_z, width=10, bg='#ffffff', font=("Arial", 10)).grid(row=9, column=1, pady=0, sticky="w")
 
     # Beam Scale Modification
-    tk.Checkbutton(scrollable_frame, text="Modify Scale", variable=gui.modify_scale).grid(row=9, column=0, pady=2, sticky="w")
-    tk.Label(scrollable_frame, text="Beam Scale:", font=("Arial", 10), bg='#f0f0f0').grid(row=10, column=0, pady=0, sticky="w")
-    tk.Entry(scrollable_frame, textvariable=gui.beam_scale, width=10, bg='#ffffff', font=("Arial", 10)).grid(row=10, column=1, pady=0, sticky="w")
+    tk.Checkbutton(scrollable_frame, text="Modify Scale", variable=gui.modify_scale).grid(row=10, column=0, pady=2, sticky="w")
+    tk.Label(scrollable_frame, text="Beam Scale:", font=("Arial", 10), bg='#f0f0f0').grid(row=11, column=0, pady=0, sticky="w")
+    tk.Entry(scrollable_frame, textvariable=gui.beam_scale, width=10, bg='#ffffff', font=("Arial", 10)).grid(row=11, column=1, pady=0, sticky="w")
 
     # Tag/Group Name
-    tk.Label(scrollable_frame, text="Tag/Group Name:", font=("Arial", 10), bg='#f0f0f0').grid(row=11, column=0, pady=0, sticky="w")
-    tk.Entry(scrollable_frame, textvariable=gui.tag_text, width=20, bg='#ffffff', font=("Arial", 10)).grid(row=11, column=1, pady=0, sticky="w")
+    tk.Label(scrollable_frame, text="Tag/Group Name:", font=("Arial", 10), bg='#f0f0f0').grid(row=12, column=0, pady=0, sticky="w")
+    tk.Entry(scrollable_frame, textvariable=gui.tag_text, width=20, bg='#ffffff', font=("Arial", 10)).grid(row=12, column=1, pady=0, sticky="w")
 
     # Block Type
-    tk.Label(scrollable_frame, text="Block Type:", font=("Arial", 10), bg='#f0f0f0').grid(row=12, column=0, pady=0, sticky="w")
-    tk.Entry(scrollable_frame, textvariable=gui.block_text, width=20, bg='#ffffff', font=("Arial", 10)).grid(row=12, column=1, pady=0, sticky="w")
+    tk.Label(scrollable_frame, text="Block Type:", font=("Arial", 10), bg='#f0f0f0').grid(row=13, column=0, pady=0, sticky="w")
+    tk.Entry(scrollable_frame, textvariable=gui.block_text, width=20, bg='#ffffff', font=("Arial", 10)).grid(row=13, column=1, pady=0, sticky="w")
 
     # Laser/Lightbeam Buttons for Autofill
-    tk.Button(scrollable_frame, text="Laser", command=lambda: set_laser_preset(gui), font=("Arial", 10), bg='#4CAF50', fg='#ffffff').grid(row=13, column=0, pady=2, sticky="w")
-    tk.Button(scrollable_frame, text="Lightbeam", command=lambda: set_lightbeam_preset(gui), font=("Arial", 10), bg='#4CAF50', fg='#ffffff').grid(row=13, column=1, pady=2, sticky="w")
+    tk.Button(scrollable_frame, text="Laser", command=lambda: set_laser_preset(gui), font=("Arial", 10), bg='#4CAF50', fg='#ffffff').grid(row=14, column=0, pady=2, sticky="w")
+    tk.Button(scrollable_frame, text="Lightbeam", command=lambda: set_lightbeam_preset(gui), font=("Arial", 10), bg='#4CAF50', fg='#ffffff').grid(row=14, column=1, pady=2, sticky="w")
 
     # Centering Modifiers
-    tk.Label(scrollable_frame, text="Centering Modifiers:", font=("Arial", 12, "bold"), bg='#f0f0f0', fg='#333333').grid(row=14, column=0, columnspan=2, pady=2, sticky="w")
-    tk.Label(scrollable_frame, text="X:", font=("Arial", 10), bg='#f0f0f0').grid(row=15, column=0, pady=0, sticky="w")
-    tk.Entry(scrollable_frame, textvariable=gui.centering_x, width=10, bg='#ffffff', font=("Arial", 10)).grid(row=15, column=1, pady=0, sticky="w")
-    tk.Label(scrollable_frame, text="Y:", font=("Arial", 10), bg='#f0f0f0').grid(row=16, column=0, pady=0, sticky="w")
-    tk.Entry(scrollable_frame, textvariable=gui.centering_y, width=10, bg='#ffffff', font=("Arial", 10)).grid(row=16, column=1, pady=0, sticky="w")
-    tk.Label(scrollable_frame, text="Z:", font=("Arial", 10), bg='#f0f0f0').grid(row=17, column=0, pady=0, sticky="w")
-    tk.Entry(scrollable_frame, textvariable=gui.centering_z, width=10, bg='#ffffff', font=("Arial", 10)).grid(row=17, column=1, pady=0, sticky="w")
-    tk.Button(scrollable_frame, text="Autofill from Clipboard", command=lambda: gui.autofill_coordinates([gui.centering_x, gui.centering_y, gui.centering_z])).grid(row=18, column=0, columnspan=2, pady=2, sticky="w")
+    tk.Checkbutton(scrollable_frame, text="Modify Centering", variable=gui.modify_centering).grid(row=15, column=0, pady=2, sticky="w")
+    tk.Label(scrollable_frame, text="Centering Modifiers:", font=("Arial", 12, "bold"), bg='#f0f0f0', fg='#333333').grid(row=16, column=0, columnspan=2, pady=2, sticky="w")
+    tk.Label(scrollable_frame, text="X:", font=("Arial", 10), bg='#f0f0f0').grid(row=17, column=0, pady=0, sticky="w")
+    tk.Entry(scrollable_frame, textvariable=gui.centering_x, width=10, bg='#ffffff', font=("Arial", 10)).grid(row=17, column=1, pady=0, sticky="w")
+    tk.Label(scrollable_frame, text="Y:", font=("Arial", 10), bg='#f0f0f0').grid(row=18, column=0, pady=0, sticky="w")
+    tk.Entry(scrollable_frame, textvariable=gui.centering_y, width=10, bg='#ffffff', font=("Arial", 10)).grid(row=18, column=1, pady=0, sticky="w")
+    tk.Label(scrollable_frame, text="Z:", font=("Arial", 10), bg='#f0f0f0').grid(row=19, column=0, pady=0, sticky="w")
+    tk.Entry(scrollable_frame, textvariable=gui.centering_z, width=10, bg='#ffffff', font=("Arial", 10)).grid(row=19, column=1, pady=0, sticky="w")
+    tk.Button(scrollable_frame, text="Autofill Fractionals from Clipboard", command=lambda: gui.clipboard_parser.autofill_fractional_coordinates([gui.centering_x, gui.centering_y, gui.centering_z]), font=("Arial", 8)).grid(row=20, column=0, columnspan=2, pady=2, sticky="w")
 
-    tk.Button(scrollable_frame, text="Generate", command=lambda: gui.process_clipboard(), font=("Arial", 10), bg='#4CAF50', fg='#ffffff').grid(row=19, column=0, columnspan=2, pady=5, sticky="w")
+    tk.Button(scrollable_frame, text="Generate", command=lambda: gui.process_clipboard(), font=("Arial", 10), bg='#4CAF50', fg='#ffffff').grid(row=21, column=0, columnspan=2, pady=5, sticky="w")
 
     gui.rename_tag_cmd_text = tk.Text(scrollable_frame, height=2, width=40)
-    gui.rename_tag_cmd_text.grid(row=20, column=0, columnspan=2, pady=2, sticky="w")
-    tk.Button(scrollable_frame, text="Copy", command=lambda: gui.copy_to_clipboard(gui.rename_tag_cmd_text.get("1.0", tk.END).strip()), font=("Arial", 10)).grid(row=20, column=2, pady=2, sticky="w")
-    tk.Label(scrollable_frame, text=f"Press set keybind to take coordinates from command and automatically update clipboard with result. Works with: setblock, summon, tp.", font=("Arial", 8), bg='#f0f0f0').grid(row=21, column=0, columnspan=3, pady=2, sticky="w")
+    gui.rename_tag_cmd_text.grid(row=22, column=0, columnspan=2, pady=2, sticky="w")
+    tk.Button(scrollable_frame, text="Copy", command=lambda: gui.copy_to_clipboard(gui.rename_tag_cmd_text.get("1.0", tk.END).strip()), font=("Arial", 10)).grid(row=22, column=2, pady=2, sticky="w")
+    tk.Label(scrollable_frame, text=f"Press set keybind to take coordinates from command and automatically update clipboard with result. Works with: setblock, summon, tp.", font=("Arial", 8), bg='#f0f0f0').grid(row=23, column=0, columnspan=3, pady=2, sticky="w")
